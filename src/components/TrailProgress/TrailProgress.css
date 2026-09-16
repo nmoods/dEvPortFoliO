@@ -1,0 +1,73 @@
+.trail-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: var(--accent);
+  z-index: 60;
+  transition: width 0.1s linear;
+}
+
+.trail-progress {
+  position: fixed;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 260px;
+  z-index: 40;
+  pointer-events: none;
+}
+
+.trail-progress__track {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.trail-progress__path-bg {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+
+.trail-progress__path-fill {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 3;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.1s linear;
+}
+
+.trail-progress__runner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  margin-left: -9px;
+  margin-top: -10px;
+  transition: transform 0.15s linear;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+.trail-progress__flag {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+}
+
+.trail-progress__flag--start {
+  bottom: -4px;
+}
+
+.trail-progress__flag--end {
+  top: -4px;
+}
+
+@media (max-width: 900px) {
+  .trail-progress {
+    display: none;
+  }
+}

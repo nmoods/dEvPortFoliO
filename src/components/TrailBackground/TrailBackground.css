@@ -1,0 +1,106 @@
+.trail-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.trail-bg__sky {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, var(--sky-top), transparent 70%);
+  transition: background 0.6s ease;
+}
+
+.trail-bg__sun {
+  position: absolute;
+  top: 8%;
+  right: 12%;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--sun-glow), transparent 70%);
+  filter: blur(2px);
+  transition: background 0.6s ease;
+}
+
+.trail-bg__cloud {
+  position: absolute;
+  height: 60px;
+  width: 260px;
+  background: var(--fog-color);
+  border-radius: 999px;
+  filter: blur(18px);
+  animation: drift-cloud linear infinite;
+  transition: background 0.6s ease;
+}
+
+.trail-bg__cloud--1 {
+  top: 14%;
+  left: -30%;
+  width: 320px;
+  animation-duration: 70s;
+}
+
+.trail-bg__cloud--2 {
+  top: 26%;
+  left: -35%;
+  width: 220px;
+  height: 44px;
+  animation-duration: 55s;
+  animation-delay: -20s;
+  opacity: 0.7;
+}
+
+.trail-bg__cloud--3 {
+  top: 8%;
+  left: -30%;
+  width: 400px;
+  height: 80px;
+  animation-duration: 90s;
+  animation-delay: -40s;
+  opacity: 0.5;
+}
+
+@keyframes drift-cloud {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(140vw);
+  }
+}
+
+.trail-bg__layer {
+  position: absolute;
+  bottom: 0;
+  left: -5%;
+  width: 110%;
+  will-change: transform;
+  transition: background 0.6s ease;
+}
+
+.trail-bg__layer--far {
+  height: 32vh;
+  background: var(--mountain-far);
+  opacity: 0.55;
+}
+
+.trail-bg__layer--near {
+  height: 24vh;
+  background: var(--mountain-near);
+  opacity: 0.65;
+}
+
+.trail-bg__layer--trees {
+  height: 14vh;
+  background: var(--tree-color);
+  opacity: 0.8;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trail-bg__cloud {
+    animation: none;
+  }
+}
