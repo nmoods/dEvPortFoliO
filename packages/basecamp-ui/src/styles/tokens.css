@@ -1,0 +1,94 @@
+/* Tier 1: primitives. Raw values, never referenced by components directly. */
+:root {
+  --bc-pine-50: #eef6f3;
+  --bc-pine-100: #d3e9e1;
+  --bc-pine-500: #3f7a6e;
+  --bc-pine-600: #33665c;
+  --bc-pine-700: #284f47;
+  --bc-teal-300: #5eead4;
+  --bc-teal-400: #2dd4bf;
+  --bc-stone-0: #ffffff;
+  --bc-stone-50: #f6f7f5;
+  --bc-stone-100: #eceeeb;
+  --bc-stone-200: #d7dcd6;
+  --bc-stone-500: #5b6560;
+  --bc-stone-800: #262b28;
+  --bc-night-900: #0d1420;
+  --bc-night-800: #141c2b;
+  --bc-night-700: #1d2738;
+  --bc-night-600: #2a3548;
+  --bc-night-300: #8a93ab;
+  --bc-night-50: #e6ebf5;
+  --bc-red-600: #c42b2b;
+  --bc-red-400: #f87171;
+
+  --bc-space-1: 4px;
+  --bc-space-2: 8px;
+  --bc-space-3: 12px;
+  --bc-space-4: 16px;
+  --bc-space-6: 24px;
+  --bc-space-8: 32px;
+
+  --bc-radius-sm: 6px;
+  --bc-radius-md: 10px;
+  --bc-radius-lg: 16px;
+  --bc-radius-full: 999px;
+
+  --bc-font-sans: 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif;
+  --bc-font-size-sm: 13px;
+  --bc-font-size-md: 15px;
+  --bc-font-size-lg: 17px;
+
+  --bc-duration-fast: 120ms;
+  --bc-duration-base: 200ms;
+}
+
+/* Tier 2: semantic roles. Components only use these; themes only remap these. */
+:root,
+[data-bc-theme='light'] {
+  --bc-color-bg: var(--bc-stone-0);
+  --bc-color-bg-subtle: var(--bc-stone-50);
+  --bc-color-bg-muted: var(--bc-stone-100);
+  --bc-color-border: var(--bc-stone-200);
+  --bc-color-text: var(--bc-stone-800);
+  --bc-color-text-muted: var(--bc-stone-500);
+  --bc-color-accent: var(--bc-pine-500);
+  --bc-color-accent-hover: var(--bc-pine-600);
+  --bc-color-accent-subtle: var(--bc-pine-50);
+  --bc-color-on-accent: var(--bc-stone-0);
+  --bc-color-danger: var(--bc-red-600);
+  --bc-color-on-danger: var(--bc-stone-0);
+  --bc-color-focus: var(--bc-pine-500);
+  --bc-color-backdrop: rgba(13, 20, 32, 0.45);
+  --bc-shadow-overlay: 0 12px 40px rgba(13, 20, 32, 0.18), 0 2px 6px rgba(13, 20, 32, 0.08);
+}
+
+[data-bc-theme='dark'] {
+  --bc-color-bg: var(--bc-night-800);
+  --bc-color-bg-subtle: var(--bc-night-900);
+  --bc-color-bg-muted: var(--bc-night-700);
+  --bc-color-border: var(--bc-night-600);
+  --bc-color-text: var(--bc-night-50);
+  --bc-color-text-muted: var(--bc-night-300);
+  --bc-color-accent: var(--bc-teal-400);
+  --bc-color-accent-hover: var(--bc-teal-300);
+  --bc-color-accent-subtle: rgba(45, 212, 191, 0.12);
+  --bc-color-on-accent: var(--bc-night-900);
+  --bc-color-danger: var(--bc-red-400);
+  --bc-color-on-danger: var(--bc-night-900);
+  --bc-color-focus: var(--bc-teal-400);
+  --bc-color-backdrop: rgba(0, 0, 0, 0.6);
+  --bc-shadow-overlay: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+
+.bc-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}

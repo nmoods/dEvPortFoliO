@@ -1,0 +1,113 @@
+.bc-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--bc-space-2);
+  border: 1px solid transparent;
+  border-radius: var(--bc-radius-md);
+  font-family: var(--bc-font-sans);
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    background-color var(--bc-duration-fast) ease,
+    border-color var(--bc-duration-fast) ease,
+    color var(--bc-duration-fast) ease;
+}
+
+.bc-button:focus-visible {
+  outline: 2px solid var(--bc-color-focus);
+  outline-offset: 2px;
+}
+
+.bc-button:disabled,
+.bc-button[aria-disabled='true'] {
+  cursor: not-allowed;
+}
+
+.bc-button:disabled {
+  opacity: 0.5;
+}
+
+.bc-button--sm {
+  min-height: 32px;
+  padding: 0 var(--bc-space-3);
+  font-size: var(--bc-font-size-sm);
+}
+
+.bc-button--md {
+  min-height: 40px;
+  padding: 0 var(--bc-space-4);
+  font-size: var(--bc-font-size-md);
+}
+
+.bc-button--lg {
+  min-height: 48px;
+  padding: 0 var(--bc-space-6);
+  font-size: var(--bc-font-size-lg);
+}
+
+.bc-button--primary {
+  background: var(--bc-color-accent);
+  color: var(--bc-color-on-accent);
+}
+
+.bc-button--primary:hover:not(:disabled, [aria-disabled='true']) {
+  background: var(--bc-color-accent-hover);
+}
+
+.bc-button--secondary {
+  background: var(--bc-color-bg);
+  border-color: var(--bc-color-border);
+  color: var(--bc-color-text);
+}
+
+.bc-button--secondary:hover:not(:disabled, [aria-disabled='true']) {
+  border-color: var(--bc-color-accent);
+}
+
+.bc-button--ghost {
+  background: transparent;
+  color: var(--bc-color-accent);
+}
+
+.bc-button--ghost:hover:not(:disabled, [aria-disabled='true']) {
+  background: var(--bc-color-accent-subtle);
+}
+
+.bc-button--danger {
+  background: var(--bc-color-danger);
+  color: var(--bc-color-on-danger);
+}
+
+.bc-button--danger:hover:not(:disabled, [aria-disabled='true']) {
+  filter: brightness(1.08);
+}
+
+/* The label keeps its width while hidden, so the button never jumps in size. */
+.bc-button--loading .bc-button__label {
+  visibility: hidden;
+}
+
+.bc-button__spinner {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: var(--bc-radius-full);
+  animation: bc-spin 0.7s linear infinite;
+}
+
+@keyframes bc-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bc-button__spinner {
+    animation-duration: 2s;
+  }
+}
