@@ -25,7 +25,7 @@ function BasecampPage() {
         <p className="section-eyebrow">Project 02 · Design system</p>
         <h1 className="bcp-title">Basecamp UI</h1>
         <p className="bcp-lede">
-          A small, accessible React component library packaged for npm: two-tier design tokens, light and dark
+          A small, accessible React component library published on npm: two-tier design tokens, light and dark
           themes, and four components that are easy to get wrong. Every demo below is the real package, and
           each one documents the keyboard behavior it guarantees.
         </p>
@@ -34,6 +34,9 @@ function BasecampPage() {
           <span className="bcp-install__meta">3.4 kB JS + 2.2 kB CSS gzipped · React 19 peer dependency</span>
           <a className="bcp-storybook" href={STORYBOOK_URL} target="_blank" rel="noreferrer">
             Open Storybook ↗
+          </a>
+          <a className="bcp-storybook" href="https://www.npmjs.com/package/@nmoods/basecamp-ui" target="_blank" rel="noreferrer">
+            View on npm ↗
           </a>
         </div>
       </header>

@@ -1,5 +1,9 @@
 # @nmoods/basecamp-ui
 
+[![npm](https://img.shields.io/npm/v/@nmoods/basecamp-ui)](https://www.npmjs.com/package/@nmoods/basecamp-ui)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@nmoods/basecamp-ui)](https://bundlephobia.com/package/@nmoods/basecamp-ui)
+![license](https://img.shields.io/npm/l/@nmoods/basecamp-ui)
+
 Accessible, token-driven React components: **Button**, **Tabs**, **Dialog** and **Combobox**.
 
 ```bash
