@@ -1,0 +1,46 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+import { TokenSwatches } from './TokenSwatches'
+
+<Meta title="Foundations/Introduction" />
+
+# Basecamp UI
+
+Accessible, token-driven React components. Every component follows a
+[WAI-ARIA Authoring Practices](https://www.w3.org/WAI/ARIA/apg/) pattern, is tested by keyboard,
+and is checked by axe in the **Accessibility** panel of each story.
+
+```jsx
+import { Button } from '@nmoods/basecamp-ui'
+import '@nmoods/basecamp-ui/styles.css'
+```
+
+## Tokens
+
+Tokens come in two tiers. **Primitives** (`--bc-pine-500`, `--bc-night-800`) hold raw values and are never used by
+components. **Semantic tokens** describe a role, and a theme is only a different mapping of those roles.
+
+### Light
+
+<TokenSwatches theme="light" />
+
+### Dark
+
+<TokenSwatches theme="dark" />
+
+## Theming
+
+Set `data-bc-theme="light"` or `"dark"` on any ancestor. To rebrand, override the semantic variables:
+
+```css
+[data-bc-theme='light'] {
+  --bc-color-accent: #7c3aed;
+  --bc-color-accent-hover: #6d28d9;
+  --bc-color-accent-subtle: #f3e8ff;
+}
+```
+
+## Principles
+
+- **Use the platform**: native `<button>` and `<dialog>` first; ARIA only where HTML has no equivalent.
+- **Keyboard first**: every interaction has a documented key binding, covered by tests and play functions.
+- **Controlled or uncontrolled**: stateful components accept `value` + `onValueChange` or `defaultValue`.

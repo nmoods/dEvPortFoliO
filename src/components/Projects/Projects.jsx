@@ -2,18 +2,20 @@ import './Projects.css'
 
 const PROJECTS = [
   {
-    name: 'Project One',
-    checkpoint: 'Checkpoint 1',
-    description: 'A short description of what this project does and the problem it solves.',
-    tags: ['React', 'Node.js'],
-    href: '#',
+    name: 'Trailboard',
+    checkpoint: 'Checkpoint 1 · Live demo',
+    description:
+      'A real-time collaborative whiteboard built on CRDTs: live cursors, multiplayer sticky notes, offline edits that merge on reconnect, and a hand-written sync protocol.',
+    tags: ['React 19', 'Yjs / CRDT', 'IndexedDB', 'Real-time'],
+    href: '#/trailboard',
   },
   {
-    name: 'Project Two',
-    checkpoint: 'Checkpoint 2',
-    description: 'A short description of what this project does and the problem it solves.',
-    tags: ['TypeScript', 'PostgreSQL'],
-    href: '#',
+    name: 'Basecamp UI',
+    checkpoint: 'Checkpoint 2 · Design system',
+    description:
+      'An npm-ready React component library: two-tier design tokens, light and dark themes, and accessible Tabs, Dialog and Combobox built to the WAI-ARIA patterns and tested by keyboard.',
+    tags: ['React 19', 'Design tokens', 'a11y', 'npm package'],
+    href: '#/basecamp-ui',
   },
   {
     name: 'Project Three',
