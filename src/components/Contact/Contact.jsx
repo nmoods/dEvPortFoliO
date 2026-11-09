@@ -14,7 +14,7 @@ function Contact() {
           Got a project, an opportunity, or just want to trade trail recommendations? My inbox is
           always open.
         </p>
-        <a href="mailto:you@example.com" className="btn btn--primary">
+        <a href="mailto:neehal1002@gmail.com" className="btn btn--primary">
           Say Hello
         </a>
         <SocialLinks className="contact__socials" />

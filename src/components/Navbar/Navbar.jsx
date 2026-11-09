@@ -28,7 +28,7 @@ function Navbar({ mood, onMoodChange }) {
         <div className="navbar__actions">
           <MoodToggle mood={mood} onChange={onMoodChange} />
 
-          <a href="mailto:you@example.com" className="navbar__cta">
+          <a href="mailto:neehal1002@gmail.com" className="navbar__cta">
             Say Hello
           </a>
         </div>

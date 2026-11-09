@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 const STORAGE_KEY = 'trail-mood'
 export const MOODS = ['overcast', 'golden', 'dusk']
 
-function getInitialMood() {
+export function getInitialMood() {
   if (typeof window === 'undefined') return 'overcast'
 
   const stored = window.localStorage.getItem(STORAGE_KEY)

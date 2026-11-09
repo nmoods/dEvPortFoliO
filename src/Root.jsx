@@ -1,11 +1,16 @@
 import { Suspense, lazy, useEffect } from 'react'
 import App from './App'
 import { useHashRoute } from './hooks/useHashRoute'
+import { getInitialMood } from './hooks/useTrailMood'
+
+// Project pages render without App, so apply the saved mood here too (deep links and refreshes).
+document.documentElement.dataset.mood ??= getInitialMood()
 
 // Each project page is its own lazy chunk, so the portfolio bundle doesn't pay for it.
 const PROJECT_ROUTES = [
   { prefix: '#/trailboard', name: 'Trailboard', Page: lazy(() => import('./projects/trailboard/TrailboardPage')) },
   { prefix: '#/basecamp-ui', name: 'Basecamp UI', Page: lazy(() => import('./projects/basecamp-ui/BasecampPage')) },
+  { prefix: '#/rag', name: 'RAG Glass Box', Page: lazy(() => import('./projects/rag-glassbox/RagPage')) },
 ]
 
 const PORTFOLIO_TITLE = document.title

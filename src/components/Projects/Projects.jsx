@@ -18,11 +18,12 @@ const PROJECTS = [
     href: '#/basecamp-ui',
   },
   {
-    name: 'Project Three',
-    checkpoint: 'Checkpoint 3',
-    description: 'A short description of what this project does and the problem it solves.',
-    tags: ['Vite', 'GraphQL'],
-    href: '#',
+    name: 'RAG Glass Box',
+    checkpoint: 'Checkpoint 3 · AI',
+    description:
+      'Retrieval-augmented generation with the lid off: in-browser embeddings, hand-written vector, keyword and hybrid search, the exact prompt, and a streamed Claude answer with clickable citations.',
+    tags: ['RAG', 'Embeddings', 'Claude API', 'Web Workers'],
+    href: '#/rag',
   },
 ]
 

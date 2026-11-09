@@ -26,3 +26,7 @@ dist-ssr
 # Storybook
 storybook-static
 *storybook.log
+
+# Secrets and Vercel CLI state
+.env
+.vercel

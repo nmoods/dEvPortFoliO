@@ -1,0 +1,1800 @@
+{
+ "model": "Xenova/all-MiniLM-L6-v2",
+ "dtype": "q8",
+ "dims": 384,
+ "sizes": {
+  "small": {
+   "label": "Small",
+   "words": 40,
+   "overlap": 10,
+   "chunks": [
+    {
+     "id": "camino-frances#1",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "Overview"
+     ],
+     "text": "The Camino Francés is the most travelled route of the Camino de Santiago, a pilgrimage network that ends at the cathedral of Santiago de Compostela in Galicia.",
+     "words": 27,
+     "overlapChars": 0
+    },
+    {
+     "id": "camino-frances#2",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "Overview"
+     ],
+     "text": "It covers about 780 km from Saint-Jean-Pied-de-Port in the French Basque Country and usually takes four to five weeks. Walkers come for religious, cultural and personal reasons, and the shared rhythm of the pilgrim community is part of the experience.",
+     "words": 40,
+     "overlapChars": 0
+    },
+    {
+     "id": "camino-frances#3",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "Route"
+     ],
+     "text": "The first day is the hardest: a climb over the Pyrenees to Roncesvalles in Spain. The route then passes through Pamplona, the wine region of La Rioja and the cathedral city of Burgos.",
+     "words": 33,
+     "overlapChars": 0
+    },
+    {
+     "id": "camino-frances#4",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "Route"
+     ],
+     "text": "Between Burgos and León lies the Meseta, a high, flat plateau of wheat fields with long, shadeless stretches.",
+     "words": 18,
+     "overlapChars": 0
+    },
+    {
+     "id": "camino-frances#5",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "Route",
+      "When to go"
+     ],
+     "text": "After León and Astorga the path climbs to the Cruz de Ferro and later to O Cebreiro, the gateway to green, rainy Galicia, before the final days to Santiago.\nSpring and autumn are the most pleasant seasons.",
+     "words": 37,
+     "overlapChars": 0
+    },
+    {
+     "id": "camino-frances#6",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "When to go"
+     ],
+     "text": "Spring and autumn are the most pleasant seasons. In July and August the Meseta can be extremely hot and the albergues are crowded.",
+     "words": 23,
+     "overlapChars": 48
+    },
+    {
+     "id": "camino-frances#7",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "When to go"
+     ],
+     "text": "Winter is quiet but many accommodations close and the Pyrenean crossing can be closed by snow, with a lower road alternative via Valcarlos.",
+     "words": 23,
+     "overlapChars": 0
+    },
+    {
+     "id": "camino-frances#8",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "Where to stay"
+     ],
+     "text": "Pilgrims stay in albergues, hostels reserved for walkers and cyclists, which are cheap and usually work on a first-come basis. Municipal and parish albergues sometimes ask only for a donation. Private albergues, pensions and hotels can be booked ahead.",
+     "words": 39,
+     "overlapChars": 0
+    },
+    {
+     "id": "camino-frances#9",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "Where to stay",
+      "Difficulty"
+     ],
+     "text": "Private albergues, pensions and hotels can be booked ahead. To use pilgrim albergues you need a credencial, the pilgrim passport.\nThe terrain is easy: wide tracks, village streets and some road walking.",
+     "words": 32,
+     "overlapChars": 59
+    },
+    {
+     "id": "camino-frances#10",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "The difficulty is cumulative, from walking 20 to 30 km every day for weeks. Blisters and tendon strain are the most common reasons people stop.\nThe credencial is stamped at albergues, churches and cafés along the way.",
+     "words": 37,
+     "overlapChars": 0
+    },
+    {
+     "id": "camino-frances#11",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "To receive the Compostela certificate in Santiago you must walk at least the last 100 km, which is why Sarria is a popular starting town, and collect at least two stamps per day on that final stretch.",
+     "words": 37,
+     "overlapChars": 0
+    },
+    {
+     "id": "camino-frances#12",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Yellow arrows and scallop shells mark the whole route.",
+     "words": 9,
+     "overlapChars": 0
+    },
+    {
+     "id": "gr20#1",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "Overview"
+     ],
+     "text": "The GR20 crosses the island of Corsica from north to south along its mountain spine. It is about 180 km long with well over 10,000 m of ascent, usually walked in 15 or 16 stages.",
+     "words": 35,
+     "overlapChars": 0
+    },
+    {
+     "id": "gr20#2",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "It has a reputation as the toughest of the French Grande Randonnée trails because of its rocky terrain, scrambling and exposure.\nThe northern trailhead is Calenzana, near Calvi, and the southern end is Conca, near Porto-Vecchio.",
+     "words": 36,
+     "overlapChars": 0
+    },
+    {
+     "id": "gr20#3",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "Route"
+     ],
+     "text": "The village of Vizzavona sits roughly in the middle and splits the route into a northern half, which is steeper and more technical, and a southern half, which is greener and gentler.",
+     "words": 32,
+     "overlapChars": 0
+    },
+    {
+     "id": "gr20#4",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "Route"
+     ],
+     "text": "Many walkers only have time for one half and choose based on that difference. The famous Cirque de la Solitude section in the north was closed after a fatal rockfall in 2015 and replaced by a different variant.",
+     "words": 38,
+     "overlapChars": 0
+    },
+    {
+     "id": "gr20#5",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "When to go"
+     ],
+     "text": "The usual season is June to late September. In June, snow can remain on northern passes. July and August are hot and crowded, and afternoon thunderstorms are common on the ridges, so stages typically start at dawn.",
+     "words": 37,
+     "overlapChars": 0
+    },
+    {
+     "id": "gr20#6",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "September brings cooler air and fewer walkers.\nMountain refuges run by the Corsican regional nature park are spaced a stage apart. Many walkers camp in the designated areas next to the refuges, because the dormitories are small and fill quickly.",
+     "words": 40,
+     "overlapChars": 0
+    },
+    {
+     "id": "gr20#7",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "Where to stay",
+      "Difficulty"
+     ],
+     "text": "Wild camping on the route is not allowed. Bergeries, traditional shepherd huts, sell cheese, bread and simple meals along the way.\nThis is the most demanding trail in this collection.",
+     "words": 30,
+     "overlapChars": 0
+    },
+    {
+     "id": "gr20#8",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "Difficulty"
+     ],
+     "text": "This is the most demanding trail in this collection. Hands are needed on chains and slabs, the granite is sharp, and the path is often a boulder field rather than a track.",
+     "words": 32,
+     "overlapChars": 52
+    },
+    {
+     "id": "gr20#9",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "A head for heights and a light pack make a large difference. Turning back on stormy days is common and wise.\nResupply is limited, so carry two or three days of food between villages or buy from refuges and bergeries.",
+     "words": 40,
+     "overlapChars": 0
+    },
+    {
+     "id": "gr20#10",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Water sources can be scarce late in the season. Bus and train connections reach Calenzana via Calvi and Conca via Porto-Vecchio, and Vizzavona has a railway station, which makes it the easiest point to join or leave the trail.",
+     "words": 39,
+     "overlapChars": 0
+    },
+    {
+     "id": "kumano-kodo#1",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Overview"
+     ],
+     "text": "The Kumano Kodo is a network of ancient pilgrimage paths on the Kii Peninsula, south of Osaka in Japan.",
+     "words": 19,
+     "overlapChars": 0
+    },
+    {
+     "id": "kumano-kodo#2",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Overview"
+     ],
+     "text": "The routes lead to the three grand shrines of Kumano and have been walked for more than a thousand years, by emperors as well as ordinary pilgrims.",
+     "words": 27,
+     "overlapChars": 0
+    },
+    {
+     "id": "kumano-kodo#3",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "They are part of the UNESCO World Heritage site Sacred Sites and Pilgrimage Routes in the Kii Mountain Range, listed in 2004.\nThe most popular route is the Nakahechi, the Imperial route.",
+     "words": 32,
+     "overlapChars": 0
+    },
+    {
+     "id": "kumano-kodo#4",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Route"
+     ],
+     "text": "The most popular route is the Nakahechi, the Imperial route. Walkers usually start at Takijiri-oji, near Tanabe, and reach the grand shrine of Kumano Hongu Taisha after about 38 km, normally in two or three days.",
+     "words": 36,
+     "overlapChars": 60
+    },
+    {
+     "id": "kumano-kodo#5",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Route"
+     ],
+     "text": "The trail climbs through forests of cedar and cypress on stone steps and old cobbled paths, passing small subsidiary shrines called oji.",
+     "words": 22,
+     "overlapChars": 0
+    },
+    {
+     "id": "kumano-kodo#6",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Route",
+      "When to go"
+     ],
+     "text": "From Hongu, pilgrims can continue to the other grand shrines, Kumano Hayatama Taisha and Kumano Nachi Taisha, next to the tall Nachi waterfall.\nSpring and autumn are the best seasons, with mild temperatures and cherry blossom or autumn leaves.",
+     "words": 39,
+     "overlapChars": 0
+    },
+    {
+     "id": "kumano-kodo#7",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "When to go"
+     ],
+     "text": "The rainy season in June and early July brings heavy rain that makes stone steps slippery. Summer is hot and humid, and typhoons can affect the region from August to October.",
+     "words": 31,
+     "overlapChars": 0
+    },
+    {
+     "id": "kumano-kodo#8",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Where to stay"
+     ],
+     "text": "The traditional choice is a minshuku, a family-run guesthouse, or a ryokan inn, where dinner and breakfast are included and guests sleep on futons.",
+     "words": 24,
+     "overlapChars": 0
+    },
+    {
+     "id": "kumano-kodo#9",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Where to stay",
+      "Difficulty"
+     ],
+     "text": "Accommodation in the small mountain villages is limited, so it must be reserved in advance, often through the local tourism bureau. The hot spring village of Yunomine Onsen, near Hongu, is a popular place to rest.\nThe Nakahechi is moderate.",
+     "words": 40,
+     "overlapChars": 0
+    },
+    {
+     "id": "kumano-kodo#10",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Difficulty"
+     ],
+     "text": "The Nakahechi is moderate. The distances are short, but there are steep climbs and descents, and the path can be muddy and slippery after rain. Navigation is easy thanks to numbered markers every 500 m.",
+     "words": 35,
+     "overlapChars": 26
+    },
+    {
+     "id": "kumano-kodo#11",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Navigation is easy thanks to numbered markers every 500 m.\nPilgrims can collect stamps at oji shrines in a stamp book.",
+     "words": 21,
+     "overlapChars": 58
+    },
+    {
+     "id": "kumano-kodo#12",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Walkers who complete both the Kumano Kodo and the Camino de Santiago can register as Dual Pilgrims, a twinning between the two routes. Local buses connect the trailheads with Tanabe and Kii-Tanabe station, and luggage transfer is available between inns.",
+     "words": 40,
+     "overlapChars": 0
+    },
+    {
+     "id": "kungsleden#1",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Overview"
+     ],
+     "text": "The Kungsleden, or King's Trail, runs about 440 km through Swedish Lapland between Abisko in the north and Hemavan in the south. Few people walk the whole length in one go.",
+     "words": 31,
+     "overlapChars": 0
+    },
+    {
+     "id": "kungsleden#2",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Overview"
+     ],
+     "text": "Few people walk the whole length in one go. The northern section from Abisko to Nikkaluokta, about 105 km over six or seven days, is by far the most popular because it passes Kebnekaise, Sweden's highest mountain.",
+     "words": 37,
+     "overlapChars": 43
+    },
+    {
+     "id": "kungsleden#3",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Route"
+     ],
+     "text": "From Abisko the trail follows a river valley through birch forest, then rises onto open fells above the tree line.",
+     "words": 20,
+     "overlapChars": 0
+    },
+    {
+     "id": "kungsleden#4",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Route"
+     ],
+     "text": "It passes the huts at Alesjaure and crosses the Tjäktja pass, the highest point of the northern section at about 1,150 m.",
+     "words": 22,
+     "overlapChars": 0
+    },
+    {
+     "id": "kungsleden#5",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Route"
+     ],
+     "text": "South of the pass, walkers can leave the main trail at Singi to reach the Kebnekaise mountain station and finish at Nikkaluokta. Further south, the trail continues through Saltoluokta and Kvikkjokk towards Ammarnäs and Hemavan, a much quieter stretch.",
+     "words": 39,
+     "overlapChars": 0
+    },
+    {
+     "id": "kungsleden#6",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "When to go"
+     ],
+     "text": "The hiking season is short, from late June to mid-September. In summer the midnight sun means it never gets dark, which makes long days easy. Mosquitoes are intense in July.",
+     "words": 30,
+     "overlapChars": 0
+    },
+    {
+     "id": "kungsleden#7",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "When to go"
+     ],
+     "text": "Mosquitoes are intense in July. Late August and September bring autumn colours, fewer insects and the first chance to see the northern lights.",
+     "words": 23,
+     "overlapChars": 31
+    },
+    {
+     "id": "kungsleden#8",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Where to stay"
+     ],
+     "text": "The Swedish Tourist Association, STF, runs a chain of mountain huts and stations roughly a day apart, with bunks, kitchens and sometimes a small shop.",
+     "words": 25,
+     "overlapChars": 0
+    },
+    {
+     "id": "kungsleden#9",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Where to stay"
+     ],
+     "text": "Under the Swedish right of public access, allemansrätten, camping in the open is allowed almost everywhere, so many hikers carry a tent and use the huts for supplies.",
+     "words": 28,
+     "overlapChars": 0
+    },
+    {
+     "id": "kungsleden#10",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Difficulty"
+     ],
+     "text": "The northern section is moderate, with mostly gentle gradients, boardwalks over bogs and some rocky ground. Weather and isolation are the real challenges: it can snow in any month and there is no phone signal in many places.",
+     "words": 38,
+     "overlapChars": 0
+    },
+    {
+     "id": "kungsleden#11",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Several lakes on the southern sections are crossed by boat.",
+     "words": 10,
+     "overlapChars": 0
+    },
+    {
+     "id": "kungsleden#12",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Where there is no ferry, rowing boats are provided, and the rule is that at least one boat must always be left on each shore, which can mean rowing across three times.",
+     "words": 32,
+     "overlapChars": 0
+    },
+    {
+     "id": "kungsleden#13",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Abisko is reachable by night train from Stockholm, and buses run from Nikkaluokta to Kiruna.",
+     "words": 15,
+     "overlapChars": 0
+    },
+    {
+     "id": "laugavegur#1",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "Overview"
+     ],
+     "text": "The Laugavegur trail crosses the Icelandic highlands for about 55 km between Landmannalaugar and Þórsmörk. It is usually walked in three or four days.",
+     "words": 24,
+     "overlapChars": 0
+    },
+    {
+     "id": "laugavegur#2",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "Overview"
+     ],
+     "text": "It is usually walked in three or four days. The landscape changes every few hours, from coloured rhyolite mountains and steaming vents to black lava fields, glaciers and a green birch valley.",
+     "words": 32,
+     "overlapChars": 43
+    },
+    {
+     "id": "laugavegur#3",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "Route"
+     ],
+     "text": "Landmannalaugar, the northern start, is known for its natural hot spring and the orange, pink and green rhyolite hills around it.",
+     "words": 21,
+     "overlapChars": 0
+    },
+    {
+     "id": "laugavegur#4",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "Route"
+     ],
+     "text": "The first day climbs past fumaroles to the hut at Hrafntinnusker, the highest point of the trail at about 1,100 m, where snowfields remain well into summer.",
+     "words": 27,
+     "overlapChars": 0
+    },
+    {
+     "id": "laugavegur#5",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "Route"
+     ],
+     "text": "The route then descends to Álftavatn lake, crosses a black sand desert to Emstrur and finishes in the sheltered valley of Þórsmörk.",
+     "words": 22,
+     "overlapChars": 0
+    },
+    {
+     "id": "laugavegur#6",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "Route"
+     ],
+     "text": "Many walkers add the Fimmvörðuháls pass, about 25 km more, climbing between two glaciers and descending past dozens of waterfalls to Skógar on the south coast.",
+     "words": 26,
+     "overlapChars": 0
+    },
+    {
+     "id": "laugavegur#7",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "When to go"
+     ],
+     "text": "The trail is officially open from late June to early September, when the highland roads and huts open. Outside that window there are no buses and conditions can be dangerous.",
+     "words": 30,
+     "overlapChars": 0
+    },
+    {
+     "id": "laugavegur#8",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "When to go"
+     ],
+     "text": "Even in July, storms with strong wind and sleet are possible, and fog can make route-finding difficult on the snowfields.",
+     "words": 20,
+     "overlapChars": 0
+    },
+    {
+     "id": "laugavegur#9",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "Where to stay"
+     ],
+     "text": "Huts at each stage are run by Ferðafélag Íslands, the Touring Association of Iceland, and must be booked well in advance. Campsites are available next to every hut.",
+     "words": 28,
+     "overlapChars": 0
+    },
+    {
+     "id": "laugavegur#10",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "Where to stay",
+      "Difficulty"
+     ],
+     "text": "Campsites are available next to every hut. Camping elsewhere along the trail is not permitted, to protect the fragile vegetation.\nThe walking is moderate, but the weather makes it serious.",
+     "words": 30,
+     "overlapChars": 42
+    },
+    {
+     "id": "laugavegur#11",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "Difficulty"
+     ],
+     "text": "The walking is moderate, but the weather makes it serious. Several glacial rivers must be forded on foot; water is ice cold and fastest in the afternoon, so crossings are easier in the morning.",
+     "words": 34,
+     "overlapChars": 58
+    },
+    {
+     "id": "laugavegur#12",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Sandals or water shoes and walking poles help.\nHighland buses connect Reykjavík with Landmannalaugar and Þórsmörk in summer. There are no shops on the trail, so all food must be carried.",
+     "words": 31,
+     "overlapChars": 0
+    },
+    {
+     "id": "laugavegur#13",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Registering your trip with the Icelandic safety website before leaving is recommended.",
+     "words": 12,
+     "overlapChars": 0
+    },
+    {
+     "id": "pacific-crest-trail#1",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "Overview"
+     ],
+     "text": "The Pacific Crest Trail, or PCT, runs about 4,265 km (2,650 miles) from the Mexican border near Campo, California, to the Canadian border in Manning Park, British Columbia. It crosses California, Oregon and Washington.",
+     "words": 34,
+     "overlapChars": 0
+    },
+    {
+     "id": "pacific-crest-trail#2",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "Overview"
+     ],
+     "text": "It crosses California, Oregon and Washington. Thru-hikers who walk it end to end in one season typically take four and a half to six months, but most visitors walk shorter sections.",
+     "words": 31,
+     "overlapChars": 45
+    },
+    {
+     "id": "pacific-crest-trail#3",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "Route"
+     ],
+     "text": "The southern part crosses the desert of Southern California, where water sources can be 30 km apart.",
+     "words": 17,
+     "overlapChars": 0
+    },
+    {
+     "id": "pacific-crest-trail#4",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "Route"
+     ],
+     "text": "It then enters the High Sierra, passing through Sequoia, Kings Canyon and Yosemite and near Mount Whitney, before continuing north through volcanic country around Lassen. Oregon is the fastest state, with gentle forest walking past Crater Lake.",
+     "words": 37,
+     "overlapChars": 0
+    },
+    {
+     "id": "pacific-crest-trail#5",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "Route",
+      "When to go"
+     ],
+     "text": "Washington finishes with the steep, rugged North Cascades.\nNorthbound thru-hikers usually start in April or early May, timing their arrival in the Sierra for after the worst of the snow melts in June.",
+     "words": 33,
+     "overlapChars": 0
+    },
+    {
+     "id": "pacific-crest-trail#6",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "When to go"
+     ],
+     "text": "They aim to reach Canada in September, before early autumn storms in Washington. Section hikers can choose the best month for each region, from spring in the desert to late summer in the mountains.",
+     "words": 34,
+     "overlapChars": 0
+    },
+    {
+     "id": "pacific-crest-trail#7",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "Where to stay"
+     ],
+     "text": "This is a camping trail: hikers carry a tent or shelter and sleep at established sites or durable spots along the route.",
+     "words": 22,
+     "overlapChars": 0
+    },
+    {
+     "id": "pacific-crest-trail#8",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "Where to stay",
+      "Difficulty"
+     ],
+     "text": "Towns near the trail offer motels and hostels for rest days, and some communities have long traditions of hosting hikers.\nThe PCT is very demanding because of its length rather than its technical terrain.",
+     "words": 34,
+     "overlapChars": 0
+    },
+    {
+     "id": "pacific-crest-trail#9",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "Difficulty"
+     ],
+     "text": "Hikers face heat and long water carries in the desert, snow, high passes and river crossings in the Sierra, and fatigue over months. Navigation, food planning and gear choices matter as much as fitness.",
+     "words": 34,
+     "overlapChars": 0
+    },
+    {
+     "id": "pacific-crest-trail#10",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "A free long-distance permit from the Pacific Crest Trail Association is needed for trips over 500 miles, with a limited number of daily start dates from the Mexican border. A separate permit is required to enter Canada on foot.",
+     "words": 39,
+     "overlapChars": 0
+    },
+    {
+     "id": "pacific-crest-trail#11",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "A separate permit is required to enter Canada on foot. Hikers resupply by walking or hitching into towns or by mailing boxes of food to post offices along the way. A bear canister is required in parts of the Sierra.",
+     "words": 40,
+     "overlapChars": 54
+    },
+    {
+     "id": "tour-du-mont-blanc#1",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Overview"
+     ],
+     "text": "The Tour du Mont Blanc is a loop of about 170 km around the Mont Blanc massif, crossing France, Italy and Switzerland. Most walkers take 10 to 11 days, gaining roughly 10,000 m of cumulative ascent.",
+     "words": 36,
+     "overlapChars": 0
+    },
+    {
+     "id": "tour-du-mont-blanc#2",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "It is one of the most popular long-distance walks in Europe, so the classic stages are busy in July and August.\nThe traditional start is Les Houches in the Chamonix valley, walking anticlockwise.",
+     "words": 33,
+     "overlapChars": 0
+    },
+    {
+     "id": "tour-du-mont-blanc#3",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Route"
+     ],
+     "text": "The route climbs to the Col de la Seigne at 2,516 m, the border with Italy, then descends through the Val Veny to Courmayeur. From the Italian Val Ferret it crosses the Grand Col Ferret at 2,537 m into Switzerland.",
+     "words": 40,
+     "overlapChars": 0
+    },
+    {
+     "id": "tour-du-mont-blanc#4",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Route"
+     ],
+     "text": "The Swiss section passes La Fouly and the lake at Champex. Strong walkers can take the Fenêtre d'Arpette variant at 2,665 m, the highest point of the tour, instead of the gentler Bovine path.",
+     "words": 34,
+     "overlapChars": 0
+    },
+    {
+     "id": "tour-du-mont-blanc#5",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Route",
+      "When to go"
+     ],
+     "text": "The loop returns to France over the Col de Balme and finishes along the balcony paths above Chamonix, past Lac Blanc.\nThe season runs from mid-June to mid-September, when the refuges are open.",
+     "words": 33,
+     "overlapChars": 0
+    },
+    {
+     "id": "tour-du-mont-blanc#6",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "When to go"
+     ],
+     "text": "Snow can linger on the high cols until early July, and an ice axe is sometimes needed on north-facing slopes in June.",
+     "words": 22,
+     "overlapChars": 0
+    },
+    {
+     "id": "tour-du-mont-blanc#7",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "September is quieter and often has stable weather, but some huts begin to close in the middle of the month.\nWalkers sleep in mountain refuges, gîtes and village hotels.",
+     "words": 29,
+     "overlapChars": 0
+    },
+    {
+     "id": "tour-du-mont-blanc#8",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Where to stay"
+     ],
+     "text": "Walkers sleep in mountain refuges, gîtes and village hotels. Refuges serve dinner and breakfast as half board, and many will prepare a packed lunch.",
+     "words": 24,
+     "overlapChars": 60
+    },
+    {
+     "id": "tour-du-mont-blanc#9",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Where to stay"
+     ],
+     "text": "Beds in July and August are booked months in advance, so reserving every night before setting out is strongly recommended.",
+     "words": 20,
+     "overlapChars": 0
+    },
+    {
+     "id": "tour-du-mont-blanc#10",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Where to stay"
+     ],
+     "text": "Wild camping is restricted in all three countries, especially in Switzerland and on the French side near the Chamonix nature reserves.",
+     "words": 21,
+     "overlapChars": 0
+    },
+    {
+     "id": "tour-du-mont-blanc#11",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Difficulty"
+     ],
+     "text": "The trail is non-technical but physically demanding: most days include more than 1,000 m of climbing and a long descent. Good fitness and broken-in boots matter more than technical skill.",
+     "words": 30,
+     "overlapChars": 0
+    },
+    {
+     "id": "tour-du-mont-blanc#12",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Difficulty"
+     ],
+     "text": "Good fitness and broken-in boots matter more than technical skill. Ladders and short via-ferrata-style sections appear on some variants near Lac Blanc and can be avoided.",
+     "words": 26,
+     "overlapChars": 66
+    },
+    {
+     "id": "tour-du-mont-blanc#13",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Euros are accepted across the route, although Switzerland uses the franc and some Swiss huts prefer it. Public buses link most valley towns, so stages can be skipped in bad weather.",
+     "words": 31,
+     "overlapChars": 0
+    },
+    {
+     "id": "tour-du-mont-blanc#14",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Water is easy to find at refuges and village fountains. A light shell, warm layer and walking poles are standard kit.",
+     "words": 21,
+     "overlapChars": 0
+    },
+    {
+     "id": "west-highland-way#1",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "Overview"
+     ],
+     "text": "The West Highland Way runs about 154 km (96 miles) from Milngavie, on the edge of Glasgow, to Fort William in the Scottish Highlands. Opened in 1980, it was Scotland's first officially designated long-distance route.",
+     "words": 35,
+     "overlapChars": 0
+    },
+    {
+     "id": "west-highland-way#2",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "Overview"
+     ],
+     "text": "Most people complete it in seven or eight days, walking south to north so the scenery grows wilder as they go.",
+     "words": 21,
+     "overlapChars": 0
+    },
+    {
+     "id": "west-highland-way#3",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "Route"
+     ],
+     "text": "The first days follow gentle farmland and woodland to Drymen, then climb over Conic Hill for a first view of Loch Lomond.",
+     "words": 22,
+     "overlapChars": 0
+    },
+    {
+     "id": "west-highland-way#4",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "Route"
+     ],
+     "text": "The route traces the long eastern shore of the loch, where the path is rough and rooty for several hours. Beyond Tyndrum it follows an old military road across Rannoch Moor, a vast, empty bog plateau.",
+     "words": 36,
+     "overlapChars": 0
+    },
+    {
+     "id": "west-highland-way#5",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "Route"
+     ],
+     "text": "From the Kingshouse the trail climbs the Devil's Staircase, its highest point at about 550 m, then drops to Kinlochleven.",
+     "words": 20,
+     "overlapChars": 0
+    },
+    {
+     "id": "west-highland-way#6",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "Route",
+      "When to go"
+     ],
+     "text": "The final day crosses the Lairigmor valley and reaches Fort William at the foot of Ben Nevis, which some walkers climb as a bonus day.\nApril, May and September are the favourite months.",
+     "words": 33,
+     "overlapChars": 0
+    },
+    {
+     "id": "west-highland-way#7",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "When to go"
+     ],
+     "text": "April, May and September are the favourite months. Summer is busier and brings midges, tiny biting insects that are worst on still, damp evenings near water; a head net and repellent are essential from June to August.",
+     "words": 37,
+     "overlapChars": 50
+    },
+    {
+     "id": "west-highland-way#8",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "Winter walking is possible but daylight is very short.\nThere are hotels, B&Bs, hostels and campsites in every overnight village.",
+     "words": 20,
+     "overlapChars": 0
+    },
+    {
+     "id": "west-highland-way#9",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "Where to stay"
+     ],
+     "text": "Wild camping is generally allowed in Scotland under the outdoor access code, but seasonal camping management zones apply along the east side of Loch Lomond, where a permit is required in summer.",
+     "words": 32,
+     "overlapChars": 0
+    },
+    {
+     "id": "west-highland-way#10",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "Where to stay",
+      "Difficulty"
+     ],
+     "text": "Baggage transfer companies will move bags between accommodations each day.\nThis is a moderate walk with no technical terrain. Daily distances of 15 to 30 km are the main challenge, together with rain and wet ground.",
+     "words": 36,
+     "overlapChars": 0
+    },
+    {
+     "id": "west-highland-way#11",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "It is a good first multi-day trek.\nMilngavie is a short train ride from Glasgow, and Fort William has rail and bus connections back south. The currency is the pound sterling.",
+     "words": 31,
+     "overlapChars": 0
+    },
+    {
+     "id": "west-highland-way#12",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "The currency is the pound sterling. Waterproofs are the most important kit item: rain is likely on several days in any season.",
+     "words": 22,
+     "overlapChars": 35
+    }
+   ]
+  },
+  "medium": {
+   "label": "Medium",
+   "words": 100,
+   "overlap": 25,
+   "chunks": [
+    {
+     "id": "camino-frances#1",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "The Camino Francés is the most travelled route of the Camino de Santiago, a pilgrimage network that ends at the cathedral of Santiago de Compostela in Galicia. It covers about 780 km from Saint-Jean-Pied-de-Port in the French Basque Country and usually takes four to five weeks. Walkers come for religious, cultural and personal reasons, and the shared rhythm of the pilgrim community is part of the experience.\nThe first day is the hardest: a climb over the Pyrenees to Roncesvalles in Spain. The route then passes through Pamplona, the wine region of La Rioja and the cathedral city of Burgos.",
+     "words": 100,
+     "overlapChars": 0
+    },
+    {
+     "id": "camino-frances#2",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "Route",
+      "When to go"
+     ],
+     "text": "The route then passes through Pamplona, the wine region of La Rioja and the cathedral city of Burgos. Between Burgos and León lies the Meseta, a high, flat plateau of wheat fields with long, shadeless stretches. After León and Astorga the path climbs to the Cruz de Ferro and later to O Cebreiro, the gateway to green, rainy Galicia, before the final days to Santiago.\nSpring and autumn are the most pleasant seasons. In July and August the Meseta can be extremely hot and the albergues are crowded.",
+     "words": 88,
+     "overlapChars": 101
+    },
+    {
+     "id": "camino-frances#3",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "Spring and autumn are the most pleasant seasons. In July and August the Meseta can be extremely hot and the albergues are crowded. Winter is quiet but many accommodations close and the Pyrenean crossing can be closed by snow, with a lower road alternative via Valcarlos.\nPilgrims stay in albergues, hostels reserved for walkers and cyclists, which are cheap and usually work on a first-come basis. Municipal and parish albergues sometimes ask only for a donation. Private albergues, pensions and hotels can be booked ahead. To use pilgrim albergues you need a credencial, the pilgrim passport.",
+     "words": 96,
+     "overlapChars": 130
+    },
+    {
+     "id": "camino-frances#4",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "Where to stay",
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Private albergues, pensions and hotels can be booked ahead. To use pilgrim albergues you need a credencial, the pilgrim passport.\nThe terrain is easy: wide tracks, village streets and some road walking. The difficulty is cumulative, from walking 20 to 30 km every day for weeks. Blisters and tendon strain are the most common reasons people stop.\nThe credencial is stamped at albergues, churches and cafés along the way.",
+     "words": 69,
+     "overlapChars": 129
+    },
+    {
+     "id": "camino-frances#5",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Blisters and tendon strain are the most common reasons people stop.\nThe credencial is stamped at albergues, churches and cafés along the way. To receive the Compostela certificate in Santiago you must walk at least the last 100 km, which is why Sarria is a popular starting town, and collect at least two stamps per day on that final stretch. Yellow arrows and scallop shells mark the whole route.",
+     "words": 69,
+     "overlapChars": 141
+    },
+    {
+     "id": "gr20#1",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "The GR20 crosses the island of Corsica from north to south along its mountain spine. It is about 180 km long with well over 10,000 m of ascent, usually walked in 15 or 16 stages. It has a reputation as the toughest of the French Grande Randonnée trails because of its rocky terrain, scrambling and exposure.\nThe northern trailhead is Calenzana, near Calvi, and the southern end is Conca, near Porto-Vecchio.",
+     "words": 71,
+     "overlapChars": 0
+    },
+    {
+     "id": "gr20#2",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "Route",
+      "When to go"
+     ],
+     "text": "The northern trailhead is Calenzana, near Calvi, and the southern end is Conca, near Porto-Vecchio. The village of Vizzavona sits roughly in the middle and splits the route into a northern half, which is steeper and more technical, and a southern half, which is greener and gentler. Many walkers only have time for one half and choose based on that difference. The famous Cirque de la Solitude section in the north was closed after a fatal rockfall in 2015 and replaced by a different variant.\nThe usual season is June to late September.",
+     "words": 93,
+     "overlapChars": 99
+    },
+    {
+     "id": "gr20#3",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "The usual season is June to late September. In June, snow can remain on northern passes. July and August are hot and crowded, and afternoon thunderstorms are common on the ridges, so stages typically start at dawn. September brings cooler air and fewer walkers.\nMountain refuges run by the Corsican regional nature park are spaced a stage apart. Many walkers camp in the designated areas next to the refuges, because the dormitories are small and fill quickly. Wild camping on the route is not allowed. Bergeries, traditional shepherd huts, sell cheese, bread and simple meals along the way.",
+     "words": 98,
+     "overlapChars": 43
+    },
+    {
+     "id": "gr20#4",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "Where to stay",
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Wild camping on the route is not allowed. Bergeries, traditional shepherd huts, sell cheese, bread and simple meals along the way.\nThis is the most demanding trail in this collection. Hands are needed on chains and slabs, the granite is sharp, and the path is often a boulder field rather than a track. A head for heights and a light pack make a large difference. Turning back on stormy days is common and wise.\nResupply is limited, so carry two or three days of food between villages or buy from refuges and bergeries.",
+     "words": 93,
+     "overlapChars": 130
+    },
+    {
+     "id": "gr20#5",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Resupply is limited, so carry two or three days of food between villages or buy from refuges and bergeries. Water sources can be scarce late in the season. Bus and train connections reach Calenzana via Calvi and Conca via Porto-Vecchio, and Vizzavona has a railway station, which makes it the easiest point to join or leave the trail.",
+     "words": 58,
+     "overlapChars": 107
+    },
+    {
+     "id": "kumano-kodo#1",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "The Kumano Kodo is a network of ancient pilgrimage paths on the Kii Peninsula, south of Osaka in Japan. The routes lead to the three grand shrines of Kumano and have been walked for more than a thousand years, by emperors as well as ordinary pilgrims. They are part of the UNESCO World Heritage site Sacred Sites and Pilgrimage Routes in the Kii Mountain Range, listed in 2004.\nThe most popular route is the Nakahechi, the Imperial route.",
+     "words": 78,
+     "overlapChars": 0
+    },
+    {
+     "id": "kumano-kodo#2",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Route",
+      "When to go"
+     ],
+     "text": "The most popular route is the Nakahechi, the Imperial route. Walkers usually start at Takijiri-oji, near Tanabe, and reach the grand shrine of Kumano Hongu Taisha after about 38 km, normally in two or three days. The trail climbs through forests of cedar and cypress on stone steps and old cobbled paths, passing small subsidiary shrines called oji. From Hongu, pilgrims can continue to the other grand shrines, Kumano Hayatama Taisha and Kumano Nachi Taisha, next to the tall Nachi waterfall.\nSpring and autumn are the best seasons, with mild temperatures and cherry blossom or autumn leaves.",
+     "words": 97,
+     "overlapChars": 60
+    },
+    {
+     "id": "kumano-kodo#3",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "Spring and autumn are the best seasons, with mild temperatures and cherry blossom or autumn leaves. The rainy season in June and early July brings heavy rain that makes stone steps slippery. Summer is hot and humid, and typhoons can affect the region from August to October.\nThe traditional choice is a minshuku, a family-run guesthouse, or a ryokan inn, where dinner and breakfast are included and guests sleep on futons. Accommodation in the small mountain villages is limited, so it must be reserved in advance, often through the local tourism bureau.",
+     "words": 92,
+     "overlapChars": 99
+    },
+    {
+     "id": "kumano-kodo#4",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Where to stay",
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Accommodation in the small mountain villages is limited, so it must be reserved in advance, often through the local tourism bureau. The hot spring village of Yunomine Onsen, near Hongu, is a popular place to rest.\nThe Nakahechi is moderate. The distances are short, but there are steep climbs and descents, and the path can be muddy and slippery after rain. Navigation is easy thanks to numbered markers every 500 m.\nPilgrims can collect stamps at oji shrines in a stamp book.",
+     "words": 82,
+     "overlapChars": 131
+    },
+    {
+     "id": "kumano-kodo#5",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Navigation is easy thanks to numbered markers every 500 m.\nPilgrims can collect stamps at oji shrines in a stamp book. Walkers who complete both the Kumano Kodo and the Camino de Santiago can register as Dual Pilgrims, a twinning between the two routes. Local buses connect the trailheads with Tanabe and Kii-Tanabe station, and luggage transfer is available between inns.",
+     "words": 61,
+     "overlapChars": 118
+    },
+    {
+     "id": "kungsleden#1",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "The Kungsleden, or King's Trail, runs about 440 km through Swedish Lapland between Abisko in the north and Hemavan in the south. Few people walk the whole length in one go. The northern section from Abisko to Nikkaluokta, about 105 km over six or seven days, is by far the most popular because it passes Kebnekaise, Sweden's highest mountain.\nFrom Abisko the trail follows a river valley through birch forest, then rises onto open fells above the tree line.",
+     "words": 79,
+     "overlapChars": 0
+    },
+    {
+     "id": "kungsleden#2",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Route",
+      "When to go"
+     ],
+     "text": "From Abisko the trail follows a river valley through birch forest, then rises onto open fells above the tree line. It passes the huts at Alesjaure and crosses the Tjäktja pass, the highest point of the northern section at about 1,150 m. South of the pass, walkers can leave the main trail at Singi to reach the Kebnekaise mountain station and finish at Nikkaluokta. Further south, the trail continues through Saltoluokta and Kvikkjokk towards Ammarnäs and Hemavan, a much quieter stretch.\nThe hiking season is short, from late June to mid-September.",
+     "words": 91,
+     "overlapChars": 114
+    },
+    {
+     "id": "kungsleden#3",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "The hiking season is short, from late June to mid-September. In summer the midnight sun means it never gets dark, which makes long days easy. Mosquitoes are intense in July. Late August and September bring autumn colours, fewer insects and the first chance to see the northern lights.\nThe Swedish Tourist Association, STF, runs a chain of mountain huts and stations roughly a day apart, with bunks, kitchens and sometimes a small shop.",
+     "words": 73,
+     "overlapChars": 60
+    },
+    {
+     "id": "kungsleden#4",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Where to stay",
+      "Difficulty"
+     ],
+     "text": "The Swedish Tourist Association, STF, runs a chain of mountain huts and stations roughly a day apart, with bunks, kitchens and sometimes a small shop. Under the Swedish right of public access, allemansrätten, camping in the open is allowed almost everywhere, so many hikers carry a tent and use the huts for supplies.\nThe northern section is moderate, with mostly gentle gradients, boardwalks over bogs and some rocky ground. Weather and isolation are the real challenges: it can snow in any month and there is no phone signal in many places.",
+     "words": 91,
+     "overlapChars": 150
+    },
+    {
+     "id": "kungsleden#5",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Weather and isolation are the real challenges: it can snow in any month and there is no phone signal in many places.\nSeveral lakes on the southern sections are crossed by boat. Where there is no ferry, rowing boats are provided, and the rule is that at least one boat must always be left on each shore, which can mean rowing across three times. Abisko is reachable by night train from Stockholm, and buses run from Nikkaluokta to Kiruna.",
+     "words": 79,
+     "overlapChars": 116
+    },
+    {
+     "id": "laugavegur#1",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "The Laugavegur trail crosses the Icelandic highlands for about 55 km between Landmannalaugar and Þórsmörk. It is usually walked in three or four days. The landscape changes every few hours, from coloured rhyolite mountains and steaming vents to black lava fields, glaciers and a green birch valley.\nLandmannalaugar, the northern start, is known for its natural hot spring and the orange, pink and green rhyolite hills around it. The first day climbs past fumaroles to the hut at Hrafntinnusker, the highest point of the trail at about 1,100 m, where snowfields remain well into summer.",
+     "words": 95,
+     "overlapChars": 0
+    },
+    {
+     "id": "laugavegur#2",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "Route",
+      "When to go"
+     ],
+     "text": "The route then descends to Álftavatn lake, crosses a black sand desert to Emstrur and finishes in the sheltered valley of Þórsmörk. Many walkers add the Fimmvörðuháls pass, about 25 km more, climbing between two glaciers and descending past dozens of waterfalls to Skógar on the south coast.\nThe trail is officially open from late June to early September, when the highland roads and huts open. Outside that window there are no buses and conditions can be dangerous. Even in July, storms with strong wind and sleet are possible, and fog can make route-finding difficult on the snowfields.",
+     "words": 98,
+     "overlapChars": 0
+    },
+    {
+     "id": "laugavegur#3",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "When to go",
+      "Where to stay",
+      "Difficulty"
+     ],
+     "text": "Even in July, storms with strong wind and sleet are possible, and fog can make route-finding difficult on the snowfields.\nHuts at each stage are run by Ferðafélag Íslands, the Touring Association of Iceland, and must be booked well in advance. Campsites are available next to every hut. Camping elsewhere along the trail is not permitted, to protect the fragile vegetation.\nThe walking is moderate, but the weather makes it serious. Several glacial rivers must be forded on foot; water is ice cold and fastest in the afternoon, so crossings are easier in the morning.",
+     "words": 95,
+     "overlapChars": 121
+    },
+    {
+     "id": "laugavegur#4",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Several glacial rivers must be forded on foot; water is ice cold and fastest in the afternoon, so crossings are easier in the morning. Sandals or water shoes and walking poles help.\nHighland buses connect Reykjavík with Landmannalaugar and Þórsmörk in summer. There are no shops on the trail, so all food must be carried. Registering your trip with the Icelandic safety website before leaving is recommended.",
+     "words": 67,
+     "overlapChars": 134
+    },
+    {
+     "id": "pacific-crest-trail#1",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "The Pacific Crest Trail, or PCT, runs about 4,265 km (2,650 miles) from the Mexican border near Campo, California, to the Canadian border in Manning Park, British Columbia. It crosses California, Oregon and Washington. Thru-hikers who walk it end to end in one season typically take four and a half to six months, but most visitors walk shorter sections.\nThe southern part crosses the desert of Southern California, where water sources can be 30 km apart.",
+     "words": 76,
+     "overlapChars": 0
+    },
+    {
+     "id": "pacific-crest-trail#2",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "Route",
+      "When to go"
+     ],
+     "text": "The southern part crosses the desert of Southern California, where water sources can be 30 km apart. It then enters the High Sierra, passing through Sequoia, Kings Canyon and Yosemite and near Mount Whitney, before continuing north through volcanic country around Lassen. Oregon is the fastest state, with gentle forest walking past Crater Lake. Washington finishes with the steep, rugged North Cascades.\nNorthbound thru-hikers usually start in April or early May, timing their arrival in the Sierra for after the worst of the snow melts in June. They aim to reach Canada in September, before early autumn storms in Washington.",
+     "words": 100,
+     "overlapChars": 100
+    },
+    {
+     "id": "pacific-crest-trail#3",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "When to go",
+      "Where to stay",
+      "Difficulty"
+     ],
+     "text": "They aim to reach Canada in September, before early autumn storms in Washington. Section hikers can choose the best month for each region, from spring in the desert to late summer in the mountains.\nThis is a camping trail: hikers carry a tent or shelter and sleep at established sites or durable spots along the route. Towns near the trail offer motels and hostels for rest days, and some communities have long traditions of hosting hikers.\nThe PCT is very demanding because of its length rather than its technical terrain.",
+     "words": 90,
+     "overlapChars": 80
+    },
+    {
+     "id": "pacific-crest-trail#4",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "The PCT is very demanding because of its length rather than its technical terrain. Hikers face heat and long water carries in the desert, snow, high passes and river crossings in the Sierra, and fatigue over months. Navigation, food planning and gear choices matter as much as fitness.\nA free long-distance permit from the Pacific Crest Trail Association is needed for trips over 500 miles, with a limited number of daily start dates from the Mexican border. A separate permit is required to enter Canada on foot.",
+     "words": 87,
+     "overlapChars": 82
+    },
+    {
+     "id": "pacific-crest-trail#5",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "A separate permit is required to enter Canada on foot. Hikers resupply by walking or hitching into towns or by mailing boxes of food to post offices along the way. A bear canister is required in parts of the Sierra.",
+     "words": 40,
+     "overlapChars": 54
+    },
+    {
+     "id": "tour-du-mont-blanc#1",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "The Tour du Mont Blanc is a loop of about 170 km around the Mont Blanc massif, crossing France, Italy and Switzerland. Most walkers take 10 to 11 days, gaining roughly 10,000 m of cumulative ascent. It is one of the most popular long-distance walks in Europe, so the classic stages are busy in July and August.\nThe traditional start is Les Houches in the Chamonix valley, walking anticlockwise. The route climbs to the Col de la Seigne at 2,516 m, the border with Italy, then descends through the Val Veny to Courmayeur.",
+     "words": 93,
+     "overlapChars": 0
+    },
+    {
+     "id": "tour-du-mont-blanc#2",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Route"
+     ],
+     "text": "The route climbs to the Col de la Seigne at 2,516 m, the border with Italy, then descends through the Val Veny to Courmayeur. From the Italian Val Ferret it crosses the Grand Col Ferret at 2,537 m into Switzerland. The Swiss section passes La Fouly and the lake at Champex. Strong walkers can take the Fenêtre d'Arpette variant at 2,665 m, the highest point of the tour, instead of the gentler Bovine path. The loop returns to France over the Col de Balme and finishes along the balcony paths above Chamonix, past Lac Blanc.",
+     "words": 95,
+     "overlapChars": 125
+    },
+    {
+     "id": "tour-du-mont-blanc#3",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Route",
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "The loop returns to France over the Col de Balme and finishes along the balcony paths above Chamonix, past Lac Blanc.\nThe season runs from mid-June to mid-September, when the refuges are open. Snow can linger on the high cols until early July, and an ice axe is sometimes needed on north-facing slopes in June. September is quieter and often has stable weather, but some huts begin to close in the middle of the month.\nWalkers sleep in mountain refuges, gîtes and village hotels. Refuges serve dinner and breakfast as half board, and many will prepare a packed lunch.",
+     "words": 99,
+     "overlapChars": 117
+    },
+    {
+     "id": "tour-du-mont-blanc#4",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Where to stay",
+      "Difficulty"
+     ],
+     "text": "Walkers sleep in mountain refuges, gîtes and village hotels. Refuges serve dinner and breakfast as half board, and many will prepare a packed lunch. Beds in July and August are booked months in advance, so reserving every night before setting out is strongly recommended. Wild camping is restricted in all three countries, especially in Switzerland and on the French side near the Chamonix nature reserves.\nThe trail is non-technical but physically demanding: most days include more than 1,000 m of climbing and a long descent. Good fitness and broken-in boots matter more than technical skill.",
+     "words": 95,
+     "overlapChars": 148
+    },
+    {
+     "id": "tour-du-mont-blanc#5",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Good fitness and broken-in boots matter more than technical skill. Ladders and short via-ferrata-style sections appear on some variants near Lac Blanc and can be avoided.\nEuros are accepted across the route, although Switzerland uses the franc and some Swiss huts prefer it. Public buses link most valley towns, so stages can be skipped in bad weather. Water is easy to find at refuges and village fountains. A light shell, warm layer and walking poles are standard kit.",
+     "words": 78,
+     "overlapChars": 66
+    },
+    {
+     "id": "west-highland-way#1",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "The West Highland Way runs about 154 km (96 miles) from Milngavie, on the edge of Glasgow, to Fort William in the Scottish Highlands. Opened in 1980, it was Scotland's first officially designated long-distance route. Most people complete it in seven or eight days, walking south to north so the scenery grows wilder as they go.\nThe first days follow gentle farmland and woodland to Drymen, then climb over Conic Hill for a first view of Loch Lomond. The route traces the long eastern shore of the loch, where the path is rough and rooty for several hours.",
+     "words": 98,
+     "overlapChars": 0
+    },
+    {
+     "id": "west-highland-way#2",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "Route",
+      "When to go"
+     ],
+     "text": "The route traces the long eastern shore of the loch, where the path is rough and rooty for several hours. Beyond Tyndrum it follows an old military road across Rannoch Moor, a vast, empty bog plateau. From the Kingshouse the trail climbs the Devil's Staircase, its highest point at about 550 m, then drops to Kinlochleven. The final day crosses the Lairigmor valley and reaches Fort William at the foot of Ben Nevis, which some walkers climb as a bonus day.\nApril, May and September are the favourite months.",
+     "words": 89,
+     "overlapChars": 105
+    },
+    {
+     "id": "west-highland-way#3",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "April, May and September are the favourite months. Summer is busier and brings midges, tiny biting insects that are worst on still, damp evenings near water; a head net and repellent are essential from June to August. Winter walking is possible but daylight is very short.\nThere are hotels, B&Bs, hostels and campsites in every overnight village. Wild camping is generally allowed in Scotland under the outdoor access code, but seasonal camping management zones apply along the east side of Loch Lomond, where a permit is required in summer. Baggage transfer companies will move bags between accommodations each day.",
+     "words": 99,
+     "overlapChars": 50
+    },
+    {
+     "id": "west-highland-way#4",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "Where to stay",
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Baggage transfer companies will move bags between accommodations each day.\nThis is a moderate walk with no technical terrain. Daily distances of 15 to 30 km are the main challenge, together with rain and wet ground. It is a good first multi-day trek.\nMilngavie is a short train ride from Glasgow, and Fort William has rail and bus connections back south. The currency is the pound sterling. Waterproofs are the most important kit item: rain is likely on several days in any season.",
+     "words": 83,
+     "overlapChars": 74
+    }
+   ]
+  },
+  "large": {
+   "label": "Large",
+   "words": 220,
+   "overlap": 50,
+   "chunks": [
+    {
+     "id": "camino-frances#1",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "Overview",
+      "Route",
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "The Camino Francés is the most travelled route of the Camino de Santiago, a pilgrimage network that ends at the cathedral of Santiago de Compostela in Galicia. It covers about 780 km from Saint-Jean-Pied-de-Port in the French Basque Country and usually takes four to five weeks. Walkers come for religious, cultural and personal reasons, and the shared rhythm of the pilgrim community is part of the experience.\nThe first day is the hardest: a climb over the Pyrenees to Roncesvalles in Spain. The route then passes through Pamplona, the wine region of La Rioja and the cathedral city of Burgos. Between Burgos and León lies the Meseta, a high, flat plateau of wheat fields with long, shadeless stretches. After León and Astorga the path climbs to the Cruz de Ferro and later to O Cebreiro, the gateway to green, rainy Galicia, before the final days to Santiago.\nSpring and autumn are the most pleasant seasons. In July and August the Meseta can be extremely hot and the albergues are crowded. Winter is quiet but many accommodations close and the Pyrenean crossing can be closed by snow, with a lower road alternative via Valcarlos.\nPilgrims stay in albergues, hostels reserved for walkers and cyclists, which are cheap and usually work on a first-come basis.",
+     "words": 213,
+     "overlapChars": 0
+    },
+    {
+     "id": "camino-frances#2",
+     "docId": "camino-frances",
+     "title": "Camino Francés",
+     "sections": [
+      "When to go",
+      "Where to stay",
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Winter is quiet but many accommodations close and the Pyrenean crossing can be closed by snow, with a lower road alternative via Valcarlos.\nPilgrims stay in albergues, hostels reserved for walkers and cyclists, which are cheap and usually work on a first-come basis. Municipal and parish albergues sometimes ask only for a donation. Private albergues, pensions and hotels can be booked ahead. To use pilgrim albergues you need a credencial, the pilgrim passport.\nThe terrain is easy: wide tracks, village streets and some road walking. The difficulty is cumulative, from walking 20 to 30 km every day for weeks. Blisters and tendon strain are the most common reasons people stop.\nThe credencial is stamped at albergues, churches and cafés along the way. To receive the Compostela certificate in Santiago you must walk at least the last 100 km, which is why Sarria is a popular starting town, and collect at least two stamps per day on that final stretch. Yellow arrows and scallop shells mark the whole route.",
+     "words": 168,
+     "overlapChars": 266
+    },
+    {
+     "id": "gr20#1",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "Overview",
+      "Route",
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "The GR20 crosses the island of Corsica from north to south along its mountain spine. It is about 180 km long with well over 10,000 m of ascent, usually walked in 15 or 16 stages. It has a reputation as the toughest of the French Grande Randonnée trails because of its rocky terrain, scrambling and exposure.\nThe northern trailhead is Calenzana, near Calvi, and the southern end is Conca, near Porto-Vecchio. The village of Vizzavona sits roughly in the middle and splits the route into a northern half, which is steeper and more technical, and a southern half, which is greener and gentler. Many walkers only have time for one half and choose based on that difference. The famous Cirque de la Solitude section in the north was closed after a fatal rockfall in 2015 and replaced by a different variant.\nThe usual season is June to late September. In June, snow can remain on northern passes. July and August are hot and crowded, and afternoon thunderstorms are common on the ridges, so stages typically start at dawn. September brings cooler air and fewer walkers.\nMountain refuges run by the Corsican regional nature park are spaced a stage apart. Many walkers camp in the designated areas next to the refuges, because the dormitories are small and fill quickly.",
+     "words": 218,
+     "overlapChars": 0
+    },
+    {
+     "id": "gr20#2",
+     "docId": "gr20",
+     "title": "GR20",
+     "sections": [
+      "When to go",
+      "Where to stay",
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "September brings cooler air and fewer walkers.\nMountain refuges run by the Corsican regional nature park are spaced a stage apart. Many walkers camp in the designated areas next to the refuges, because the dormitories are small and fill quickly. Wild camping on the route is not allowed. Bergeries, traditional shepherd huts, sell cheese, bread and simple meals along the way.\nThis is the most demanding trail in this collection. Hands are needed on chains and slabs, the granite is sharp, and the path is often a boulder field rather than a track. A head for heights and a light pack make a large difference. Turning back on stormy days is common and wise.\nResupply is limited, so carry two or three days of food between villages or buy from refuges and bergeries. Water sources can be scarce late in the season. Bus and train connections reach Calenzana via Calvi and Conca via Porto-Vecchio, and Vizzavona has a railway station, which makes it the easiest point to join or leave the trail.",
+     "words": 172,
+     "overlapChars": 245
+    },
+    {
+     "id": "kumano-kodo#1",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "Overview",
+      "Route",
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "The Kumano Kodo is a network of ancient pilgrimage paths on the Kii Peninsula, south of Osaka in Japan. The routes lead to the three grand shrines of Kumano and have been walked for more than a thousand years, by emperors as well as ordinary pilgrims. They are part of the UNESCO World Heritage site Sacred Sites and Pilgrimage Routes in the Kii Mountain Range, listed in 2004.\nThe most popular route is the Nakahechi, the Imperial route. Walkers usually start at Takijiri-oji, near Tanabe, and reach the grand shrine of Kumano Hongu Taisha after about 38 km, normally in two or three days. The trail climbs through forests of cedar and cypress on stone steps and old cobbled paths, passing small subsidiary shrines called oji. From Hongu, pilgrims can continue to the other grand shrines, Kumano Hayatama Taisha and Kumano Nachi Taisha, next to the tall Nachi waterfall.\nSpring and autumn are the best seasons, with mild temperatures and cherry blossom or autumn leaves. The rainy season in June and early July brings heavy rain that makes stone steps slippery. Summer is hot and humid, and typhoons can affect the region from August to October.\nThe traditional choice is a minshuku, a family-run guesthouse, or a ryokan inn, where dinner and breakfast are included and guests sleep on futons.",
+     "words": 220,
+     "overlapChars": 0
+    },
+    {
+     "id": "kumano-kodo#2",
+     "docId": "kumano-kodo",
+     "title": "Kumano Kodo",
+     "sections": [
+      "When to go",
+      "Where to stay",
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Summer is hot and humid, and typhoons can affect the region from August to October.\nThe traditional choice is a minshuku, a family-run guesthouse, or a ryokan inn, where dinner and breakfast are included and guests sleep on futons. Accommodation in the small mountain villages is limited, so it must be reserved in advance, often through the local tourism bureau. The hot spring village of Yunomine Onsen, near Hongu, is a popular place to rest.\nThe Nakahechi is moderate. The distances are short, but there are steep climbs and descents, and the path can be muddy and slippery after rain. Navigation is easy thanks to numbered markers every 500 m.\nPilgrims can collect stamps at oji shrines in a stamp book. Walkers who complete both the Kumano Kodo and the Camino de Santiago can register as Dual Pilgrims, a twinning between the two routes. Local buses connect the trailheads with Tanabe and Kii-Tanabe station, and luggage transfer is available between inns.",
+     "words": 161,
+     "overlapChars": 231
+    },
+    {
+     "id": "kungsleden#1",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "Overview",
+      "Route",
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "The Kungsleden, or King's Trail, runs about 440 km through Swedish Lapland between Abisko in the north and Hemavan in the south. Few people walk the whole length in one go. The northern section from Abisko to Nikkaluokta, about 105 km over six or seven days, is by far the most popular because it passes Kebnekaise, Sweden's highest mountain.\nFrom Abisko the trail follows a river valley through birch forest, then rises onto open fells above the tree line. It passes the huts at Alesjaure and crosses the Tjäktja pass, the highest point of the northern section at about 1,150 m. South of the pass, walkers can leave the main trail at Singi to reach the Kebnekaise mountain station and finish at Nikkaluokta. Further south, the trail continues through Saltoluokta and Kvikkjokk towards Ammarnäs and Hemavan, a much quieter stretch.\nThe hiking season is short, from late June to mid-September. In summer the midnight sun means it never gets dark, which makes long days easy. Mosquitoes are intense in July. Late August and September bring autumn colours, fewer insects and the first chance to see the northern lights.\nThe Swedish Tourist Association, STF, runs a chain of mountain huts and stations roughly a day apart, with bunks, kitchens and sometimes a small shop.",
+     "words": 213,
+     "overlapChars": 0
+    },
+    {
+     "id": "kungsleden#2",
+     "docId": "kungsleden",
+     "title": "Kungsleden",
+     "sections": [
+      "When to go",
+      "Where to stay",
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Mosquitoes are intense in July. Late August and September bring autumn colours, fewer insects and the first chance to see the northern lights.\nThe Swedish Tourist Association, STF, runs a chain of mountain huts and stations roughly a day apart, with bunks, kitchens and sometimes a small shop. Under the Swedish right of public access, allemansrätten, camping in the open is allowed almost everywhere, so many hikers carry a tent and use the huts for supplies.\nThe northern section is moderate, with mostly gentle gradients, boardwalks over bogs and some rocky ground. Weather and isolation are the real challenges: it can snow in any month and there is no phone signal in many places.\nSeveral lakes on the southern sections are crossed by boat. Where there is no ferry, rowing boats are provided, and the rule is that at least one boat must always be left on each shore, which can mean rowing across three times. Abisko is reachable by night train from Stockholm, and buses run from Nikkaluokta to Kiruna.",
+     "words": 171,
+     "overlapChars": 293
+    },
+    {
+     "id": "laugavegur#1",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "Overview",
+      "Route",
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "The Laugavegur trail crosses the Icelandic highlands for about 55 km between Landmannalaugar and Þórsmörk. It is usually walked in three or four days. The landscape changes every few hours, from coloured rhyolite mountains and steaming vents to black lava fields, glaciers and a green birch valley.\nLandmannalaugar, the northern start, is known for its natural hot spring and the orange, pink and green rhyolite hills around it. The first day climbs past fumaroles to the hut at Hrafntinnusker, the highest point of the trail at about 1,100 m, where snowfields remain well into summer. The route then descends to Álftavatn lake, crosses a black sand desert to Emstrur and finishes in the sheltered valley of Þórsmörk. Many walkers add the Fimmvörðuháls pass, about 25 km more, climbing between two glaciers and descending past dozens of waterfalls to Skógar on the south coast.\nThe trail is officially open from late June to early September, when the highland roads and huts open. Outside that window there are no buses and conditions can be dangerous. Even in July, storms with strong wind and sleet are possible, and fog can make route-finding difficult on the snowfields.\nHuts at each stage are run by Ferðafélag Íslands, the Touring Association of Iceland, and must be booked well in advance.",
+     "words": 214,
+     "overlapChars": 0
+    },
+    {
+     "id": "laugavegur#2",
+     "docId": "laugavegur",
+     "title": "Laugavegur",
+     "sections": [
+      "When to go",
+      "Where to stay",
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Even in July, storms with strong wind and sleet are possible, and fog can make route-finding difficult on the snowfields.\nHuts at each stage are run by Ferðafélag Íslands, the Touring Association of Iceland, and must be booked well in advance. Campsites are available next to every hut. Camping elsewhere along the trail is not permitted, to protect the fragile vegetation.\nThe walking is moderate, but the weather makes it serious. Several glacial rivers must be forded on foot; water is ice cold and fastest in the afternoon, so crossings are easier in the morning. Sandals or water shoes and walking poles help.\nHighland buses connect Reykjavík with Landmannalaugar and Þórsmörk in summer. There are no shops on the trail, so all food must be carried. Registering your trip with the Icelandic safety website before leaving is recommended.",
+     "words": 138,
+     "overlapChars": 243
+    },
+    {
+     "id": "pacific-crest-trail#1",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "Overview",
+      "Route",
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "The Pacific Crest Trail, or PCT, runs about 4,265 km (2,650 miles) from the Mexican border near Campo, California, to the Canadian border in Manning Park, British Columbia. It crosses California, Oregon and Washington. Thru-hikers who walk it end to end in one season typically take four and a half to six months, but most visitors walk shorter sections.\nThe southern part crosses the desert of Southern California, where water sources can be 30 km apart. It then enters the High Sierra, passing through Sequoia, Kings Canyon and Yosemite and near Mount Whitney, before continuing north through volcanic country around Lassen. Oregon is the fastest state, with gentle forest walking past Crater Lake. Washington finishes with the steep, rugged North Cascades.\nNorthbound thru-hikers usually start in April or early May, timing their arrival in the Sierra for after the worst of the snow melts in June. They aim to reach Canada in September, before early autumn storms in Washington. Section hikers can choose the best month for each region, from spring in the desert to late summer in the mountains.\nThis is a camping trail: hikers carry a tent or shelter and sleep at established sites or durable spots along the route.",
+     "words": 202,
+     "overlapChars": 0
+    },
+    {
+     "id": "pacific-crest-trail#2",
+     "docId": "pacific-crest-trail",
+     "title": "Pacific Crest Trail",
+     "sections": [
+      "When to go",
+      "Where to stay",
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Section hikers can choose the best month for each region, from spring in the desert to late summer in the mountains.\nThis is a camping trail: hikers carry a tent or shelter and sleep at established sites or durable spots along the route. Towns near the trail offer motels and hostels for rest days, and some communities have long traditions of hosting hikers.\nThe PCT is very demanding because of its length rather than its technical terrain. Hikers face heat and long water carries in the desert, snow, high passes and river crossings in the Sierra, and fatigue over months. Navigation, food planning and gear choices matter as much as fitness.\nA free long-distance permit from the Pacific Crest Trail Association is needed for trips over 500 miles, with a limited number of daily start dates from the Mexican border. A separate permit is required to enter Canada on foot. Hikers resupply by walking or hitching into towns or by mailing boxes of food to post offices along the way. A bear canister is required in parts of the Sierra.",
+     "words": 180,
+     "overlapChars": 237
+    },
+    {
+     "id": "tour-du-mont-blanc#1",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "Overview",
+      "Route",
+      "When to go"
+     ],
+     "text": "The Tour du Mont Blanc is a loop of about 170 km around the Mont Blanc massif, crossing France, Italy and Switzerland. Most walkers take 10 to 11 days, gaining roughly 10,000 m of cumulative ascent. It is one of the most popular long-distance walks in Europe, so the classic stages are busy in July and August.\nThe traditional start is Les Houches in the Chamonix valley, walking anticlockwise. The route climbs to the Col de la Seigne at 2,516 m, the border with Italy, then descends through the Val Veny to Courmayeur. From the Italian Val Ferret it crosses the Grand Col Ferret at 2,537 m into Switzerland. The Swiss section passes La Fouly and the lake at Champex. Strong walkers can take the Fenêtre d'Arpette variant at 2,665 m, the highest point of the tour, instead of the gentler Bovine path. The loop returns to France over the Col de Balme and finishes along the balcony paths above Chamonix, past Lac Blanc.\nThe season runs from mid-June to mid-September, when the refuges are open. Snow can linger on the high cols until early July, and an ice axe is sometimes needed on north-facing slopes in June. September is quieter and often has stable weather, but some huts begin to close in the middle of the month.",
+     "words": 218,
+     "overlapChars": 0
+    },
+    {
+     "id": "tour-du-mont-blanc#2",
+     "docId": "tour-du-mont-blanc",
+     "title": "Tour du Mont Blanc",
+     "sections": [
+      "When to go",
+      "Where to stay",
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Snow can linger on the high cols until early July, and an ice axe is sometimes needed on north-facing slopes in June. September is quieter and often has stable weather, but some huts begin to close in the middle of the month.\nWalkers sleep in mountain refuges, gîtes and village hotels. Refuges serve dinner and breakfast as half board, and many will prepare a packed lunch. Beds in July and August are booked months in advance, so reserving every night before setting out is strongly recommended. Wild camping is restricted in all three countries, especially in Switzerland and on the French side near the Chamonix nature reserves.\nThe trail is non-technical but physically demanding: most days include more than 1,000 m of climbing and a long descent. Good fitness and broken-in boots matter more than technical skill. Ladders and short via-ferrata-style sections appear on some variants near Lac Blanc and can be avoided.\nEuros are accepted across the route, although Switzerland uses the franc and some Swiss huts prefer it. Public buses link most valley towns, so stages can be skipped in bad weather. Water is easy to find at refuges and village fountains. A light shell, warm layer and walking poles are standard kit.",
+     "words": 205,
+     "overlapChars": 225
+    },
+    {
+     "id": "west-highland-way#1",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "Overview",
+      "Route",
+      "When to go",
+      "Where to stay"
+     ],
+     "text": "The West Highland Way runs about 154 km (96 miles) from Milngavie, on the edge of Glasgow, to Fort William in the Scottish Highlands. Opened in 1980, it was Scotland's first officially designated long-distance route. Most people complete it in seven or eight days, walking south to north so the scenery grows wilder as they go.\nThe first days follow gentle farmland and woodland to Drymen, then climb over Conic Hill for a first view of Loch Lomond. The route traces the long eastern shore of the loch, where the path is rough and rooty for several hours. Beyond Tyndrum it follows an old military road across Rannoch Moor, a vast, empty bog plateau. From the Kingshouse the trail climbs the Devil's Staircase, its highest point at about 550 m, then drops to Kinlochleven. The final day crosses the Lairigmor valley and reaches Fort William at the foot of Ben Nevis, which some walkers climb as a bonus day.\nApril, May and September are the favourite months. Summer is busier and brings midges, tiny biting insects that are worst on still, damp evenings near water; a head net and repellent are essential from June to August. Winter walking is possible but daylight is very short.\nThere are hotels, B&Bs, hostels and campsites in every overnight village.",
+     "words": 216,
+     "overlapChars": 0
+    },
+    {
+     "id": "west-highland-way#2",
+     "docId": "west-highland-way",
+     "title": "West Highland Way",
+     "sections": [
+      "When to go",
+      "Where to stay",
+      "Difficulty",
+      "Practicalities"
+     ],
+     "text": "Summer is busier and brings midges, tiny biting insects that are worst on still, damp evenings near water; a head net and repellent are essential from June to August. Winter walking is possible but daylight is very short.\nThere are hotels, B&Bs, hostels and campsites in every overnight village. Wild camping is generally allowed in Scotland under the outdoor access code, but seasonal camping management zones apply along the east side of Loch Lomond, where a permit is required in summer. Baggage transfer companies will move bags between accommodations each day.\nThis is a moderate walk with no technical terrain. Daily distances of 15 to 30 km are the main challenge, together with rain and wet ground. It is a good first multi-day trek.\nMilngavie is a short train ride from Glasgow, and Fort William has rail and bus connections back south. The currency is the pound sterling. Waterproofs are the most important kit item: rain is likely on several days in any season.",
+     "words": 164,
+     "overlapChars": 295
+    }
+   ]
+  }
+ }
+}
