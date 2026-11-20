@@ -1,9 +1,9 @@
 import './SocialLinks.css'
 
 export const SOCIAL_LINKS = [
-  { label: 'GitHub', href: 'https://github.com/your-username', icon: 'github' },
-  { label: 'LinkedIn', href: 'https://linkedin.com/in/your-username', icon: 'linkedin' },
-  { label: 'Email', href: 'mailto:you@example.com', icon: 'email' },
+  { label: 'GitHub', href: 'https://github.com/nmoods', icon: 'github' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/neehal-moodhoo-8a19b31ba', icon: 'linkedin' },
+  { label: 'Email', href: 'mailto:neehal1002@gmail.com', icon: 'email' },
 ]
 
 function SocialLinks({ className = '' }) {

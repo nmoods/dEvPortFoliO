@@ -1,0 +1,24 @@
+.footer {
+  border-top: 1px solid var(--border);
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  font-size: 13.5px;
+  color: var(--text-muted);
+}
+
+.footer__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 20px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px 24px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a:hover {
+  color: var(--accent);
+}

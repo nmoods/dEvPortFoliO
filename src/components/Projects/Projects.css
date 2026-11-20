@@ -1,5 +1,5 @@
 .projects {
-  padding: 96px 24px;
+  padding: 80px 24px;
   display: flex;
   justify-content: center;
 }
@@ -23,9 +23,6 @@
 }
 
 .project-card {
-  background: color-mix(in srgb, var(--bg) 78%, transparent);
-  backdrop-filter: blur(10px);
-  border: 1px solid var(--border);
   border-radius: 16px;
   padding: 24px;
   display: flex;
@@ -36,9 +33,30 @@
     border-color 0.2s ease;
 }
 
-.project-card:hover {
+.project-card:hover,
+.project-card:focus-visible {
   transform: translateY(-4px);
   border-color: var(--accent);
+}
+
+.project-card__open {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.project-card__arrow {
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover .project-card__arrow,
+.project-card:focus-visible .project-card__arrow {
+  transform: translateX(4px);
 }
 
 .project-card__flag {
@@ -65,6 +83,7 @@
   gap: 8px;
   margin-top: auto;
   padding-top: 8px;
+  padding-bottom: 4px;
 }
 
 .project-card__tags li {

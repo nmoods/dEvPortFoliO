@@ -1,0 +1,2816 @@
+{
+ "model": "Xenova/all-MiniLM-L6-v2",
+ "dtype": "q8",
+ "dims": 384,
+ "sizes": {
+  "small": {
+   "label": "Small",
+   "words": 40,
+   "overlap": 10,
+   "chunks": [
+    {
+     "id": "athletics-tracks#1",
+     "docId": "athletics-tracks",
+     "title": "Athletics tracks",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Overview"
+     ],
+     "text": "For interval sessions and speed work, nothing replaces a measured track. The main athletics venues in Mauritius are the Maryse Justin Stadium in Réduit and the Stade Germain Comarmond in Bambous.",
+     "words": 31,
+     "overlapChars": 0
+    },
+    {
+     "id": "athletics-tracks#2",
+     "docId": "athletics-tracks",
+     "title": "Athletics tracks",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Maryse Justin Stadium, Réduit"
+     ],
+     "text": "The stadium is named after Maryse Justin-Pyndiah, a Mauritian long-distance runner who specialised in the marathon. It is used by the Mauritius Athletics Association and hosts national championships.",
+     "words": 28,
+     "overlapChars": 0
+    },
+    {
+     "id": "athletics-tracks#3",
+     "docId": "athletics-tracks",
+     "title": "Athletics tracks",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Stade Germain Comarmond, Bambous"
+     ],
+     "text": "In the west, near Bambous, this stadium is used mostly for football and athletics, and has also hosted national youth athletics championships.",
+     "words": 22,
+     "overlapChars": 0
+    },
+    {
+     "id": "athletics-tracks#4",
+     "docId": "athletics-tracks",
+     "title": "Athletics tracks",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Access"
+     ],
+     "text": "Public opening hours and fees for casual runners are not published by the athletics association, whose calendars list competitions and club training.",
+     "words": 22,
+     "overlapChars": 0
+    },
+    {
+     "id": "athletics-tracks#5",
+     "docId": "athletics-tracks",
+     "title": "Athletics tracks",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Access"
+     ],
+     "text": "The reliable way to train on a track is to join an athletics club or to ask the Mauritius Athletics Association or the stadium administration about access.",
+     "words": 27,
+     "overlapChars": 0
+    },
+    {
+     "id": "athletics-tracks#6",
+     "docId": "athletics-tracks",
+     "title": "Athletics tracks",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Who it suits"
+     ],
+     "text": "Runners doing structured speed work, such as 400 m repeats or tempo intervals, and anyone preparing for road races who wants precise pacing.",
+     "words": 23,
+     "overlapChars": 0
+    },
+    {
+     "id": "athletics-tracks#7",
+     "docId": "athletics-tracks",
+     "title": "Athletics tracks",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Who it suits"
+     ],
+     "text": "For an open-access measured loop without traffic, the Trou aux Cerfs crater rim in Curepipe is the usual alternative.",
+     "words": 19,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-gorges-trails#1",
+     "docId": "black-river-gorges-trails",
+     "title": "Black River Gorges National Park trails",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to hard",
+     "sections": [
+      "Overview"
+     ],
+     "text": "Black River Gorges National Park protects the largest area of native forest left in Mauritius, in the south-west of the island. It is home to rare endemic birds such as the echo parakeet, the pink pigeon and the Mauritius kestrel.",
+     "words": 40,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-gorges-trails#2",
+     "docId": "black-river-gorges-trails",
+     "title": "Black River Gorges National Park trails",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to hard",
+     "sections": [
+      "Overview",
+      "Entrances"
+     ],
+     "text": "Entry to the park and its trails is free.\nThere are two official entrances with visitor centres: Pétrin, on the plateau, and Rivière Noire, at the bottom of the gorges on the west side.",
+     "words": 34,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-gorges-trails#3",
+     "docId": "black-river-gorges-trails",
+     "title": "Black River Gorges National Park trails",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to hard",
+     "sections": [
+      "Entrances"
+     ],
+     "text": "Rangers there can advise on current trail conditions, and trail maps are available. Some sources say the park gates close at about 5 pm.",
+     "words": 24,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-gorges-trails#4",
+     "docId": "black-river-gorges-trails",
+     "title": "Black River Gorges National Park trails",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to hard",
+     "sections": [
+      "Trails"
+     ],
+     "text": "The Macchabée forest loop starts from Pétrin and runs through some of the best native forest on the island. Its length varies by variant, with sources quoting anywhere from about 8 to 14 km.",
+     "words": 34,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-gorges-trails#5",
+     "docId": "black-river-gorges-trails",
+     "title": "Black River Gorges National Park trails",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to hard",
+     "sections": [
+      "Trails"
+     ],
+     "text": "The Parakeet Trail is a much harder one-way descent of roughly 6 to 8 km through steep, technical terrain, taking most people three to four hours.",
+     "words": 26,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-gorges-trails#6",
+     "docId": "black-river-gorges-trails",
+     "title": "Black River Gorges National Park trails",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to hard",
+     "sections": [
+      "Trails",
+      "Difficulty"
+     ],
+     "text": "Gentler options include short walks to viewpoints such as Alexandra Falls and the Black River Gorges viewpoint.\nDifficulty ranges from easy viewpoint strolls to hard, technical descents.",
+     "words": 27,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-gorges-trails#7",
+     "docId": "black-river-gorges-trails",
+     "title": "Black River Gorges National Park trails",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to hard",
+     "sections": [
+      "Difficulty"
+     ],
+     "text": "Difficulty ranges from easy viewpoint strolls to hard, technical descents. Trails are not always well marked, so check the route and conditions at a visitor centre before you set off.",
+     "words": 30,
+     "overlapChars": 74
+    },
+    {
+     "id": "black-river-gorges-trails#8",
+     "docId": "black-river-gorges-trails",
+     "title": "Black River Gorges National Park trails",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to hard",
+     "sections": [
+      "When to go"
+     ],
+     "text": "May to November is the best season, with fewer muddy paths. The plateau is often misty and cooler than the coast, so bring a light rain jacket.",
+     "words": 27,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-peak#1",
+     "docId": "black-river-peak",
+     "title": "Black River Peak",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Overview"
+     ],
+     "text": "Black River Peak, Piton de la Petite Rivière Noire, is the highest point in Mauritius at about 828 m.",
+     "words": 19,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-peak#2",
+     "docId": "black-river-peak",
+     "title": "Black River Peak",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Overview"
+     ],
+     "text": "It stands inside Black River Gorges National Park, and despite being the highest summit it is one of the shortest hikes to a major peak on the island.",
+     "words": 28,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-peak#3",
+     "docId": "black-river-peak",
+     "title": "Black River Peak",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Route"
+     ],
+     "text": "The usual trailhead is on the B103 Plaine Champagne road, close to the Black River Gorges viewpoint.",
+     "words": 17,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-peak#4",
+     "docId": "black-river-peak",
+     "title": "Black River Peak",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Route"
+     ],
+     "text": "Parking at the trailhead fits only two or three cars, so many hikers leave the car at the viewpoint car park a short walk away.",
+     "words": 25,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-peak#5",
+     "docId": "black-river-peak",
+     "title": "Black River Peak",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Route"
+     ],
+     "text": "From the viewpoint side the return hike is about 3 to 3.5 km with under 200 m of climbing, and most people reach the top in about an hour to an hour and a half.",
+     "words": 35,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-peak#6",
+     "docId": "black-river-peak",
+     "title": "Black River Peak",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Difficulty"
+     ],
+     "text": "The trail is mostly well maintained and easy to follow through native forest. The final section is steeper and rockier, and ropes help on the rock in places.",
+     "words": 28,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-peak#7",
+     "docId": "black-river-peak",
+     "title": "Black River Peak",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Difficulty",
+      "When to go"
+     ],
+     "text": "The trailhead is not well signposted, so check a map before you go. From the summit you look down over the west coast, Tamarin bay and Le Morne.\nMay to November is drier and less muddy.",
+     "words": 36,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-peak#8",
+     "docId": "black-river-peak",
+     "title": "Black River Peak",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "May to November is drier and less muddy. Start in the morning, and turn back if the summit is in cloud and the rock is wet.\nEntry to the national park is free and no permit is required.",
+     "words": 38,
+     "overlapChars": 40
+    },
+    {
+     "id": "black-river-peak#9",
+     "docId": "black-river-peak",
+     "title": "Black River Peak",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Guided hikes are available if you prefer not to navigate the unsigned start. Bring a light jacket: Plaine Champagne is noticeably cooler and windier than the coast.",
+     "words": 27,
+     "overlapChars": 0
+    },
+    {
+     "id": "bras-d-eau#1",
+     "docId": "bras-d-eau",
+     "title": "Bras d'Eau National Park",
+     "type": "training",
+     "region": "East",
+     "difficulty": "Easy",
+     "sections": [
+      "Overview"
+     ],
+     "text": "Bras d'Eau National Park is a coastal forest park in the north-east of Mauritius. Its trails run through forest that includes mangroves and endemic trees, and they are much flatter than the mountain trails of the west and centre.",
+     "words": 39,
+     "overlapChars": 0
+    },
+    {
+     "id": "bras-d-eau#2",
+     "docId": "bras-d-eau",
+     "title": "Bras d'Eau National Park",
+     "type": "training",
+     "region": "East",
+     "difficulty": "Easy",
+     "sections": [
+      "The training ground"
+     ],
+     "text": "Bras d'Eau is a good place for fairly easy trail running.",
+     "words": 11,
+     "overlapChars": 0
+    },
+    {
+     "id": "bras-d-eau#3",
+     "docId": "bras-d-eau",
+     "title": "Bras d'Eau National Park",
+     "type": "training",
+     "region": "East",
+     "difficulty": "Easy",
+     "sections": [
+      "The training ground"
+     ],
+     "text": "Trails start from the visitor centre, and the gentle terrain makes it a natural first step from road running to trail running, or a place for relaxed long runs on soft ground.",
+     "words": 32,
+     "overlapChars": 0
+    },
+    {
+     "id": "bras-d-eau#4",
+     "docId": "bras-d-eau",
+     "title": "Bras d'Eau National Park",
+     "type": "training",
+     "region": "East",
+     "difficulty": "Easy",
+     "sections": [
+      "Who it suits"
+     ],
+     "text": "Beginners trying trail running for the first time, runners in the east and north of the island, and anyone who wants shaded, quiet running away from traffic without technical terrain.",
+     "words": 30,
+     "overlapChars": 0
+    },
+    {
+     "id": "bras-d-eau#5",
+     "docId": "bras-d-eau",
+     "title": "Bras d'Eau National Park",
+     "type": "training",
+     "region": "East",
+     "difficulty": "Easy",
+     "sections": [
+      "Conditions"
+     ],
+     "text": "Being on the coast, it is warm and humid; the forest gives more shade than beach routes. After heavy rain, parts of the trails can be muddy.",
+     "words": 27,
+     "overlapChars": 0
+    },
+    {
+     "id": "bras-d-eau#6",
+     "docId": "bras-d-eau",
+     "title": "Bras d'Eau National Park",
+     "type": "training",
+     "region": "East",
+     "difficulty": "Easy",
+     "sections": [
+      "Conditions",
+      "Practicalities"
+     ],
+     "text": "After heavy rain, parts of the trails can be muddy.\nPick up information at the visitor centre before heading out, and stay on the marked trails to protect the forest.",
+     "words": 30,
+     "overlapChars": 51
+    },
+    {
+     "id": "coastal-runs#1",
+     "docId": "coastal-runs",
+     "title": "Flat coastal runs",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Overview"
+     ],
+     "text": "When the goal is easy mileage, recovery runs or speed on the flat, the coast is the place to train. Each side of the island has its own classic route.",
+     "words": 30,
+     "overlapChars": 0
+    },
+    {
+     "id": "coastal-runs#2",
+     "docId": "coastal-runs",
+     "title": "Flat coastal runs",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Overview"
+     ],
+     "text": "Each side of the island has its own classic route.",
+     "words": 10,
+     "overlapChars": 50
+    },
+    {
+     "id": "coastal-runs#3",
+     "docId": "coastal-runs",
+     "title": "Flat coastal runs",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "West: Flic en Flac"
+     ],
+     "text": "Flic en Flac has about 8 km of white-sand beach and a flat seafront road, which makes it one of the best places on the island for beginners and for early-morning runs.",
+     "words": 32,
+     "overlapChars": 0
+    },
+    {
+     "id": "coastal-runs#4",
+     "docId": "coastal-runs",
+     "title": "Flat coastal runs",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "West: Flic en Flac",
+      "East: Belle Mare"
+     ],
+     "text": "Running on sand also builds strength in the feet and calves.\nBelle Mare has a beachfront path and roughly 1.5 km of firm sand road along the beach, with quiet farm roads inland for longer runs.",
+     "words": 36,
+     "overlapChars": 0
+    },
+    {
+     "id": "coastal-runs#5",
+     "docId": "coastal-runs",
+     "title": "Flat coastal runs",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "East: Belle Mare",
+      "North: Mont Choisy and Grand Baie"
+     ],
+     "text": "One mapped beachfront loop from Belle Mare is about 10 km.\nThe coastal road leading to Mont Choisy beach is quieter than the main roads.",
+     "words": 25,
+     "overlapChars": 0
+    },
+    {
+     "id": "coastal-runs#6",
+     "docId": "coastal-runs",
+     "title": "Flat coastal runs",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "North: Mont Choisy and Grand Baie"
+     ],
+     "text": "Sections of the B13 through Pereybère, Grand Baie and Mont Choisy have a narrow sidewalk or shoulder, so run there with care and at quiet times.",
+     "words": 26,
+     "overlapChars": 0
+    },
+    {
+     "id": "coastal-runs#7",
+     "docId": "coastal-runs",
+     "title": "Flat coastal runs",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "South-west: Le Morne",
+      "Conditions"
+     ],
+     "text": "A flat trail runs along the water at Le Morne, a scenic option for an easy run before or after hiking the mountain.\nThe coast is hot and humid for most of the year.",
+     "words": 34,
+     "overlapChars": 0
+    },
+    {
+     "id": "coastal-runs#8",
+     "docId": "coastal-runs",
+     "title": "Flat coastal runs",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Conditions"
+     ],
+     "text": "Run at dawn or late in the day, carry water, and wear shoes on rocky beaches where sea urchins hide.",
+     "words": 20,
+     "overlapChars": 0
+    },
+    {
+     "id": "corps-de-garde#1",
+     "docId": "corps-de-garde",
+     "title": "Corps de Garde",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Overview"
+     ],
+     "text": "Corps de Garde is a mountain of about 720 m that towers over Rose Hill, Beau Bassin and Quatre Bornes. From its ridge you see the whole central plateau, the west coast and, on clear days, Port Louis.",
+     "words": 38,
+     "overlapChars": 0
+    },
+    {
+     "id": "corps-de-garde#2",
+     "docId": "corps-de-garde",
+     "title": "Corps de Garde",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Route"
+     ],
+     "text": "The classic route is a loop above Rose Hill. One detailed guide describes it as about 7 km with more than 600 m of ascent, and other sources give 2 to 4 hours.",
+     "words": 33,
+     "overlapChars": 0
+    },
+    {
+     "id": "corps-de-garde#3",
+     "docId": "corps-de-garde",
+     "title": "Corps de Garde",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Route",
+      "Difficulty"
+     ],
+     "text": "The path is marked with white stones up to the ridge.\nIt is not really a beginner hike. The climb starts steeply, with rocky steps where you need your hands, and the slopes near the summit are challenging.",
+     "words": 38,
+     "overlapChars": 0
+    },
+    {
+     "id": "corps-de-garde#4",
+     "docId": "corps-de-garde",
+     "title": "Corps de Garde",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Difficulty",
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "Sources rate it medium to hard.\nThe route has very little shade, so avoid the middle of the day. May to November is cooler; in summer, go at first light.\nIt is free and no guide is needed.",
+     "words": 38,
+     "overlapChars": 0
+    },
+    {
+     "id": "corps-de-garde#5",
+     "docId": "corps-de-garde",
+     "title": "Corps de Garde",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "It is free and no guide is needed. Take about two litres of water per person, sun protection and shoes with good grip.",
+     "words": 23,
+     "overlapChars": 34
+    },
+    {
+     "id": "gorges-trail-running#1",
+     "docId": "gorges-trail-running",
+     "title": "Black River Gorges for trail running",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Overview"
+     ],
+     "text": "Black River Gorges National Park is the main trail-running training ground in Mauritius. It has about 60 km of trails, many of them hilly with challenging, technical footing, through native forest between the Pétrin plateau and the Rivière Noire entrance.",
+     "words": 40,
+     "overlapChars": 0
+    },
+    {
+     "id": "gorges-trail-running#2",
+     "docId": "gorges-trail-running",
+     "title": "Black River Gorges for trail running",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "The training ground"
+     ],
+     "text": "The park is where you train for real mountain races. Long runs on the forest loops build endurance, and the climbs out of the gorges build strength for steep ascents and technical descents.",
+     "words": 33,
+     "overlapChars": 0
+    },
+    {
+     "id": "gorges-trail-running#3",
+     "docId": "gorges-trail-running",
+     "title": "Black River Gorges for trail running",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "The training ground"
+     ],
+     "text": "The Royal Raid, the island's longest-running trail race, held since 2006, takes place in the Black River Gorges, with distances such as 15 km, 37 km and 70 km offered in past editions.",
+     "words": 33,
+     "overlapChars": 0
+    },
+    {
+     "id": "gorges-trail-running#4",
+     "docId": "gorges-trail-running",
+     "title": "Black River Gorges for trail running",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "The training ground",
+      "Who it suits"
+     ],
+     "text": "Training on its trails is the most race-specific preparation you can do on the island.\nIntermediate and experienced trail runners preparing for the Royal Raid, the Dodo Trail or races abroad.",
+     "words": 31,
+     "overlapChars": 0
+    },
+    {
+     "id": "gorges-trail-running#5",
+     "docId": "gorges-trail-running",
+     "title": "Black River Gorges for trail running",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Who it suits",
+      "Conditions"
+     ],
+     "text": "Beginners should start on the shorter, well-used trails from the Pétrin visitor centre and run with someone who knows the network.\nFooting gets very muddy and slippery in the wet season.",
+     "words": 31,
+     "overlapChars": 0
+    },
+    {
+     "id": "gorges-trail-running#6",
+     "docId": "gorges-trail-running",
+     "title": "Black River Gorges for trail running",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Conditions"
+     ],
+     "text": "Footing gets very muddy and slippery in the wet season. The austral winter, from May to November, is the best period for long runs. Trails are not always well marked, and there is little phone signal in places.",
+     "words": 38,
+     "overlapChars": 55
+    },
+    {
+     "id": "gorges-trail-running#7",
+     "docId": "gorges-trail-running",
+     "title": "Black River Gorges for trail running",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Entry is free. Check routes with rangers at the visitor centres, carry water and a map, and tell someone your planned route.",
+     "words": 22,
+     "overlapChars": 0
+    },
+    {
+     "id": "la-tourelle-de-tamarin#1",
+     "docId": "la-tourelle-de-tamarin",
+     "title": "La Tourelle de Tamarin",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Hard",
+     "sections": [
+      "Overview"
+     ],
+     "text": "La Tourelle de Tamarin is a steep mountain less than a kilometre from the coast at Tamarin, on the west of the island.",
+     "words": 23,
+     "overlapChars": 0
+    },
+    {
+     "id": "la-tourelle-de-tamarin#2",
+     "docId": "la-tourelle-de-tamarin",
+     "title": "La Tourelle de Tamarin",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Hard",
+     "sections": [
+      "Overview",
+      "The training ground"
+     ],
+     "text": "Runners use it as a brutal hill-training ground: about 560 m of ascent over roughly 4.4 km return.\nThis is a place for vertical training, not for setting times.",
+     "words": 29,
+     "overlapChars": 0
+    },
+    {
+     "id": "la-tourelle-de-tamarin#3",
+     "docId": "la-tourelle-de-tamarin",
+     "title": "La Tourelle de Tamarin",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Hard",
+     "sections": [
+      "The training ground"
+     ],
+     "text": "Repeats on the steepest part build the climbing strength needed for mountain races. Fixed ropes equip some of the steps, so expect to use your hands.",
+     "words": 26,
+     "overlapChars": 0
+    },
+    {
+     "id": "la-tourelle-de-tamarin#4",
+     "docId": "la-tourelle-de-tamarin",
+     "title": "La Tourelle de Tamarin",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Hard",
+     "sections": [
+      "The training ground",
+      "Who it suits"
+     ],
+     "text": "The descent is as important to practise as the climb: take it carefully, especially when tired.\nTrail runners and hikers preparing for races with a lot of climbing, such as the Dodo Trail or the Royal Raid.",
+     "words": 37,
+     "overlapChars": 0
+    },
+    {
+     "id": "la-tourelle-de-tamarin#5",
+     "docId": "la-tourelle-de-tamarin",
+     "title": "La Tourelle de Tamarin",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Hard",
+     "sections": [
+      "Who it suits",
+      "Conditions"
+     ],
+     "text": "It is not a beginner route; build up on easier hills first, such as Le Pouce or the Port Louis hills.\nThe west coast is hot and dry, and the slope offers little shade.",
+     "words": 34,
+     "overlapChars": 0
+    },
+    {
+     "id": "la-tourelle-de-tamarin#6",
+     "docId": "la-tourelle-de-tamarin",
+     "title": "La Tourelle de Tamarin",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Hard",
+     "sections": [
+      "Conditions"
+     ],
+     "text": "Train at dawn or late in the afternoon. Darkness falls quickly in Mauritius, in about twenty minutes, between about 5:45 pm and 7 pm depending on the season, so carry a headlamp on evening sessions.",
+     "words": 35,
+     "overlapChars": 0
+    },
+    {
+     "id": "la-tourelle-de-tamarin#7",
+     "docId": "la-tourelle-de-tamarin",
+     "title": "La Tourelle de Tamarin",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Hard",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Bring plenty of water and gloves for the rope sections. Avoid it after rain, when the steps become slippery.",
+     "words": 19,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-morne-brabant#1",
+     "docId": "le-morne-brabant",
+     "title": "Le Morne Brabant",
+     "type": "hike",
+     "region": "South",
+     "difficulty": "Moderate to the cross, hard to the summit",
+     "sections": [
+      "Overview"
+     ],
+     "text": "Le Morne Brabant is the 556 m basalt mountain on the south-western peninsula of Mauritius.",
+     "words": 15,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-morne-brabant#2",
+     "docId": "le-morne-brabant",
+     "title": "Le Morne Brabant",
+     "type": "hike",
+     "region": "South",
+     "difficulty": "Moderate to the cross, hard to the summit",
+     "sections": [
+      "Overview"
+     ],
+     "text": "It is a UNESCO World Heritage cultural landscape, inscribed in 2008, because its cliffs sheltered escaped enslaved people, the maroons, in the 18th and 19th centuries. Hike it with that history in mind.",
+     "words": 33,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-morne-brabant#3",
+     "docId": "le-morne-brabant",
+     "title": "Le Morne Brabant",
+     "type": "hike",
+     "region": "South",
+     "difficulty": "Moderate to the cross, hard to the summit",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "Hike it with that history in mind.\nThe trail starts at a gate near the base of the mountain, where hikers sign in and out of a register for safety.",
+     "words": 30,
+     "overlapChars": 34
+    },
+    {
+     "id": "le-morne-brabant#4",
+     "docId": "le-morne-brabant",
+     "title": "Le Morne Brabant",
+     "type": "hike",
+     "region": "South",
+     "difficulty": "Moderate to the cross, hard to the summit",
+     "sections": [
+      "Route"
+     ],
+     "text": "The lower trail climbs to a viewpoint with a large cross, with views over the lagoon and the south-west coast. Above the cross, the final section to the summit is a steep scramble where you climb on all fours.",
+     "words": 39,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-morne-brabant#5",
+     "docId": "le-morne-brabant",
+     "title": "Le Morne Brabant",
+     "type": "hike",
+     "region": "South",
+     "difficulty": "Moderate to the cross, hard to the summit",
+     "sections": [
+      "Route",
+      "Rules and access"
+     ],
+     "text": "A full return to the summit takes about 3 to 5 hours.\nPublished opening hours differ between sources, but the gate opens early in the morning and late starts are not allowed, with the last departure in the early afternoon.",
+     "words": 40,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-morne-brabant#6",
+     "docId": "le-morne-brabant",
+     "title": "Le Morne Brabant",
+     "type": "hike",
+     "region": "South",
+     "difficulty": "Moderate to the cross, hard to the summit",
+     "sections": [
+      "Rules and access"
+     ],
+     "text": "Access is closed on rainy days. Sources also disagree on whether a licensed guide is required above the cross. Check the current rules on site or with a local operator before you plan the summit.",
+     "words": 35,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-morne-brabant#7",
+     "docId": "le-morne-brabant",
+     "title": "Le Morne Brabant",
+     "type": "hike",
+     "region": "South",
+     "difficulty": "Moderate to the cross, hard to the summit",
+     "sections": [
+      "Difficulty",
+      "When to go"
+     ],
+     "text": "To the cross, the hike is moderate but hot. The summit section is hard and exposed, and should be skipped after rain because the rock becomes slippery.\nStart at dawn.",
+     "words": 30,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-morne-brabant#8",
+     "docId": "le-morne-brabant",
+     "title": "Le Morne Brabant",
+     "type": "hike",
+     "region": "South",
+     "difficulty": "Moderate to the cross, hard to the summit",
+     "sections": [
+      "When to go"
+     ],
+     "text": "Start at dawn. There is very little shade, and the south-west coast gets hot by mid-morning. The cooler months from May to November are the most pleasant.",
+     "words": 27,
+     "overlapChars": 14
+    },
+    {
+     "id": "le-pouce#1",
+     "docId": "le-pouce",
+     "title": "Le Pouce",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Overview"
+     ],
+     "text": "Le Pouce, \"the thumb\", is the third-highest mountain in Mauritius at about 812 m.",
+     "words": 14,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-pouce#2",
+     "docId": "le-pouce",
+     "title": "Le Pouce",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Overview"
+     ],
+     "text": "Its thumb-shaped summit rises from the Moka Range directly above Port Louis, and it is one of the most popular half-day hikes on the island because it is short, well trodden and close to the capital.",
+     "words": 36,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-pouce#3",
+     "docId": "le-pouce",
+     "title": "Le Pouce",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Route"
+     ],
+     "text": "The best-known trailhead is the village of Petit Verger, near Saint Pierre, where a well-marked path climbs through sugar cane fields and patches of forest. Other approaches start from the Moka side and from the Tranquebar side of Port Louis.",
+     "words": 40,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-pouce#4",
+     "docId": "le-pouce",
+     "title": "Le Pouce",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Route",
+      "Difficulty"
+     ],
+     "text": "A common return route is about 4 to 5 km, and most walkers take 2 to 4 hours depending on the starting point and their pace.\nThe hike is easy to moderate for most of the way.",
+     "words": 37,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-pouce#5",
+     "docId": "le-pouce",
+     "title": "Le Pouce",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Difficulty"
+     ],
+     "text": "The last few hundred metres to the summit are steep and rocky, and you need good balance and sometimes your hands. The reward is a 360° view over Port Louis, the northern plains and the neighbouring peak of Pieter Both.",
+     "words": 40,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-pouce#6",
+     "docId": "le-pouce",
+     "title": "Le Pouce",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "The drier, cooler months from May to November are the most comfortable. Start early in the morning: the path has stretches without shade. After heavy rain the upper rock section becomes slippery.\nNo permit or guide is needed.",
+     "words": 38,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-pouce#7",
+     "docId": "le-pouce",
+     "title": "Le Pouce",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "No permit or guide is needed. Carry at least a litre and a half of water, a hat and shoes with good grip. Guided sunrise and sunset hikes are also offered by local operators.",
+     "words": 34,
+     "overlapChars": 29
+    },
+    {
+     "id": "lion-mountain#1",
+     "docId": "lion-mountain",
+     "title": "Lion Mountain",
+     "type": "hike",
+     "region": "East",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Overview"
+     ],
+     "text": "Lion Mountain, Montagne du Lion, rises to about 480 m above Vieux Grand Port, near Mahébourg on the south-east coast. Seen from the coast road, its ridge looks like a resting lion.",
+     "words": 32,
+     "overlapChars": 0
+    },
+    {
+     "id": "lion-mountain#2",
+     "docId": "lion-mountain",
+     "title": "Lion Mountain",
+     "type": "hike",
+     "region": "East",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "It is the best-known hike in the east of the island.\nThe trail starts in Vieux Grand Port, near the police station, and crosses sugar cane fields before climbing the lion's spine.",
+     "words": 32,
+     "overlapChars": 0
+    },
+    {
+     "id": "lion-mountain#3",
+     "docId": "lion-mountain",
+     "title": "Lion Mountain",
+     "type": "hike",
+     "region": "East",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Route",
+      "Difficulty"
+     ],
+     "text": "The return hike is about 4.5 to 5 km and usually takes 2 to 3 hours. From the top you look over the bay of Grand Port, the lagoon and the islets offshore.\nSources rate it moderate to hard.",
+     "words": 39,
+     "overlapChars": 0
+    },
+    {
+     "id": "lion-mountain#4",
+     "docId": "lion-mountain",
+     "title": "Lion Mountain",
+     "type": "hike",
+     "region": "East",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Difficulty"
+     ],
+     "text": "Sources rate it moderate to hard. The first part of the climb follows a rocky spine where you use your hands as well as your legs, with a few easy but airy scrambling moves.",
+     "words": 34,
+     "overlapChars": 33
+    },
+    {
+     "id": "lion-mountain#5",
+     "docId": "lion-mountain",
+     "title": "Lion Mountain",
+     "type": "hike",
+     "region": "East",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Difficulty",
+      "When to go"
+     ],
+     "text": "Waymarking is limited to paint marks and ribbons, so a guide is advisable if you do not know the route.\nHike it in dry weather only, in any season. The rock becomes dangerous when wet.",
+     "words": 35,
+     "overlapChars": 0
+    },
+    {
+     "id": "lion-mountain#6",
+     "docId": "lion-mountain",
+     "title": "Lion Mountain",
+     "type": "hike",
+     "region": "East",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "The rock becomes dangerous when wet. There is no water on the route and little shade, so an early morning start is best.\nCarry all your water. Guided hikes with local guides are offered from Mahébourg and the surrounding area.",
+     "words": 40,
+     "overlapChars": 36
+    },
+    {
+     "id": "pieter-both#1",
+     "docId": "pieter-both",
+     "title": "Pieter Both",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Hard, technical summit",
+     "sections": [
+      "Overview"
+     ],
+     "text": "Pieter Both is the second-highest mountain in Mauritius, at about 820 m, in the Moka Range above Port Louis. It is instantly recognisable by the round boulder, the \"head\", balanced on top of its narrow summit spire.",
+     "words": 37,
+     "overlapChars": 0
+    },
+    {
+     "id": "pieter-both#2",
+     "docId": "pieter-both",
+     "title": "Pieter Both",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Hard, technical summit",
+     "sections": [
+      "Route"
+     ],
+     "text": "A hiking path through forest and grassland leads to the shoulder below the head. The final section, up the head itself, is a rock climb rather than a hike.",
+     "words": 29,
+     "overlapChars": 0
+    },
+    {
+     "id": "pieter-both#3",
+     "docId": "pieter-both",
+     "title": "Pieter Both",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Hard, technical summit",
+     "sections": [
+      "Route",
+      "Difficulty"
+     ],
+     "text": "Guides use fixed ropes and metal rungs bolted into the basalt, and supply helmets, harnesses and ropes after a safety briefing. Allow a full day with a guided group.\nThis is the hardest summit in this collection.",
+     "words": 37,
+     "overlapChars": 0
+    },
+    {
+     "id": "pieter-both#4",
+     "docId": "pieter-both",
+     "title": "Pieter Both",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Hard, technical summit",
+     "sections": [
+      "Difficulty"
+     ],
+     "text": "This is the hardest summit in this collection. Local guides describe it as the only Mauritian ascent that genuinely requires guiding, and hikers who have done it warn that it is dangerous without a guide.",
+     "words": 35,
+     "overlapChars": 46
+    },
+    {
+     "id": "pieter-both#5",
+     "docId": "pieter-both",
+     "title": "Pieter Both",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Hard, technical summit",
+     "sections": [
+      "Difficulty",
+      "When to go"
+     ],
+     "text": "A head for heights is essential, and it is not suitable for beginners.\nClimb only in dry, calm weather, from May to November if possible.",
+     "words": 25,
+     "overlapChars": 0
+    },
+    {
+     "id": "pieter-both#6",
+     "docId": "pieter-both",
+     "title": "Pieter Both",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Hard, technical summit",
+     "sections": [
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "Wind and wet rock make the summit block unsafe, and guides cancel when conditions are poor.\nBook a licensed mountain guide in advance; the price usually includes all safety equipment.",
+     "words": 30,
+     "overlapChars": 0
+    },
+    {
+     "id": "pieter-both#7",
+     "docId": "pieter-both",
+     "title": "Pieter Both",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Hard, technical summit",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "If you only want the views without the climb, Le Pouce next door offers a similar panorama on a straightforward trail.",
+     "words": 21,
+     "overlapChars": 0
+    },
+    {
+     "id": "port-louis-hills#1",
+     "docId": "port-louis-hills",
+     "title": "Port Louis hills",
+     "type": "training",
+     "region": "North & Port Louis",
+     "difficulty": "Moderate",
+     "sections": [
+      "Overview"
+     ],
+     "text": "The hills around Port Louis give runners in and near the capital steep training without a long drive. The city sits in a bowl under the Moka Range, so climbing starts almost from the streets.",
+     "words": 35,
+     "overlapChars": 0
+    },
+    {
+     "id": "port-louis-hills#2",
+     "docId": "port-louis-hills",
+     "title": "Port Louis hills",
+     "type": "training",
+     "region": "North & Port Louis",
+     "difficulty": "Moderate",
+     "sections": [
+      "The training ground"
+     ],
+     "text": "Signal Mountain, with the Marie Reine de la Paix area on its slopes, is one of the more runnable climbs close to the city centre and works well for hill repeats.",
+     "words": 31,
+     "overlapChars": 0
+    },
+    {
+     "id": "port-louis-hills#3",
+     "docId": "port-louis-hills",
+     "title": "Port Louis hills",
+     "type": "training",
+     "region": "North & Port Louis",
+     "difficulty": "Moderate",
+     "sections": [
+      "The training ground"
+     ],
+     "text": "The trail along the Canal Anglais, an old canal path, leads up towards the plateau and suits steady uphill runs. The Pouce valley, below Le Pouce, offers longer and more challenging trails that link the city to the mountains.",
+     "words": 39,
+     "overlapChars": 0
+    },
+    {
+     "id": "port-louis-hills#4",
+     "docId": "port-louis-hills",
+     "title": "Port Louis hills",
+     "type": "training",
+     "region": "North & Port Louis",
+     "difficulty": "Moderate",
+     "sections": [
+      "Who it suits"
+     ],
+     "text": "Runners who work in Port Louis and want hill sessions before or after work, and hikers preparing for bigger mountains such as Le Pouce, Pieter Both or Le Morne.",
+     "words": 29,
+     "overlapChars": 0
+    },
+    {
+     "id": "port-louis-hills#5",
+     "docId": "port-louis-hills",
+     "title": "Port Louis hills",
+     "type": "training",
+     "region": "North & Port Louis",
+     "difficulty": "Moderate",
+     "sections": [
+      "Conditions"
+     ],
+     "text": "Port Louis is one of the hottest places on the island because it is sheltered from the trade winds. Train at first light or in the evening, and carry water even on short sessions.",
+     "words": 34,
+     "overlapChars": 0
+    },
+    {
+     "id": "port-louis-hills#6",
+     "docId": "port-louis-hills",
+     "title": "Port Louis hills",
+     "type": "training",
+     "region": "North & Port Louis",
+     "difficulty": "Moderate",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Paths near the city are well used but vary in quality. Run with others when exploring the trails in the Pouce valley for the first time.",
+     "words": 26,
+     "overlapChars": 0
+    },
+    {
+     "id": "seasons-and-races#1",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Seasons"
+     ],
+     "text": "The austral winter, from May to November, is the best period for hiking and running in Mauritius: it is cooler and drier, and trails are less muddy.",
+     "words": 27,
+     "overlapChars": 0
+    },
+    {
+     "id": "seasons-and-races#2",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Seasons"
+     ],
+     "text": "The summer months, roughly November to April, are hot and humid with heavy rain, and cyclones can affect the island.",
+     "words": 20,
+     "overlapChars": 0
+    },
+    {
+     "id": "seasons-and-races#3",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Seasons"
+     ],
+     "text": "During summer, train at dawn, shorten long efforts and stay off mountain trails after heavy rain, when rock and mud become dangerous. Always check weather warnings before heading into the mountains.",
+     "words": 31,
+     "overlapChars": 0
+    },
+    {
+     "id": "seasons-and-races#4",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Seasons",
+      "Royal Raid (May)"
+     ],
+     "text": "Always check weather warnings before heading into the mountains.\nThe Royal Raid has been held since 2006 and is the island's longest-running trail race.",
+     "words": 24,
+     "overlapChars": 64
+    },
+    {
+     "id": "seasons-and-races#5",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Royal Raid (May)"
+     ],
+     "text": "It takes place in the Black River Gorges, with distances such as 15 km, 37 km and 70 km offered in past editions. It also opens the Mauritius Odyssey, a multi-stage event.",
+     "words": 32,
+     "overlapChars": 0
+    },
+    {
+     "id": "seasons-and-races#6",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Royal Raid (May)",
+      "Dodo Trail (July)"
+     ],
+     "text": "It also opens the Mauritius Odyssey, a multi-stage event.\nThe Dodo Trail, held in July, is the island's signature trail race. The 2026 edition gathered more than 3,000 runners.",
+     "words": 29,
+     "overlapChars": 57
+    },
+    {
+     "id": "seasons-and-races#7",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Dodo Trail (July)"
+     ],
+     "text": "The 2026 edition gathered more than 3,000 runners. Its flagship Xtreme course covers about 50 km with around 3,500 m of ascent, starting at dawn in the Le Morne area and finishing in Tamarin.",
+     "words": 34,
+     "overlapChars": 50
+    },
+    {
+     "id": "seasons-and-races#8",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Dodo Trail (July)"
+     ],
+     "text": "Shorter formats include the Trooper 25 km, the Venture 10 km and the Rookie 5 km.",
+     "words": 16,
+     "overlapChars": 0
+    },
+    {
+     "id": "seasons-and-races#9",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Building a training block"
+     ],
+     "text": "A typical approach on the island combines the training grounds in this guide: easy laps at Trou aux Cerfs or on the coast, hill strength on La Tourelle de Tamarin or the Port Louis hills, and race-specific long runs in the Black River Gorges.",
+     "words": 44,
+     "overlapChars": 0
+    },
+    {
+     "id": "seasons-and-races#10",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Building a training block"
+     ],
+     "text": "Race dates and formats change each year, so confirm them with the organisers before planning.",
+     "words": 15,
+     "overlapChars": 0
+    },
+    {
+     "id": "tamarind-falls#1",
+     "docId": "tamarind-falls",
+     "title": "Tamarind Falls (Seven Cascades)",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate",
+     "sections": [
+      "Overview"
+     ],
+     "text": "Tamarind Falls, also called the Seven Cascades or Sept Cascades, is a chain of waterfalls in a forested canyon on the central plateau, near Henrietta in the Vacoas area.",
+     "words": 29,
+     "overlapChars": 0
+    },
+    {
+     "id": "tamarind-falls#2",
+     "docId": "tamarind-falls",
+     "title": "Tamarind Falls (Seven Cascades)",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "It is the island's classic waterfall hike, with natural pools for a swim along the way.\nMost guided groups meet at Henrietta, often at the bus station, and walk into the canyon from there.",
+     "words": 34,
+     "overlapChars": 0
+    },
+    {
+     "id": "tamarind-falls#3",
+     "docId": "tamarind-falls",
+     "title": "Tamarind Falls (Seven Cascades)",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate",
+     "sections": [
+      "Route"
+     ],
+     "text": "Half-day hikes of about three hours visit some of the falls; longer full-day itineraries reach more of them. Itineraries vary, and operators quote different numbers of waterfalls, so check what is included before booking.",
+     "words": 34,
+     "overlapChars": 0
+    },
+    {
+     "id": "tamarind-falls#4",
+     "docId": "tamarind-falls",
+     "title": "Tamarind Falls (Seven Cascades)",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate",
+     "sections": [
+      "Difficulty"
+     ],
+     "text": "The hike is moderate, with slippery rocks, river crossings and muddy sections.",
+     "words": 12,
+     "overlapChars": 0
+    },
+    {
+     "id": "tamarind-falls#5",
+     "docId": "tamarind-falls",
+     "title": "Tamarind Falls (Seven Cascades)",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate",
+     "sections": [
+      "Difficulty"
+     ],
+     "text": "The route is not waymarked and side paths multiply through the canyon, which is why local guides recommend a guide here more firmly than on any other hike, even though one is not compulsory.",
+     "words": 34,
+     "overlapChars": 0
+    },
+    {
+     "id": "tamarind-falls#6",
+     "docId": "tamarind-falls",
+     "title": "Tamarind Falls (Seven Cascades)",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate",
+     "sections": [
+      "When to go"
+     ],
+     "text": "Avoid the canyon during and after heavy rain, when river levels rise quickly and the rocks are treacherous. The drier months from May to November are safest.",
+     "words": 27,
+     "overlapChars": 0
+    },
+    {
+     "id": "tamarind-falls#7",
+     "docId": "tamarind-falls",
+     "title": "Tamarind Falls (Seven Cascades)",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate",
+     "sections": [
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "The drier months from May to November are safest.\nWear hiking shoes with good grip that can get wet, and bring a windproof layer, swimwear and water.",
+     "words": 27,
+     "overlapChars": 49
+    },
+    {
+     "id": "tamarind-falls#8",
+     "docId": "tamarind-falls",
+     "title": "Tamarind Falls (Seven Cascades)",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Swimming and jumping into pools should only be done where a guide confirms it is safe.",
+     "words": 16,
+     "overlapChars": 0
+    },
+    {
+     "id": "trou-aux-cerfs#1",
+     "docId": "trou-aux-cerfs",
+     "title": "Trou aux Cerfs crater loop",
+     "type": "training",
+     "region": "Central Plateau",
+     "difficulty": "Easy",
+     "sections": [
+      "Overview"
+     ],
+     "text": "Trou aux Cerfs is a dormant volcanic crater in Curepipe, on the central plateau. The crater is roughly 300 to 350 m across and about 80 m deep, and a road around its rim is closed to traffic.",
+     "words": 38,
+     "overlapChars": 0
+    },
+    {
+     "id": "trou-aux-cerfs#2",
+     "docId": "trou-aux-cerfs",
+     "title": "Trou aux Cerfs crater loop",
+     "type": "training",
+     "region": "Central Plateau",
+     "difficulty": "Easy",
+     "sections": [
+      "Overview",
+      "The training ground"
+     ],
+     "text": "It is one of the most popular places in Mauritius to jog or walk.\nThe rim road is paved, wide and fairly flat, and one lap is about 1 to 1.2 km.",
+     "words": 32,
+     "overlapChars": 0
+    },
+    {
+     "id": "trou-aux-cerfs#3",
+     "docId": "trou-aux-cerfs",
+     "title": "Trou aux Cerfs crater loop",
+     "type": "training",
+     "region": "Central Plateau",
+     "difficulty": "Easy",
+     "sections": [
+      "The training ground"
+     ],
+     "text": "That makes it ideal for easy runs, steady tempo efforts and lap-based intervals, because every lap is the same distance and there are no cars.",
+     "words": 25,
+     "overlapChars": 0
+    },
+    {
+     "id": "trou-aux-cerfs#4",
+     "docId": "trou-aux-cerfs",
+     "title": "Trou aux Cerfs crater loop",
+     "type": "training",
+     "region": "Central Plateau",
+     "difficulty": "Easy",
+     "sections": [
+      "The training ground"
+     ],
+     "text": "Walkers, families and runners share the loop, especially early in the morning and in the late afternoon. Viewpoints around the rim look into the crater and, on clear days, across to the mountains of the west and the Moka Range.",
+     "words": 40,
+     "overlapChars": 0
+    },
+    {
+     "id": "trou-aux-cerfs#5",
+     "docId": "trou-aux-cerfs",
+     "title": "Trou aux Cerfs crater loop",
+     "type": "training",
+     "region": "Central Plateau",
+     "difficulty": "Easy",
+     "sections": [
+      "Who it suits"
+     ],
+     "text": "Beginners building up to their first continuous run, runners doing recovery or tempo sessions, and anyone who wants a safe, measured loop without traffic.",
+     "words": 24,
+     "overlapChars": 0
+    },
+    {
+     "id": "trou-aux-cerfs#6",
+     "docId": "trou-aux-cerfs",
+     "title": "Trou aux Cerfs crater loop",
+     "type": "training",
+     "region": "Central Plateau",
+     "difficulty": "Easy",
+     "sections": [
+      "Who it suits"
+     ],
+     "text": "It is too flat for hill training; for that, use the mountains or La Tourelle de Tamarin.",
+     "words": 17,
+     "overlapChars": 0
+    },
+    {
+     "id": "trou-aux-cerfs#7",
+     "docId": "trou-aux-cerfs",
+     "title": "Trou aux Cerfs crater loop",
+     "type": "training",
+     "region": "Central Plateau",
+     "difficulty": "Easy",
+     "sections": [
+      "Conditions",
+      "Practicalities"
+     ],
+     "text": "Curepipe is higher, cooler and wetter than the coast, so it is a good place to train in the hot months, but expect drizzle and mist. Some viewpoints have uneven natural surfaces.\nAccess is free.",
+     "words": 35,
+     "overlapChars": 0
+    },
+    {
+     "id": "trou-aux-cerfs#8",
+     "docId": "trou-aux-cerfs",
+     "title": "Trou aux Cerfs crater loop",
+     "type": "training",
+     "region": "Central Plateau",
+     "difficulty": "Easy",
+     "sections": [
+      "Conditions",
+      "Practicalities"
+     ],
+     "text": "Some viewpoints have uneven natural surfaces.\nAccess is free. Combine laps here with longer runs on the plateau roads if you need more distance.",
+     "words": 24,
+     "overlapChars": 61
+    }
+   ]
+  },
+  "medium": {
+   "label": "Medium",
+   "words": 100,
+   "overlap": 25,
+   "chunks": [
+    {
+     "id": "athletics-tracks#1",
+     "docId": "athletics-tracks",
+     "title": "Athletics tracks",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Overview",
+      "Maryse Justin Stadium, Réduit",
+      "Stade Germain Comarmond, Bambous"
+     ],
+     "text": "For interval sessions and speed work, nothing replaces a measured track. The main athletics venues in Mauritius are the Maryse Justin Stadium in Réduit and the Stade Germain Comarmond in Bambous.\nThe stadium is named after Maryse Justin-Pyndiah, a Mauritian long-distance runner who specialised in the marathon. It is used by the Mauritius Athletics Association and hosts national championships.\nIn the west, near Bambous, this stadium is used mostly for football and athletics, and has also hosted national youth athletics championships.",
+     "words": 81,
+     "overlapChars": 0
+    },
+    {
+     "id": "athletics-tracks#2",
+     "docId": "athletics-tracks",
+     "title": "Athletics tracks",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Stade Germain Comarmond, Bambous",
+      "Access",
+      "Who it suits"
+     ],
+     "text": "In the west, near Bambous, this stadium is used mostly for football and athletics, and has also hosted national youth athletics championships.\nPublic opening hours and fees for casual runners are not published by the athletics association, whose calendars list competitions and club training. The reliable way to train on a track is to join an athletics club or to ask the Mauritius Athletics Association or the stadium administration about access.\nRunners doing structured speed work, such as 400 m repeats or tempo intervals, and anyone preparing for road races who wants precise pacing.",
+     "words": 94,
+     "overlapChars": 142
+    },
+    {
+     "id": "athletics-tracks#3",
+     "docId": "athletics-tracks",
+     "title": "Athletics tracks",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Who it suits"
+     ],
+     "text": "Runners doing structured speed work, such as 400 m repeats or tempo intervals, and anyone preparing for road races who wants precise pacing. For an open-access measured loop without traffic, the Trou aux Cerfs crater rim in Curepipe is the usual alternative.",
+     "words": 42,
+     "overlapChars": 140
+    },
+    {
+     "id": "black-river-gorges-trails#1",
+     "docId": "black-river-gorges-trails",
+     "title": "Black River Gorges National Park trails",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to hard",
+     "sections": [
+      "Overview",
+      "Entrances"
+     ],
+     "text": "Black River Gorges National Park protects the largest area of native forest left in Mauritius, in the south-west of the island. It is home to rare endemic birds such as the echo parakeet, the pink pigeon and the Mauritius kestrel. Entry to the park and its trails is free.\nThere are two official entrances with visitor centres: Pétrin, on the plateau, and Rivière Noire, at the bottom of the gorges on the west side. Rangers there can advise on current trail conditions, and trail maps are available. Some sources say the park gates close at about 5 pm.",
+     "words": 98,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-gorges-trails#2",
+     "docId": "black-river-gorges-trails",
+     "title": "Black River Gorges National Park trails",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to hard",
+     "sections": [
+      "Entrances",
+      "Trails"
+     ],
+     "text": "Rangers there can advise on current trail conditions, and trail maps are available. Some sources say the park gates close at about 5 pm.\nThe Macchabée forest loop starts from Pétrin and runs through some of the best native forest on the island. Its length varies by variant, with sources quoting anywhere from about 8 to 14 km. The Parakeet Trail is a much harder one-way descent of roughly 6 to 8 km through steep, technical terrain, taking most people three to four hours.",
+     "words": 84,
+     "overlapChars": 136
+    },
+    {
+     "id": "black-river-gorges-trails#3",
+     "docId": "black-river-gorges-trails",
+     "title": "Black River Gorges National Park trails",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to hard",
+     "sections": [
+      "Trails",
+      "Difficulty",
+      "When to go"
+     ],
+     "text": "Gentler options include short walks to viewpoints such as Alexandra Falls and the Black River Gorges viewpoint.\nDifficulty ranges from easy viewpoint strolls to hard, technical descents. Trails are not always well marked, so check the route and conditions at a visitor centre before you set off.\nMay to November is the best season, with fewer muddy paths. The plateau is often misty and cooler than the coast, so bring a light rain jacket.",
+     "words": 74,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-peak#1",
+     "docId": "black-river-peak",
+     "title": "Black River Peak",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "Black River Peak, Piton de la Petite Rivière Noire, is the highest point in Mauritius at about 828 m. It stands inside Black River Gorges National Park, and despite being the highest summit it is one of the shortest hikes to a major peak on the island.\nThe usual trailhead is on the B103 Plaine Champagne road, close to the Black River Gorges viewpoint. Parking at the trailhead fits only two or three cars, so many hikers leave the car at the viewpoint car park a short walk away.",
+     "words": 89,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-peak#2",
+     "docId": "black-river-peak",
+     "title": "Black River Peak",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Route",
+      "Difficulty"
+     ],
+     "text": "Parking at the trailhead fits only two or three cars, so many hikers leave the car at the viewpoint car park a short walk away. From the viewpoint side the return hike is about 3 to 3.5 km with under 200 m of climbing, and most people reach the top in about an hour to an hour and a half.\nThe trail is mostly well maintained and easy to follow through native forest. The final section is steeper and rockier, and ropes help on the rock in places.",
+     "words": 88,
+     "overlapChars": 127
+    },
+    {
+     "id": "black-river-peak#3",
+     "docId": "black-river-peak",
+     "title": "Black River Peak",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Difficulty",
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "The final section is steeper and rockier, and ropes help on the rock in places. The trailhead is not well signposted, so check a map before you go. From the summit you look down over the west coast, Tamarin bay and Le Morne.\nMay to November is drier and less muddy. Start in the morning, and turn back if the summit is in cloud and the rock is wet.\nEntry to the national park is free and no permit is required. Guided hikes are available if you prefer not to navigate the unsigned start.",
+     "words": 94,
+     "overlapChars": 79
+    },
+    {
+     "id": "black-river-peak#4",
+     "docId": "black-river-peak",
+     "title": "Black River Peak",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Entry to the national park is free and no permit is required. Guided hikes are available if you prefer not to navigate the unsigned start. Bring a light jacket: Plaine Champagne is noticeably cooler and windier than the coast.",
+     "words": 39,
+     "overlapChars": 138
+    },
+    {
+     "id": "bras-d-eau#1",
+     "docId": "bras-d-eau",
+     "title": "Bras d'Eau National Park",
+     "type": "training",
+     "region": "East",
+     "difficulty": "Easy",
+     "sections": [
+      "Overview",
+      "The training ground"
+     ],
+     "text": "Bras d'Eau National Park is a coastal forest park in the north-east of Mauritius. Its trails run through forest that includes mangroves and endemic trees, and they are much flatter than the mountain trails of the west and centre.\nBras d'Eau is a good place for fairly easy trail running. Trails start from the visitor centre, and the gentle terrain makes it a natural first step from road running to trail running, or a place for relaxed long runs on soft ground.",
+     "words": 82,
+     "overlapChars": 0
+    },
+    {
+     "id": "bras-d-eau#2",
+     "docId": "bras-d-eau",
+     "title": "Bras d'Eau National Park",
+     "type": "training",
+     "region": "East",
+     "difficulty": "Easy",
+     "sections": [
+      "Who it suits",
+      "Conditions",
+      "Practicalities"
+     ],
+     "text": "Beginners trying trail running for the first time, runners in the east and north of the island, and anyone who wants shaded, quiet running away from traffic without technical terrain.\nBeing on the coast, it is warm and humid; the forest gives more shade than beach routes. After heavy rain, parts of the trails can be muddy.\nPick up information at the visitor centre before heading out, and stay on the marked trails to protect the forest.",
+     "words": 77,
+     "overlapChars": 0
+    },
+    {
+     "id": "coastal-runs#1",
+     "docId": "coastal-runs",
+     "title": "Flat coastal runs",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Overview",
+      "West: Flic en Flac",
+      "East: Belle Mare"
+     ],
+     "text": "When the goal is easy mileage, recovery runs or speed on the flat, the coast is the place to train. Each side of the island has its own classic route.\nFlic en Flac has about 8 km of white-sand beach and a flat seafront road, which makes it one of the best places on the island for beginners and for early-morning runs. Running on sand also builds strength in the feet and calves.\nBelle Mare has a beachfront path and roughly 1.5 km of firm sand road along the beach, with quiet farm roads inland for longer runs.",
+     "words": 98,
+     "overlapChars": 0
+    },
+    {
+     "id": "coastal-runs#2",
+     "docId": "coastal-runs",
+     "title": "Flat coastal runs",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "East: Belle Mare",
+      "North: Mont Choisy and Grand Baie",
+      "South-west: Le Morne"
+     ],
+     "text": "Belle Mare has a beachfront path and roughly 1.5 km of firm sand road along the beach, with quiet farm roads inland for longer runs. One mapped beachfront loop from Belle Mare is about 10 km.\nThe coastal road leading to Mont Choisy beach is quieter than the main roads. Sections of the B13 through Pereybère, Grand Baie and Mont Choisy have a narrow sidewalk or shoulder, so run there with care and at quiet times.\nA flat trail runs along the water at Le Morne, a scenic option for an easy run before or after hiking the mountain.",
+     "words": 99,
+     "overlapChars": 132
+    },
+    {
+     "id": "coastal-runs#3",
+     "docId": "coastal-runs",
+     "title": "Flat coastal runs",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "South-west: Le Morne",
+      "Conditions"
+     ],
+     "text": "A flat trail runs along the water at Le Morne, a scenic option for an easy run before or after hiking the mountain.\nThe coast is hot and humid for most of the year. Run at dawn or late in the day, carry water, and wear shoes on rocky beaches where sea urchins hide.",
+     "words": 54,
+     "overlapChars": 115
+    },
+    {
+     "id": "corps-de-garde#1",
+     "docId": "corps-de-garde",
+     "title": "Corps de Garde",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Overview",
+      "Route",
+      "Difficulty"
+     ],
+     "text": "Corps de Garde is a mountain of about 720 m that towers over Rose Hill, Beau Bassin and Quatre Bornes. From its ridge you see the whole central plateau, the west coast and, on clear days, Port Louis.\nThe classic route is a loop above Rose Hill. One detailed guide describes it as about 7 km with more than 600 m of ascent, and other sources give 2 to 4 hours. The path is marked with white stones up to the ridge.\nIt is not really a beginner hike.",
+     "words": 89,
+     "overlapChars": 0
+    },
+    {
+     "id": "corps-de-garde#2",
+     "docId": "corps-de-garde",
+     "title": "Corps de Garde",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Route",
+      "Difficulty",
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "The path is marked with white stones up to the ridge.\nIt is not really a beginner hike. The climb starts steeply, with rocky steps where you need your hands, and the slopes near the summit are challenging. Sources rate it medium to hard.\nThe route has very little shade, so avoid the middle of the day. May to November is cooler; in summer, go at first light.\nIt is free and no guide is needed. Take about two litres of water per person, sun protection and shoes with good grip.",
+     "words": 91,
+     "overlapChars": 87
+    },
+    {
+     "id": "gorges-trail-running#1",
+     "docId": "gorges-trail-running",
+     "title": "Black River Gorges for trail running",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Overview",
+      "The training ground"
+     ],
+     "text": "Black River Gorges National Park is the main trail-running training ground in Mauritius. It has about 60 km of trails, many of them hilly with challenging, technical footing, through native forest between the Pétrin plateau and the Rivière Noire entrance.\nThe park is where you train for real mountain races. Long runs on the forest loops build endurance, and the climbs out of the gorges build strength for steep ascents and technical descents.",
+     "words": 73,
+     "overlapChars": 0
+    },
+    {
+     "id": "gorges-trail-running#2",
+     "docId": "gorges-trail-running",
+     "title": "Black River Gorges for trail running",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "The training ground",
+      "Who it suits"
+     ],
+     "text": "Long runs on the forest loops build endurance, and the climbs out of the gorges build strength for steep ascents and technical descents. The Royal Raid, the island's longest-running trail race, held since 2006, takes place in the Black River Gorges, with distances such as 15 km, 37 km and 70 km offered in past editions. Training on its trails is the most race-specific preparation you can do on the island.\nIntermediate and experienced trail runners preparing for the Royal Raid, the Dodo Trail or races abroad.",
+     "words": 87,
+     "overlapChars": 136
+    },
+    {
+     "id": "gorges-trail-running#3",
+     "docId": "gorges-trail-running",
+     "title": "Black River Gorges for trail running",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Who it suits",
+      "Conditions",
+      "Practicalities"
+     ],
+     "text": "Intermediate and experienced trail runners preparing for the Royal Raid, the Dodo Trail or races abroad. Beginners should start on the shorter, well-used trails from the Pétrin visitor centre and run with someone who knows the network.\nFooting gets very muddy and slippery in the wet season. The austral winter, from May to November, is the best period for long runs. Trails are not always well marked, and there is little phone signal in places.\nEntry is free. Check routes with rangers at the visitor centres, carry water and a map, and tell someone your planned route.",
+     "words": 97,
+     "overlapChars": 104
+    },
+    {
+     "id": "la-tourelle-de-tamarin#1",
+     "docId": "la-tourelle-de-tamarin",
+     "title": "La Tourelle de Tamarin",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Hard",
+     "sections": [
+      "Overview",
+      "The training ground"
+     ],
+     "text": "La Tourelle de Tamarin is a steep mountain less than a kilometre from the coast at Tamarin, on the west of the island. Runners use it as a brutal hill-training ground: about 560 m of ascent over roughly 4.4 km return.\nThis is a place for vertical training, not for setting times. Repeats on the steepest part build the climbing strength needed for mountain races. Fixed ropes equip some of the steps, so expect to use your hands. The descent is as important to practise as the climb: take it carefully, especially when tired.",
+     "words": 94,
+     "overlapChars": 0
+    },
+    {
+     "id": "la-tourelle-de-tamarin#2",
+     "docId": "la-tourelle-de-tamarin",
+     "title": "La Tourelle de Tamarin",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Hard",
+     "sections": [
+      "The training ground",
+      "Who it suits",
+      "Conditions"
+     ],
+     "text": "The descent is as important to practise as the climb: take it carefully, especially when tired.\nTrail runners and hikers preparing for races with a lot of climbing, such as the Dodo Trail or the Royal Raid. It is not a beginner route; build up on easier hills first, such as Le Pouce or the Port Louis hills.\nThe west coast is hot and dry, and the slope offers little shade. Train at dawn or late in the afternoon.",
+     "words": 79,
+     "overlapChars": 95
+    },
+    {
+     "id": "la-tourelle-de-tamarin#3",
+     "docId": "la-tourelle-de-tamarin",
+     "title": "La Tourelle de Tamarin",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Hard",
+     "sections": [
+      "Conditions",
+      "Practicalities"
+     ],
+     "text": "The west coast is hot and dry, and the slope offers little shade. Train at dawn or late in the afternoon. Darkness falls quickly in Mauritius, in about twenty minutes, between about 5:45 pm and 7 pm depending on the season, so carry a headlamp on evening sessions.\nBring plenty of water and gloves for the rope sections. Avoid it after rain, when the steps become slippery.",
+     "words": 67,
+     "overlapChars": 105
+    },
+    {
+     "id": "le-morne-brabant#1",
+     "docId": "le-morne-brabant",
+     "title": "Le Morne Brabant",
+     "type": "hike",
+     "region": "South",
+     "difficulty": "Moderate to the cross, hard to the summit",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "Le Morne Brabant is the 556 m basalt mountain on the south-western peninsula of Mauritius. It is a UNESCO World Heritage cultural landscape, inscribed in 2008, because its cliffs sheltered escaped enslaved people, the maroons, in the 18th and 19th centuries. Hike it with that history in mind.\nThe trail starts at a gate near the base of the mountain, where hikers sign in and out of a register for safety. The lower trail climbs to a viewpoint with a large cross, with views over the lagoon and the south-west coast.",
+     "words": 91,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-morne-brabant#2",
+     "docId": "le-morne-brabant",
+     "title": "Le Morne Brabant",
+     "type": "hike",
+     "region": "South",
+     "difficulty": "Moderate to the cross, hard to the summit",
+     "sections": [
+      "Route",
+      "Rules and access"
+     ],
+     "text": "The lower trail climbs to a viewpoint with a large cross, with views over the lagoon and the south-west coast. Above the cross, the final section to the summit is a steep scramble where you climb on all fours. A full return to the summit takes about 3 to 5 hours.\nPublished opening hours differ between sources, but the gate opens early in the morning and late starts are not allowed, with the last departure in the early afternoon. Access is closed on rainy days. Sources also disagree on whether a licensed guide is required above the cross.",
+     "words": 98,
+     "overlapChars": 110
+    },
+    {
+     "id": "le-morne-brabant#3",
+     "docId": "le-morne-brabant",
+     "title": "Le Morne Brabant",
+     "type": "hike",
+     "region": "South",
+     "difficulty": "Moderate to the cross, hard to the summit",
+     "sections": [
+      "Rules and access",
+      "Difficulty",
+      "When to go"
+     ],
+     "text": "Access is closed on rainy days. Sources also disagree on whether a licensed guide is required above the cross. Check the current rules on site or with a local operator before you plan the summit.\nTo the cross, the hike is moderate but hot. The summit section is hard and exposed, and should be skipped after rain because the rock becomes slippery.\nStart at dawn. There is very little shade, and the south-west coast gets hot by mid-morning. The cooler months from May to November are the most pleasant.",
+     "words": 89,
+     "overlapChars": 110
+    },
+    {
+     "id": "le-pouce#1",
+     "docId": "le-pouce",
+     "title": "Le Pouce",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "Le Pouce, \"the thumb\", is the third-highest mountain in Mauritius at about 812 m. Its thumb-shaped summit rises from the Moka Range directly above Port Louis, and it is one of the most popular half-day hikes on the island because it is short, well trodden and close to the capital.\nThe best-known trailhead is the village of Petit Verger, near Saint Pierre, where a well-marked path climbs through sugar cane fields and patches of forest. Other approaches start from the Moka side and from the Tranquebar side of Port Louis.",
+     "words": 90,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-pouce#2",
+     "docId": "le-pouce",
+     "title": "Le Pouce",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Route",
+      "Difficulty"
+     ],
+     "text": "Other approaches start from the Moka side and from the Tranquebar side of Port Louis. A common return route is about 4 to 5 km, and most walkers take 2 to 4 hours depending on the starting point and their pace.\nThe hike is easy to moderate for most of the way. The last few hundred metres to the summit are steep and rocky, and you need good balance and sometimes your hands. The reward is a 360° view over Port Louis, the northern plains and the neighbouring peak of Pieter Both.",
+     "words": 92,
+     "overlapChars": 85
+    },
+    {
+     "id": "le-pouce#3",
+     "docId": "le-pouce",
+     "title": "Le Pouce",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Difficulty",
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "The reward is a 360° view over Port Louis, the northern plains and the neighbouring peak of Pieter Both.\nThe drier, cooler months from May to November are the most comfortable. Start early in the morning: the path has stretches without shade. After heavy rain the upper rock section becomes slippery.\nNo permit or guide is needed. Carry at least a litre and a half of water, a hat and shoes with good grip. Guided sunrise and sunset hikes are also offered by local operators.",
+     "words": 85,
+     "overlapChars": 104
+    },
+    {
+     "id": "lion-mountain#1",
+     "docId": "lion-mountain",
+     "title": "Lion Mountain",
+     "type": "hike",
+     "region": "East",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "Lion Mountain, Montagne du Lion, rises to about 480 m above Vieux Grand Port, near Mahébourg on the south-east coast. Seen from the coast road, its ridge looks like a resting lion. It is the best-known hike in the east of the island.\nThe trail starts in Vieux Grand Port, near the police station, and crosses sugar cane fields before climbing the lion's spine. The return hike is about 4.5 to 5 km and usually takes 2 to 3 hours. From the top you look over the bay of Grand Port, the lagoon and the islets offshore.",
+     "words": 97,
+     "overlapChars": 0
+    },
+    {
+     "id": "lion-mountain#2",
+     "docId": "lion-mountain",
+     "title": "Lion Mountain",
+     "type": "hike",
+     "region": "East",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Route",
+      "Difficulty",
+      "When to go"
+     ],
+     "text": "From the top you look over the bay of Grand Port, the lagoon and the islets offshore.\nSources rate it moderate to hard. The first part of the climb follows a rocky spine where you use your hands as well as your legs, with a few easy but airy scrambling moves. Waymarking is limited to paint marks and ribbons, so a guide is advisable if you do not know the route.\nHike it in dry weather only, in any season. The rock becomes dangerous when wet.",
+     "words": 86,
+     "overlapChars": 85
+    },
+    {
+     "id": "lion-mountain#3",
+     "docId": "lion-mountain",
+     "title": "Lion Mountain",
+     "type": "hike",
+     "region": "East",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "Hike it in dry weather only, in any season. The rock becomes dangerous when wet. There is no water on the route and little shade, so an early morning start is best.\nCarry all your water. Guided hikes with local guides are offered from Mahébourg and the surrounding area.",
+     "words": 49,
+     "overlapChars": 80
+    },
+    {
+     "id": "pieter-both#1",
+     "docId": "pieter-both",
+     "title": "Pieter Both",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Hard, technical summit",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "Pieter Both is the second-highest mountain in Mauritius, at about 820 m, in the Moka Range above Port Louis. It is instantly recognisable by the round boulder, the \"head\", balanced on top of its narrow summit spire.\nA hiking path through forest and grassland leads to the shoulder below the head. The final section, up the head itself, is a rock climb rather than a hike. Guides use fixed ropes and metal rungs bolted into the basalt, and supply helmets, harnesses and ropes after a safety briefing. Allow a full day with a guided group.",
+     "words": 95,
+     "overlapChars": 0
+    },
+    {
+     "id": "pieter-both#2",
+     "docId": "pieter-both",
+     "title": "Pieter Both",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Hard, technical summit",
+     "sections": [
+      "Route",
+      "Difficulty",
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "Allow a full day with a guided group.\nThis is the hardest summit in this collection. Local guides describe it as the only Mauritian ascent that genuinely requires guiding, and hikers who have done it warn that it is dangerous without a guide. A head for heights is essential, and it is not suitable for beginners.\nClimb only in dry, calm weather, from May to November if possible. Wind and wet rock make the summit block unsafe, and guides cancel when conditions are poor.\nBook a licensed mountain guide in advance; the price usually includes all safety equipment.",
+     "words": 98,
+     "overlapChars": 37
+    },
+    {
+     "id": "pieter-both#3",
+     "docId": "pieter-both",
+     "title": "Pieter Both",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Hard, technical summit",
+     "sections": [
+      "Practicalities"
+     ],
+     "text": "Book a licensed mountain guide in advance; the price usually includes all safety equipment. If you only want the views without the climb, Le Pouce next door offers a similar panorama on a straightforward trail.",
+     "words": 35,
+     "overlapChars": 91
+    },
+    {
+     "id": "port-louis-hills#1",
+     "docId": "port-louis-hills",
+     "title": "Port Louis hills",
+     "type": "training",
+     "region": "North & Port Louis",
+     "difficulty": "Moderate",
+     "sections": [
+      "Overview",
+      "The training ground"
+     ],
+     "text": "The hills around Port Louis give runners in and near the capital steep training without a long drive. The city sits in a bowl under the Moka Range, so climbing starts almost from the streets.\nSignal Mountain, with the Marie Reine de la Paix area on its slopes, is one of the more runnable climbs close to the city centre and works well for hill repeats. The trail along the Canal Anglais, an old canal path, leads up towards the plateau and suits steady uphill runs.",
+     "words": 86,
+     "overlapChars": 0
+    },
+    {
+     "id": "port-louis-hills#2",
+     "docId": "port-louis-hills",
+     "title": "Port Louis hills",
+     "type": "training",
+     "region": "North & Port Louis",
+     "difficulty": "Moderate",
+     "sections": [
+      "The training ground",
+      "Who it suits",
+      "Conditions"
+     ],
+     "text": "The trail along the Canal Anglais, an old canal path, leads up towards the plateau and suits steady uphill runs. The Pouce valley, below Le Pouce, offers longer and more challenging trails that link the city to the mountains.\nRunners who work in Port Louis and want hill sessions before or after work, and hikers preparing for bigger mountains such as Le Pouce, Pieter Both or Le Morne.\nPort Louis is one of the hottest places on the island because it is sheltered from the trade winds.",
+     "words": 87,
+     "overlapChars": 112
+    },
+    {
+     "id": "port-louis-hills#3",
+     "docId": "port-louis-hills",
+     "title": "Port Louis hills",
+     "type": "training",
+     "region": "North & Port Louis",
+     "difficulty": "Moderate",
+     "sections": [
+      "Conditions",
+      "Practicalities"
+     ],
+     "text": "Port Louis is one of the hottest places on the island because it is sheltered from the trade winds. Train at first light or in the evening, and carry water even on short sessions.\nPaths near the city are well used but vary in quality. Run with others when exploring the trails in the Pouce valley for the first time.",
+     "words": 60,
+     "overlapChars": 99
+    },
+    {
+     "id": "seasons-and-races#1",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Seasons",
+      "Royal Raid (May)"
+     ],
+     "text": "The austral winter, from May to November, is the best period for hiking and running in Mauritius: it is cooler and drier, and trails are less muddy. The summer months, roughly November to April, are hot and humid with heavy rain, and cyclones can affect the island. During summer, train at dawn, shorten long efforts and stay off mountain trails after heavy rain, when rock and mud become dangerous. Always check weather warnings before heading into the mountains.\nThe Royal Raid has been held since 2006 and is the island's longest-running trail race.",
+     "words": 93,
+     "overlapChars": 0
+    },
+    {
+     "id": "seasons-and-races#2",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Seasons",
+      "Royal Raid (May)",
+      "Dodo Trail (July)"
+     ],
+     "text": "Always check weather warnings before heading into the mountains.\nThe Royal Raid has been held since 2006 and is the island's longest-running trail race. It takes place in the Black River Gorges, with distances such as 15 km, 37 km and 70 km offered in past editions. It also opens the Mauritius Odyssey, a multi-stage event.\nThe Dodo Trail, held in July, is the island's signature trail race. The 2026 edition gathered more than 3,000 runners.",
+     "words": 76,
+     "overlapChars": 152
+    },
+    {
+     "id": "seasons-and-races#3",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Dodo Trail (July)"
+     ],
+     "text": "The Dodo Trail, held in July, is the island's signature trail race. The 2026 edition gathered more than 3,000 runners. Its flagship Xtreme course covers about 50 km with around 3,500 m of ascent, starting at dawn in the Le Morne area and finishing in Tamarin. Shorter formats include the Trooper 25 km, the Venture 10 km and the Rookie 5 km.",
+     "words": 62,
+     "overlapChars": 118
+    },
+    {
+     "id": "seasons-and-races#4",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Dodo Trail (July)",
+      "Building a training block"
+     ],
+     "text": "Shorter formats include the Trooper 25 km, the Venture 10 km and the Rookie 5 km.\nA typical approach on the island combines the training grounds in this guide: easy laps at Trou aux Cerfs or on the coast, hill strength on La Tourelle de Tamarin or the Port Louis hills, and race-specific long runs in the Black River Gorges. Race dates and formats change each year, so confirm them with the organisers before planning.",
+     "words": 75,
+     "overlapChars": 81
+    },
+    {
+     "id": "tamarind-falls#1",
+     "docId": "tamarind-falls",
+     "title": "Tamarind Falls (Seven Cascades)",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate",
+     "sections": [
+      "Overview",
+      "Route"
+     ],
+     "text": "Tamarind Falls, also called the Seven Cascades or Sept Cascades, is a chain of waterfalls in a forested canyon on the central plateau, near Henrietta in the Vacoas area. It is the island's classic waterfall hike, with natural pools for a swim along the way.\nMost guided groups meet at Henrietta, often at the bus station, and walk into the canyon from there. Half-day hikes of about three hours visit some of the falls; longer full-day itineraries reach more of them. Itineraries vary, and operators quote different numbers of waterfalls, so check what is included before booking.",
+     "words": 97,
+     "overlapChars": 0
+    },
+    {
+     "id": "tamarind-falls#2",
+     "docId": "tamarind-falls",
+     "title": "Tamarind Falls (Seven Cascades)",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate",
+     "sections": [
+      "Route",
+      "Difficulty",
+      "When to go"
+     ],
+     "text": "Itineraries vary, and operators quote different numbers of waterfalls, so check what is included before booking.\nThe hike is moderate, with slippery rocks, river crossings and muddy sections. The route is not waymarked and side paths multiply through the canyon, which is why local guides recommend a guide here more firmly than on any other hike, even though one is not compulsory.\nAvoid the canyon during and after heavy rain, when river levels rise quickly and the rocks are treacherous. The drier months from May to November are safest.",
+     "words": 89,
+     "overlapChars": 112
+    },
+    {
+     "id": "tamarind-falls#3",
+     "docId": "tamarind-falls",
+     "title": "Tamarind Falls (Seven Cascades)",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate",
+     "sections": [
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "The drier months from May to November are safest.\nWear hiking shoes with good grip that can get wet, and bring a windproof layer, swimwear and water. Swimming and jumping into pools should only be done where a guide confirms it is safe.",
+     "words": 43,
+     "overlapChars": 49
+    },
+    {
+     "id": "trou-aux-cerfs#1",
+     "docId": "trou-aux-cerfs",
+     "title": "Trou aux Cerfs crater loop",
+     "type": "training",
+     "region": "Central Plateau",
+     "difficulty": "Easy",
+     "sections": [
+      "Overview",
+      "The training ground"
+     ],
+     "text": "Trou aux Cerfs is a dormant volcanic crater in Curepipe, on the central plateau. The crater is roughly 300 to 350 m across and about 80 m deep, and a road around its rim is closed to traffic. It is one of the most popular places in Mauritius to jog or walk.\nThe rim road is paved, wide and fairly flat, and one lap is about 1 to 1.2 km. That makes it ideal for easy runs, steady tempo efforts and lap-based intervals, because every lap is the same distance and there are no cars.",
+     "words": 95,
+     "overlapChars": 0
+    },
+    {
+     "id": "trou-aux-cerfs#2",
+     "docId": "trou-aux-cerfs",
+     "title": "Trou aux Cerfs crater loop",
+     "type": "training",
+     "region": "Central Plateau",
+     "difficulty": "Easy",
+     "sections": [
+      "The training ground",
+      "Who it suits"
+     ],
+     "text": "That makes it ideal for easy runs, steady tempo efforts and lap-based intervals, because every lap is the same distance and there are no cars. Walkers, families and runners share the loop, especially early in the morning and in the late afternoon. Viewpoints around the rim look into the crater and, on clear days, across to the mountains of the west and the Moka Range.\nBeginners building up to their first continuous run, runners doing recovery or tempo sessions, and anyone who wants a safe, measured loop without traffic.",
+     "words": 89,
+     "overlapChars": 142
+    },
+    {
+     "id": "trou-aux-cerfs#3",
+     "docId": "trou-aux-cerfs",
+     "title": "Trou aux Cerfs crater loop",
+     "type": "training",
+     "region": "Central Plateau",
+     "difficulty": "Easy",
+     "sections": [
+      "Who it suits",
+      "Conditions",
+      "Practicalities"
+     ],
+     "text": "Beginners building up to their first continuous run, runners doing recovery or tempo sessions, and anyone who wants a safe, measured loop without traffic. It is too flat for hill training; for that, use the mountains or La Tourelle de Tamarin.\nCurepipe is higher, cooler and wetter than the coast, so it is a good place to train in the hot months, but expect drizzle and mist. Some viewpoints have uneven natural surfaces.\nAccess is free. Combine laps here with longer runs on the plateau roads if you need more distance.",
+     "words": 91,
+     "overlapChars": 154
+    }
+   ]
+  },
+  "large": {
+   "label": "Large",
+   "words": 220,
+   "overlap": 50,
+   "chunks": [
+    {
+     "id": "athletics-tracks#1",
+     "docId": "athletics-tracks",
+     "title": "Athletics tracks",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Overview",
+      "Maryse Justin Stadium, Réduit",
+      "Stade Germain Comarmond, Bambous",
+      "Access",
+      "Who it suits"
+     ],
+     "text": "For interval sessions and speed work, nothing replaces a measured track. The main athletics venues in Mauritius are the Maryse Justin Stadium in Réduit and the Stade Germain Comarmond in Bambous.\nThe stadium is named after Maryse Justin-Pyndiah, a Mauritian long-distance runner who specialised in the marathon. It is used by the Mauritius Athletics Association and hosts national championships.\nIn the west, near Bambous, this stadium is used mostly for football and athletics, and has also hosted national youth athletics championships.\nPublic opening hours and fees for casual runners are not published by the athletics association, whose calendars list competitions and club training. The reliable way to train on a track is to join an athletics club or to ask the Mauritius Athletics Association or the stadium administration about access.\nRunners doing structured speed work, such as 400 m repeats or tempo intervals, and anyone preparing for road races who wants precise pacing. For an open-access measured loop without traffic, the Trou aux Cerfs crater rim in Curepipe is the usual alternative.",
+     "words": 172,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-gorges-trails#1",
+     "docId": "black-river-gorges-trails",
+     "title": "Black River Gorges National Park trails",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to hard",
+     "sections": [
+      "Overview",
+      "Entrances",
+      "Trails",
+      "Difficulty",
+      "When to go"
+     ],
+     "text": "Black River Gorges National Park protects the largest area of native forest left in Mauritius, in the south-west of the island. It is home to rare endemic birds such as the echo parakeet, the pink pigeon and the Mauritius kestrel. Entry to the park and its trails is free.\nThere are two official entrances with visitor centres: Pétrin, on the plateau, and Rivière Noire, at the bottom of the gorges on the west side. Rangers there can advise on current trail conditions, and trail maps are available. Some sources say the park gates close at about 5 pm.\nThe Macchabée forest loop starts from Pétrin and runs through some of the best native forest on the island. Its length varies by variant, with sources quoting anywhere from about 8 to 14 km. The Parakeet Trail is a much harder one-way descent of roughly 6 to 8 km through steep, technical terrain, taking most people three to four hours. Gentler options include short walks to viewpoints such as Alexandra Falls and the Black River Gorges viewpoint.\nDifficulty ranges from easy viewpoint strolls to hard, technical descents. Trails are not always well marked, so check the route and conditions at a visitor centre before you set off.\nMay to November is the best season, with fewer muddy paths.",
+     "words": 216,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-gorges-trails#2",
+     "docId": "black-river-gorges-trails",
+     "title": "Black River Gorges National Park trails",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to hard",
+     "sections": [
+      "Difficulty",
+      "When to go"
+     ],
+     "text": "Difficulty ranges from easy viewpoint strolls to hard, technical descents. Trails are not always well marked, so check the route and conditions at a visitor centre before you set off.\nMay to November is the best season, with fewer muddy paths. The plateau is often misty and cooler than the coast, so bring a light rain jacket.",
+     "words": 57,
+     "overlapChars": 243
+    },
+    {
+     "id": "black-river-peak#1",
+     "docId": "black-river-peak",
+     "title": "Black River Peak",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Overview",
+      "Route",
+      "Difficulty",
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "Black River Peak, Piton de la Petite Rivière Noire, is the highest point in Mauritius at about 828 m. It stands inside Black River Gorges National Park, and despite being the highest summit it is one of the shortest hikes to a major peak on the island.\nThe usual trailhead is on the B103 Plaine Champagne road, close to the Black River Gorges viewpoint. Parking at the trailhead fits only two or three cars, so many hikers leave the car at the viewpoint car park a short walk away. From the viewpoint side the return hike is about 3 to 3.5 km with under 200 m of climbing, and most people reach the top in about an hour to an hour and a half.\nThe trail is mostly well maintained and easy to follow through native forest. The final section is steeper and rockier, and ropes help on the rock in places. The trailhead is not well signposted, so check a map before you go. From the summit you look down over the west coast, Tamarin bay and Le Morne.\nMay to November is drier and less muddy. Start in the morning, and turn back if the summit is in cloud and the rock is wet.\nEntry to the national park is free and no permit is required.",
+     "words": 218,
+     "overlapChars": 0
+    },
+    {
+     "id": "black-river-peak#2",
+     "docId": "black-river-peak",
+     "title": "Black River Peak",
+     "type": "hike",
+     "region": "West",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "May to November is drier and less muddy. Start in the morning, and turn back if the summit is in cloud and the rock is wet.\nEntry to the national park is free and no permit is required. Guided hikes are available if you prefer not to navigate the unsigned start. Bring a light jacket: Plaine Champagne is noticeably cooler and windier than the coast.",
+     "words": 65,
+     "overlapChars": 185
+    },
+    {
+     "id": "bras-d-eau#1",
+     "docId": "bras-d-eau",
+     "title": "Bras d'Eau National Park",
+     "type": "training",
+     "region": "East",
+     "difficulty": "Easy",
+     "sections": [
+      "Overview",
+      "The training ground",
+      "Who it suits",
+      "Conditions",
+      "Practicalities"
+     ],
+     "text": "Bras d'Eau National Park is a coastal forest park in the north-east of Mauritius. Its trails run through forest that includes mangroves and endemic trees, and they are much flatter than the mountain trails of the west and centre.\nBras d'Eau is a good place for fairly easy trail running. Trails start from the visitor centre, and the gentle terrain makes it a natural first step from road running to trail running, or a place for relaxed long runs on soft ground.\nBeginners trying trail running for the first time, runners in the east and north of the island, and anyone who wants shaded, quiet running away from traffic without technical terrain.\nBeing on the coast, it is warm and humid; the forest gives more shade than beach routes. After heavy rain, parts of the trails can be muddy.\nPick up information at the visitor centre before heading out, and stay on the marked trails to protect the forest.",
+     "words": 159,
+     "overlapChars": 0
+    },
+    {
+     "id": "coastal-runs#1",
+     "docId": "coastal-runs",
+     "title": "Flat coastal runs",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "Easy",
+     "sections": [
+      "Overview",
+      "West: Flic en Flac",
+      "East: Belle Mare",
+      "North: Mont Choisy and Grand Baie",
+      "South-west: Le Morne",
+      "Conditions"
+     ],
+     "text": "When the goal is easy mileage, recovery runs or speed on the flat, the coast is the place to train. Each side of the island has its own classic route.\nFlic en Flac has about 8 km of white-sand beach and a flat seafront road, which makes it one of the best places on the island for beginners and for early-morning runs. Running on sand also builds strength in the feet and calves.\nBelle Mare has a beachfront path and roughly 1.5 km of firm sand road along the beach, with quiet farm roads inland for longer runs. One mapped beachfront loop from Belle Mare is about 10 km.\nThe coastal road leading to Mont Choisy beach is quieter than the main roads. Sections of the B13 through Pereybère, Grand Baie and Mont Choisy have a narrow sidewalk or shoulder, so run there with care and at quiet times.\nA flat trail runs along the water at Le Morne, a scenic option for an easy run before or after hiking the mountain.\nThe coast is hot and humid for most of the year. Run at dawn or late in the day, carry water, and wear shoes on rocky beaches where sea urchins hide.",
+     "words": 203,
+     "overlapChars": 0
+    },
+    {
+     "id": "corps-de-garde#1",
+     "docId": "corps-de-garde",
+     "title": "Corps de Garde",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Overview",
+      "Route",
+      "Difficulty",
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "Corps de Garde is a mountain of about 720 m that towers over Rose Hill, Beau Bassin and Quatre Bornes. From its ridge you see the whole central plateau, the west coast and, on clear days, Port Louis.\nThe classic route is a loop above Rose Hill. One detailed guide describes it as about 7 km with more than 600 m of ascent, and other sources give 2 to 4 hours. The path is marked with white stones up to the ridge.\nIt is not really a beginner hike. The climb starts steeply, with rocky steps where you need your hands, and the slopes near the summit are challenging. Sources rate it medium to hard.\nThe route has very little shade, so avoid the middle of the day. May to November is cooler; in summer, go at first light.\nIt is free and no guide is needed. Take about two litres of water per person, sun protection and shoes with good grip.",
+     "words": 162,
+     "overlapChars": 0
+    },
+    {
+     "id": "gorges-trail-running#1",
+     "docId": "gorges-trail-running",
+     "title": "Black River Gorges for trail running",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Overview",
+      "The training ground",
+      "Who it suits",
+      "Conditions",
+      "Practicalities"
+     ],
+     "text": "Black River Gorges National Park is the main trail-running training ground in Mauritius. It has about 60 km of trails, many of them hilly with challenging, technical footing, through native forest between the Pétrin plateau and the Rivière Noire entrance.\nThe park is where you train for real mountain races. Long runs on the forest loops build endurance, and the climbs out of the gorges build strength for steep ascents and technical descents. The Royal Raid, the island's longest-running trail race, held since 2006, takes place in the Black River Gorges, with distances such as 15 km, 37 km and 70 km offered in past editions. Training on its trails is the most race-specific preparation you can do on the island.\nIntermediate and experienced trail runners preparing for the Royal Raid, the Dodo Trail or races abroad. Beginners should start on the shorter, well-used trails from the Pétrin visitor centre and run with someone who knows the network.\nFooting gets very muddy and slippery in the wet season. The austral winter, from May to November, is the best period for long runs. Trails are not always well marked, and there is little phone signal in places.\nEntry is free. Check routes with rangers at the visitor centres, carry water and a map, and tell someone your planned route.",
+     "words": 218,
+     "overlapChars": 0
+    },
+    {
+     "id": "la-tourelle-de-tamarin#1",
+     "docId": "la-tourelle-de-tamarin",
+     "title": "La Tourelle de Tamarin",
+     "type": "training",
+     "region": "West",
+     "difficulty": "Hard",
+     "sections": [
+      "Overview",
+      "The training ground",
+      "Who it suits",
+      "Conditions",
+      "Practicalities"
+     ],
+     "text": "La Tourelle de Tamarin is a steep mountain less than a kilometre from the coast at Tamarin, on the west of the island. Runners use it as a brutal hill-training ground: about 560 m of ascent over roughly 4.4 km return.\nThis is a place for vertical training, not for setting times. Repeats on the steepest part build the climbing strength needed for mountain races. Fixed ropes equip some of the steps, so expect to use your hands. The descent is as important to practise as the climb: take it carefully, especially when tired.\nTrail runners and hikers preparing for races with a lot of climbing, such as the Dodo Trail or the Royal Raid. It is not a beginner route; build up on easier hills first, such as Le Pouce or the Port Louis hills.\nThe west coast is hot and dry, and the slope offers little shade. Train at dawn or late in the afternoon. Darkness falls quickly in Mauritius, in about twenty minutes, between about 5:45 pm and 7 pm depending on the season, so carry a headlamp on evening sessions.\nBring plenty of water and gloves for the rope sections. Avoid it after rain, when the steps become slippery.",
+     "words": 203,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-morne-brabant#1",
+     "docId": "le-morne-brabant",
+     "title": "Le Morne Brabant",
+     "type": "hike",
+     "region": "South",
+     "difficulty": "Moderate to the cross, hard to the summit",
+     "sections": [
+      "Overview",
+      "Route",
+      "Rules and access",
+      "Difficulty",
+      "When to go"
+     ],
+     "text": "Le Morne Brabant is the 556 m basalt mountain on the south-western peninsula of Mauritius. It is a UNESCO World Heritage cultural landscape, inscribed in 2008, because its cliffs sheltered escaped enslaved people, the maroons, in the 18th and 19th centuries. Hike it with that history in mind.\nThe trail starts at a gate near the base of the mountain, where hikers sign in and out of a register for safety. The lower trail climbs to a viewpoint with a large cross, with views over the lagoon and the south-west coast. Above the cross, the final section to the summit is a steep scramble where you climb on all fours. A full return to the summit takes about 3 to 5 hours.\nPublished opening hours differ between sources, but the gate opens early in the morning and late starts are not allowed, with the last departure in the early afternoon. Access is closed on rainy days. Sources also disagree on whether a licensed guide is required above the cross. Check the current rules on site or with a local operator before you plan the summit.\nTo the cross, the hike is moderate but hot. The summit section is hard and exposed, and should be skipped after rain because the rock becomes slippery.\nStart at dawn.",
+     "words": 215,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-morne-brabant#2",
+     "docId": "le-morne-brabant",
+     "title": "Le Morne Brabant",
+     "type": "hike",
+     "region": "South",
+     "difficulty": "Moderate to the cross, hard to the summit",
+     "sections": [
+      "Rules and access",
+      "Difficulty",
+      "When to go"
+     ],
+     "text": "Check the current rules on site or with a local operator before you plan the summit.\nTo the cross, the hike is moderate but hot. The summit section is hard and exposed, and should be skipped after rain because the rock becomes slippery.\nStart at dawn. There is very little shade, and the south-west coast gets hot by mid-morning. The cooler months from May to November are the most pleasant.",
+     "words": 70,
+     "overlapChars": 251
+    },
+    {
+     "id": "le-pouce#1",
+     "docId": "le-pouce",
+     "title": "Le Pouce",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "Overview",
+      "Route",
+      "Difficulty",
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "Le Pouce, \"the thumb\", is the third-highest mountain in Mauritius at about 812 m. Its thumb-shaped summit rises from the Moka Range directly above Port Louis, and it is one of the most popular half-day hikes on the island because it is short, well trodden and close to the capital.\nThe best-known trailhead is the village of Petit Verger, near Saint Pierre, where a well-marked path climbs through sugar cane fields and patches of forest. Other approaches start from the Moka side and from the Tranquebar side of Port Louis. A common return route is about 4 to 5 km, and most walkers take 2 to 4 hours depending on the starting point and their pace.\nThe hike is easy to moderate for most of the way. The last few hundred metres to the summit are steep and rocky, and you need good balance and sometimes your hands. The reward is a 360° view over Port Louis, the northern plains and the neighbouring peak of Pieter Both.\nThe drier, cooler months from May to November are the most comfortable. Start early in the morning: the path has stretches without shade. After heavy rain the upper rock section becomes slippery.\nNo permit or guide is needed.",
+     "words": 205,
+     "overlapChars": 0
+    },
+    {
+     "id": "le-pouce#2",
+     "docId": "le-pouce",
+     "title": "Le Pouce",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Easy to moderate",
+     "sections": [
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "The drier, cooler months from May to November are the most comfortable. Start early in the morning: the path has stretches without shade. After heavy rain the upper rock section becomes slippery.\nNo permit or guide is needed. Carry at least a litre and a half of water, a hat and shoes with good grip. Guided sunrise and sunset hikes are also offered by local operators.",
+     "words": 66,
+     "overlapChars": 225
+    },
+    {
+     "id": "lion-mountain#1",
+     "docId": "lion-mountain",
+     "title": "Lion Mountain",
+     "type": "hike",
+     "region": "East",
+     "difficulty": "Moderate to hard",
+     "sections": [
+      "Overview",
+      "Route",
+      "Difficulty",
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "Lion Mountain, Montagne du Lion, rises to about 480 m above Vieux Grand Port, near Mahébourg on the south-east coast. Seen from the coast road, its ridge looks like a resting lion. It is the best-known hike in the east of the island.\nThe trail starts in Vieux Grand Port, near the police station, and crosses sugar cane fields before climbing the lion's spine. The return hike is about 4.5 to 5 km and usually takes 2 to 3 hours. From the top you look over the bay of Grand Port, the lagoon and the islets offshore.\nSources rate it moderate to hard. The first part of the climb follows a rocky spine where you use your hands as well as your legs, with a few easy but airy scrambling moves. Waymarking is limited to paint marks and ribbons, so a guide is advisable if you do not know the route.\nHike it in dry weather only, in any season. The rock becomes dangerous when wet. There is no water on the route and little shade, so an early morning start is best.\nCarry all your water. Guided hikes with local guides are offered from Mahébourg and the surrounding area.",
+     "words": 200,
+     "overlapChars": 0
+    },
+    {
+     "id": "pieter-both#1",
+     "docId": "pieter-both",
+     "title": "Pieter Both",
+     "type": "hike",
+     "region": "North & Port Louis",
+     "difficulty": "Hard, technical summit",
+     "sections": [
+      "Overview",
+      "Route",
+      "Difficulty",
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "Pieter Both is the second-highest mountain in Mauritius, at about 820 m, in the Moka Range above Port Louis. It is instantly recognisable by the round boulder, the \"head\", balanced on top of its narrow summit spire.\nA hiking path through forest and grassland leads to the shoulder below the head. The final section, up the head itself, is a rock climb rather than a hike. Guides use fixed ropes and metal rungs bolted into the basalt, and supply helmets, harnesses and ropes after a safety briefing. Allow a full day with a guided group.\nThis is the hardest summit in this collection. Local guides describe it as the only Mauritian ascent that genuinely requires guiding, and hikers who have done it warn that it is dangerous without a guide. A head for heights is essential, and it is not suitable for beginners.\nClimb only in dry, calm weather, from May to November if possible. Wind and wet rock make the summit block unsafe, and guides cancel when conditions are poor.\nBook a licensed mountain guide in advance; the price usually includes all safety equipment. If you only want the views without the climb, Le Pouce next door offers a similar panorama on a straightforward trail.",
+     "words": 206,
+     "overlapChars": 0
+    },
+    {
+     "id": "port-louis-hills#1",
+     "docId": "port-louis-hills",
+     "title": "Port Louis hills",
+     "type": "training",
+     "region": "North & Port Louis",
+     "difficulty": "Moderate",
+     "sections": [
+      "Overview",
+      "The training ground",
+      "Who it suits",
+      "Conditions",
+      "Practicalities"
+     ],
+     "text": "The hills around Port Louis give runners in and near the capital steep training without a long drive. The city sits in a bowl under the Moka Range, so climbing starts almost from the streets.\nSignal Mountain, with the Marie Reine de la Paix area on its slopes, is one of the more runnable climbs close to the city centre and works well for hill repeats. The trail along the Canal Anglais, an old canal path, leads up towards the plateau and suits steady uphill runs. The Pouce valley, below Le Pouce, offers longer and more challenging trails that link the city to the mountains.\nRunners who work in Port Louis and want hill sessions before or after work, and hikers preparing for bigger mountains such as Le Pouce, Pieter Both or Le Morne.\nPort Louis is one of the hottest places on the island because it is sheltered from the trade winds. Train at first light or in the evening, and carry water even on short sessions.\nPaths near the city are well used but vary in quality. Run with others when exploring the trails in the Pouce valley for the first time.",
+     "words": 194,
+     "overlapChars": 0
+    },
+    {
+     "id": "seasons-and-races#1",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Seasons",
+      "Royal Raid (May)",
+      "Dodo Trail (July)"
+     ],
+     "text": "The austral winter, from May to November, is the best period for hiking and running in Mauritius: it is cooler and drier, and trails are less muddy. The summer months, roughly November to April, are hot and humid with heavy rain, and cyclones can affect the island. During summer, train at dawn, shorten long efforts and stay off mountain trails after heavy rain, when rock and mud become dangerous. Always check weather warnings before heading into the mountains.\nThe Royal Raid has been held since 2006 and is the island's longest-running trail race. It takes place in the Black River Gorges, with distances such as 15 km, 37 km and 70 km offered in past editions. It also opens the Mauritius Odyssey, a multi-stage event.\nThe Dodo Trail, held in July, is the island's signature trail race. The 2026 edition gathered more than 3,000 runners. Its flagship Xtreme course covers about 50 km with around 3,500 m of ascent, starting at dawn in the Le Morne area and finishing in Tamarin. Shorter formats include the Trooper 25 km, the Venture 10 km and the Rookie 5 km.",
+     "words": 187,
+     "overlapChars": 0
+    },
+    {
+     "id": "seasons-and-races#2",
+     "docId": "seasons-and-races",
+     "title": "Training seasons and trail races",
+     "type": "training",
+     "region": "Island-wide",
+     "difficulty": "All levels",
+     "sections": [
+      "Dodo Trail (July)",
+      "Building a training block"
+     ],
+     "text": "The 2026 edition gathered more than 3,000 runners. Its flagship Xtreme course covers about 50 km with around 3,500 m of ascent, starting at dawn in the Le Morne area and finishing in Tamarin. Shorter formats include the Trooper 25 km, the Venture 10 km and the Rookie 5 km.\nA typical approach on the island combines the training grounds in this guide: easy laps at Trou aux Cerfs or on the coast, hill strength on La Tourelle de Tamarin or the Port Louis hills, and race-specific long runs in the Black River Gorges. Race dates and formats change each year, so confirm them with the organisers before planning.",
+     "words": 109,
+     "overlapChars": 273
+    },
+    {
+     "id": "tamarind-falls#1",
+     "docId": "tamarind-falls",
+     "title": "Tamarind Falls (Seven Cascades)",
+     "type": "hike",
+     "region": "Central Plateau",
+     "difficulty": "Moderate",
+     "sections": [
+      "Overview",
+      "Route",
+      "Difficulty",
+      "When to go",
+      "Practicalities"
+     ],
+     "text": "Tamarind Falls, also called the Seven Cascades or Sept Cascades, is a chain of waterfalls in a forested canyon on the central plateau, near Henrietta in the Vacoas area. It is the island's classic waterfall hike, with natural pools for a swim along the way.\nMost guided groups meet at Henrietta, often at the bus station, and walk into the canyon from there. Half-day hikes of about three hours visit some of the falls; longer full-day itineraries reach more of them. Itineraries vary, and operators quote different numbers of waterfalls, so check what is included before booking.\nThe hike is moderate, with slippery rocks, river crossings and muddy sections. The route is not waymarked and side paths multiply through the canyon, which is why local guides recommend a guide here more firmly than on any other hike, even though one is not compulsory.\nAvoid the canyon during and after heavy rain, when river levels rise quickly and the rocks are treacherous. The drier months from May to November are safest.\nWear hiking shoes with good grip that can get wet, and bring a windproof layer, swimwear and water. Swimming and jumping into pools should only be done where a guide confirms it is safe.",
+     "words": 204,
+     "overlapChars": 0
+    },
+    {
+     "id": "trou-aux-cerfs#1",
+     "docId": "trou-aux-cerfs",
+     "title": "Trou aux Cerfs crater loop",
+     "type": "training",
+     "region": "Central Plateau",
+     "difficulty": "Easy",
+     "sections": [
+      "Overview",
+      "The training ground",
+      "Who it suits",
+      "Conditions",
+      "Practicalities"
+     ],
+     "text": "Trou aux Cerfs is a dormant volcanic crater in Curepipe, on the central plateau. The crater is roughly 300 to 350 m across and about 80 m deep, and a road around its rim is closed to traffic. It is one of the most popular places in Mauritius to jog or walk.\nThe rim road is paved, wide and fairly flat, and one lap is about 1 to 1.2 km. That makes it ideal for easy runs, steady tempo efforts and lap-based intervals, because every lap is the same distance and there are no cars. Walkers, families and runners share the loop, especially early in the morning and in the late afternoon. Viewpoints around the rim look into the crater and, on clear days, across to the mountains of the west and the Moka Range.\nBeginners building up to their first continuous run, runners doing recovery or tempo sessions, and anyone who wants a safe, measured loop without traffic. It is too flat for hill training; for that, use the mountains or La Tourelle de Tamarin.\nCurepipe is higher, cooler and wetter than the coast, so it is a good place to train in the hot months, but expect drizzle and mist. Some viewpoints have uneven natural surfaces.\nAccess is free.",
+     "words": 211,
+     "overlapChars": 0
+    },
+    {
+     "id": "trou-aux-cerfs#2",
+     "docId": "trou-aux-cerfs",
+     "title": "Trou aux Cerfs crater loop",
+     "type": "training",
+     "region": "Central Plateau",
+     "difficulty": "Easy",
+     "sections": [
+      "Conditions",
+      "Practicalities"
+     ],
+     "text": "Curepipe is higher, cooler and wetter than the coast, so it is a good place to train in the hot months, but expect drizzle and mist. Some viewpoints have uneven natural surfaces.\nAccess is free. Combine laps here with longer runs on the plateau roads if you need more distance.",
+     "words": 50,
+     "overlapChars": 194
+    }
+   ]
+  }
+ }
+}

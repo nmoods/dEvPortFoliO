@@ -9,10 +9,12 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "vitest run && npm test -w @nmoods/basecamp-ui",
-    "storybook": "npm run storybook -w @nmoods/basecamp-ui"
+    "storybook": "npm run storybook -w @nmoods/basecamp-ui",
+    "rag:index": "node scripts/build-rag-index.js"
   },
   "dependencies": {
-    "@nmoods/basecamp-ui": "0.1.0",
+    "@huggingface/transformers": "^4.3.2",
+    "@nmoods/basecamp-ui": "^0.1.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "y-indexeddb": "^9.0.12",

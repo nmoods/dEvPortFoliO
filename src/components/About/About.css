@@ -1,5 +1,5 @@
 .about {
-  padding: 96px 24px;
+  padding: 80px 24px;
   display: flex;
   justify-content: center;
 }
@@ -7,9 +7,6 @@
 .about__card {
   max-width: 680px;
   width: 100%;
-  background: color-mix(in srgb, var(--bg) 78%, transparent);
-  backdrop-filter: blur(10px);
-  border: 1px solid var(--border);
   border-radius: 20px;
   padding: 40px;
   text-align: left;

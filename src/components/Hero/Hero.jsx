@@ -21,11 +21,15 @@ function Hero() {
   return (
     <section id="home" className="hero">
       <div className="hero__inner">
-        <p className="hero__eyebrow">Hello  there</p>
+        <p className="hero__eyebrow">Hello there, I&apos;m</p>
         <h1 className="hero__name">Moodhoo Neehal</h1>
-        <h2 className="hero__role" key={roleIndex}>
-          {ROLES[roleIndex]}
-        </h2>
+        <p className="hero__role">
+          {/* Screen readers get the full list once instead of an announcement every 2.6 s. */}
+          <span className="visually-hidden">{ROLES.join(', ')}</span>
+          <span key={roleIndex} className="hero__role-text" aria-hidden="true">
+            {ROLES[roleIndex]}
+          </span>
+        </p>
         <p className="hero__bio">
           I build fast, accessible, and thoughtfully designed web
           applications — from idea to production. Currently focused on
