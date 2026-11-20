@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { bm25Scores, buildBm25, idf, tokenize } from './bm25'
-import { rankIndices, reciprocalRankFusion, retrieve, vectorScores } from './search'
+import { filterByType, rankIndices, reciprocalRankFusion, retrieve, vectorScores } from './search'
 
 describe('tokenize', () => {
   it('lowercases, strips accents and drops stopwords', () => {
@@ -66,5 +66,25 @@ describe('retrieve', () => {
   it('reports no keyword rank for chunks without a matching word', () => {
     const result = retrieve({ mode: 'vector', vector, keyword }).find((r) => r.index === 0)
     expect(result.keywordRank).toBeNull()
+  })
+})
+
+describe('filterByType', () => {
+  const chunks = [{ type: 'hike' }, { type: 'training' }, { type: 'hike' }]
+  const ranked = [
+    { index: 1, rank: 1 },
+    { index: 2, rank: 2 },
+    { index: 0, rank: 3 },
+  ]
+
+  it('keeps only the chosen type and renumbers the ranks', () => {
+    expect(filterByType(ranked, chunks, 'hike')).toEqual([
+      { index: 2, rank: 1 },
+      { index: 0, rank: 2 },
+    ])
+  })
+
+  it('returns everything for "all"', () => {
+    expect(filterByType(ranked, chunks, 'all')).toBe(ranked)
   })
 })

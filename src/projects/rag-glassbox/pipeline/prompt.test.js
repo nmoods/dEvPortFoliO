@@ -3,17 +3,30 @@ import { buildPrompt, splitCitations } from './prompt'
 import { createSseParser, formatSse } from './sse'
 
 const SOURCES = [
-  { title: 'GR20', sections: ['Overview'], text: 'Crosses Corsica.' },
-  { title: 'Camino "Francés"', sections: ['Route', 'When to go'], text: 'Ends in Santiago.' },
+  {
+    title: 'Le Pouce',
+    type: 'hike',
+    region: 'North & Port Louis',
+    difficulty: 'Easy to moderate',
+    sections: ['Overview'],
+    text: 'About 812 m.',
+  },
+  { title: 'Trou aux Cerfs "crater"', type: 'training', region: 'Central Plateau', sections: ['Route', 'Conditions'], text: 'A 1 km loop.' },
 ]
 
 describe('buildPrompt', () => {
-  it('numbers the sources in retrieval order and appends the question', () => {
-    const { system, user } = buildPrompt('  Which trail crosses Corsica? ', SOURCES)
+  it('numbers the sources in retrieval order, with their metadata, and appends the question', () => {
+    const { system, user } = buildPrompt('  How high is Le Pouce? ', SOURCES)
     expect(system).toMatch(/only the numbered sources/)
-    expect(user).toContain('<source id="1" trail="GR20" section="Overview">\nCrosses Corsica.\n</source>')
-    expect(user).toContain('<source id="2" trail="Camino &quot;Francés&quot;" section="Route, When to go">')
-    expect(user.endsWith('Question: Which trail crosses Corsica?')).toBe(true)
+    expect(system).toMatch(/only cover hiking and training in Mauritius/)
+    expect(user).toContain(
+      '<source id="1" place="Le Pouce" type="Hike" region="North & Port Louis" difficulty="Easy to moderate" section="Overview">\nAbout 812 m.\n</source>'
+    )
+    // Missing metadata is left out rather than printed as "undefined"; quotes are escaped.
+    expect(user).toContain(
+      '<source id="2" place="Trou aux Cerfs &quot;crater&quot;" type="Training ground" region="Central Plateau" section="Route, Conditions">'
+    )
+    expect(user.endsWith('Question: How high is Le Pouce?')).toBe(true)
   })
 })
 

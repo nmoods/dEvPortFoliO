@@ -1,6 +1,6 @@
-import { trailSlot } from '../content'
+import { regionColor } from '../content'
 import { tokenize } from '../pipeline/bm25'
-import { chunkDomId } from '../pipeline/chunk'
+import { DOC_TYPES, chunkDomId } from '../pipeline/chunk'
 
 /** Marks the words BM25 matched, so keyword evidence is visible, not just a number. */
 function Highlighted({ text, terms }) {
@@ -17,13 +17,19 @@ function ChunkCard({ result, chunk, terms, mode, label, muted }) {
     <li id={chunkDomId(chunk.id)} className={`rag-chunk${muted ? ' rag-chunk--muted' : ''}`} tabIndex={-1}>
       <div className="rag-chunk__head">
         {label ? <span className="rag-chunk__cite">[{label}]</span> : <span className="rag-chunk__rank">#{result.rank}</span>}
-        <span className="rag-swatch" style={{ background: `var(--trail-${trailSlot[chunk.docId]})` }} aria-hidden="true" />
+        <span className="rag-swatch" style={{ background: regionColor(chunk.region) }} aria-hidden="true" />
         <span className="rag-chunk__title">
           {chunk.title}
           <span className="rag-chunk__section"> · {chunk.sections.join(', ')}</span>
         </span>
         <code className="rag-chunk__id">{chunk.id}</code>
       </div>
+      <p className="rag-chunk__meta">
+        <span className="rag-chunk__type">{DOC_TYPES[chunk.type]?.label}</span>
+        <span className="rag-chunk__section">
+          {[chunk.region, chunk.difficulty].filter(Boolean).join(' · ')}
+        </span>
+      </p>
       <dl className="rag-chunk__scores">
         <div className={mode === 'vector' ? 'is-active' : undefined}>
           <dt>Cosine</dt>
@@ -66,7 +72,7 @@ export function ChunkList({ index, retrieval, mode, question }) {
         <mark>Highlighted</mark> words matched the keyword search. <span className="rag-chunk__overlap">Faded text</span> is overlap repeated from the
         previous chunk. Each score shows its rank in brackets.
       </p>
-      <ol className="rag-chunk-list" aria-label="Retrieved chunks, sent to Claude">
+      <ol className="rag-chunk-list" aria-label="Retrieved chunks, sent to the model">
         {retrieval.top.map((result, i) => (
           <ChunkCard key={result.index} result={result} chunk={index.chunks[result.index]} terms={terms} mode={mode} label={i + 1} />
         ))}

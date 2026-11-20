@@ -3,7 +3,7 @@ import './About.css'
 function About() {
   return (
     <section id="about" className="about">
-      <div className="about__card">
+      <div className="about__card surface reveal">
         <p className="section-eyebrow">Basecamp</p>
         <h2 className="section-title">About Me</h2>
         <p className="about__text">

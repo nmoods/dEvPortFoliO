@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { createSseParser } from '../pipeline/sse'
 
-const IDLE = { status: 'idle', text: '', model: null, fallback: null, usage: null, error: null, request: null }
+const IDLE = { status: 'idle', text: '', answeredBy: null, fallbacks: [], usage: null, error: null, request: null }
 
 /** POSTs the question + chunk ids to /api/answer and accumulates the streamed answer. */
 export function useAnswerStream() {
@@ -35,13 +35,13 @@ export function useAnswerStream() {
         setAnswer((a) => {
           switch (event) {
             case 'meta':
-              return { ...a, model: data.model }
+              return { ...a, answeredBy: data }
             case 'fallback':
-              return { ...a, fallback: data }
+              return { ...a, fallbacks: [...a.fallbacks, data] }
             case 'text':
               return { ...a, text: a.text + data.text }
             case 'done':
-              return { ...a, status: 'done', model: data.model, usage: data.usage }
+              return { ...a, status: 'done', answeredBy: { ...a.answeredBy, ...data }, usage: data.usage }
             case 'error':
               return { ...a, status: 'error', error: data.message }
             default:

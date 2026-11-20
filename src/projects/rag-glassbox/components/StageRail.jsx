@@ -54,9 +54,9 @@ function generateStage(answer) {
     case 'streaming':
       return { state: 'active', note: 'Streaming…' }
     case 'done':
-      return { state: 'done', note: answer.usage ? `${answer.usage.input} in · ${answer.usage.output} out tokens` : 'Done' }
+      return { state: 'done', note: answer.answeredBy?.cached ? 'From cache · 0 tokens' : (answer.answeredBy?.label ?? 'Done') }
     case 'disabled':
-      return { state: 'error', note: 'Disabled (no API key)' }
+      return { state: 'error', note: 'Off (no provider key)' }
     case 'error':
       return { state: 'error', note: 'Failed' }
     default:

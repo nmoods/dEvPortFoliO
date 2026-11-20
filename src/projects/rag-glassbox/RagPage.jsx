@@ -20,7 +20,7 @@ const sameIds = (a, b) => a.length === b.length && a.every((id, i) => id === b[i
 
 function RagPage() {
   const [theme] = useState(initialTheme)
-  const [settings, setSettings] = useState({ size: 'medium', k: 4, mode: 'hybrid' })
+  const [settings, setSettings] = useState({ size: 'medium', k: 4, mode: 'hybrid', scope: 'all' })
   const [tab, setTab] = useState('chunks')
   const embedder = useEmbedder()
   const { index, query, retrieval, embedding, error, ask } = useRagQuery({ embed: embedder.embed, ...settings })
@@ -28,7 +28,7 @@ function RagPage() {
 
   useEffect(() => {
     window.scrollTo(0, 0)
-    document.title = 'RAG Glass Box · Retrieval-augmented generation, step by step'
+    document.title = 'RAG Glass Box · Ask about hiking and training in Mauritius'
   }, [])
 
   const sources = useMemo(() => (retrieval && index ? retrieval.top.map((result) => index.chunks[result.index]) : null), [retrieval, index])
@@ -69,9 +69,11 @@ function RagPage() {
         <h1 className="rag-title">RAG Glass Box</h1>
         <p className="rag-lede">
           Retrieval-augmented generation, with the lid off. A language model only knows what it was trained on, so RAG{' '}
-          <strong>retrieves</strong> the passages most relevant to your question from your own documents and pastes them into the prompt,
-          and the model answers from those, citing them. Ask the eight trail guides below and watch every stage: the chunks, the
-          vectors, the scores, the exact prompt and the streamed answer.
+          <strong>retrieves</strong> the passages most relevant to your question from your own documents, pastes them into the prompt,
+          and the model answers from those, citing them. Here the documents are 16 guides to hiking and training in{' '}
+          <strong>Mauritius</strong>, from Le Pouce and Le Morne to hill repeats on La Tourelle and laps of Trou aux Cerfs. Ask
+          for a hike or a place to train, and watch every stage: the chunks, the vectors, the scores, the exact prompt and the
+          streamed answer.
         </p>
       </header>
 
@@ -133,7 +135,7 @@ function RagPage() {
           ))}
         </div>
         <ul className="rag-case__tags" aria-label="Tech stack">
-          {['RAG', 'transformers.js', 'Web Workers', 'BM25', 'Reciprocal Rank Fusion', 'PCA', 'Claude API', 'Server-Sent Events', 'Vercel Functions'].map(
+          {['RAG', 'transformers.js', 'Web Workers', 'BM25', 'Reciprocal Rank Fusion', 'PCA', 'Groq', 'Gemini', 'LLM failover', 'Server-Sent Events', 'Vercel Functions'].map(
             (tag) => (
               <li key={tag}>{tag}</li>
             )

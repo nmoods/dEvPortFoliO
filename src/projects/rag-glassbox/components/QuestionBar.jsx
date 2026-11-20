@@ -22,7 +22,7 @@ export function QuestionBar({ onAsk, busy, ready }) {
         }}
       >
         <label htmlFor="rag-question" className="rag-ask__label">
-          Ask the trail guides
+          Ask about hiking and training in Mauritius
         </label>
         <div className="rag-ask__row">
           <input
@@ -34,7 +34,7 @@ export function QuestionBar({ onAsk, busy, ready }) {
               setQuestion(event.target.value)
               setLesson(null)
             }}
-            placeholder="e.g. When does the Laugavegur open?"
+            placeholder="e.g. a half-day hike near Port Louis with a view"
             autoComplete="off"
           />
           <Button type="submit" loading={busy} disabled={!ready}>

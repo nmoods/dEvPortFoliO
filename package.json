@@ -13,7 +13,6 @@
     "rag:index": "node scripts/build-rag-index.js"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^1.6.0",
     "@huggingface/transformers": "^4.3.2",
     "@nmoods/basecamp-ui": "^0.1.0",
     "react": "^19.2.8",

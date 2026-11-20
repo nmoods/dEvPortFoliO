@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { chunkDocument, countWords, embeddingText, parseDocument, splitSentences } from './chunk'
+import { chunkDocument, countWords, embeddingText, parseDocument, parseFrontmatter, splitSentences } from './chunk'
 
 const DOC = `# Test Trail
 
@@ -64,5 +64,46 @@ describe('embeddingText', () => {
     const [chunk] = chunkDocument('t', DOC, { words: 5, overlap: 0 })
     expect(embeddingText(chunk)).toBe('Test Trail · Route\nOne two three four five.')
     expect(countWords(embeddingText(chunk))).toBe(9)
+  })
+})
+
+describe('frontmatter metadata', () => {
+  const DOC_WITH_META = `---
+type: hike
+region: East
+difficulty: Moderate
+---
+# Lion Mountain
+
+## Route
+Starts near the police station. It climbs a rocky spine.
+`
+
+  it('parses the frontmatter and keeps it out of the text', () => {
+    const { meta, body } = parseFrontmatter(DOC_WITH_META)
+    expect(meta).toEqual({ type: 'hike', region: 'East', difficulty: 'Moderate' })
+    expect(body.startsWith('# Lion Mountain')).toBe(true)
+  })
+
+  it('attaches the metadata to every chunk and to the embedded header', () => {
+    const [chunk] = chunkDocument('lion', DOC_WITH_META, { words: 100, overlap: 0 })
+    expect(chunk).toMatchObject({ type: 'hike', region: 'East', difficulty: 'Moderate', title: 'Lion Mountain' })
+    expect(chunk.text).not.toContain('region')
+    expect(embeddingText(chunk)).toBe('Lion Mountain · Hike · East · Moderate · Route\nStarts near the police station. It climbs a rocky spine.')
+  })
+
+  it('treats a document without frontmatter as untyped', () => {
+    expect(parseFrontmatter('# Title\n\nText.').meta).toEqual({})
+  })
+})
+
+describe('line endings', () => {
+  it('parses Windows (CRLF) files exactly like Unix ones', () => {
+    const crlf = '---\r\ntype: hike\r\n---\r\n# Peak\r\n\r\n## Route\r\nUp. Down.\r\n'
+    const lf = crlf.replaceAll('\r\n', '\n')
+    const [fromCrlf] = chunkDocument('p', crlf, { words: 100, overlap: 0 })
+    expect(fromCrlf).toEqual(chunkDocument('p', lf, { words: 100, overlap: 0 })[0])
+    expect(fromCrlf.sections).toEqual(['Route'])
+    expect(fromCrlf.text).toBe('Up. Down.')
   })
 })

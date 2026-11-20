@@ -9,12 +9,12 @@ import { fitPCA, project } from '../src/projects/rag-glassbox/pipeline/pca.js'
 import { toBase64 } from '../src/projects/rag-glassbox/pipeline/vectors.js'
 
 const dataDir = new URL('../src/projects/rag-glassbox/data/', import.meta.url)
-const trailsDir = new URL('trails/', dataDir)
+const placesDir = new URL('places/', dataDir)
 const round = (n, digits = 5) => Number(n.toFixed(digits))
 
-const files = (await readdir(trailsDir)).filter((f) => f.endsWith('.md')).sort()
+const files = (await readdir(placesDir)).filter((f) => f.endsWith('.md')).sort()
 const docs = await Promise.all(
-  files.map(async (file) => ({ id: file.replace(/\.md$/, ''), markdown: await readFile(new URL(file, trailsDir), 'utf8') }))
+  files.map(async (file) => ({ id: file.replace(/\.md$/, ''), markdown: await readFile(new URL(file, placesDir), 'utf8') }))
 )
 
 console.log(`Loading ${EMBEDDING_MODEL} (${EMBEDDING_DTYPE})…`)

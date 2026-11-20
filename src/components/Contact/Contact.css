@@ -1,5 +1,5 @@
 .contact {
-  padding: 96px 24px 120px;
+  padding: 80px 24px 96px;
   display: flex;
   justify-content: center;
 }
@@ -8,9 +8,6 @@
   max-width: 520px;
   width: 100%;
   text-align: center;
-  background: color-mix(in srgb, var(--bg) 78%, transparent);
-  backdrop-filter: blur(10px);
-  border: 1px solid var(--border);
   border-radius: 20px;
   padding: 48px 40px;
   display: flex;
@@ -18,16 +15,25 @@
   align-items: center;
 }
 
-.contact__flag {
-  font-size: 36px;
-  margin-bottom: 8px;
-}
-
 .contact__text {
   color: var(--text-muted);
   font-size: 16px;
   line-height: 1.6;
   margin: 0 0 28px;
+}
+
+.contact__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.contact__copy {
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  min-width: 15.5em;
+  justify-content: center;
 }
 
 .contact__socials {

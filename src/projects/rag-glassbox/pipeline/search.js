@@ -57,3 +57,16 @@ export function retrieve({ mode, vector, keyword }) {
     keywordRank: keyword[index] > 0 ? keywordRank.get(index) : null,
   }))
 }
+
+/** Metadata filter: what to search in. `type` comes from each document's frontmatter. */
+export const SCOPES = {
+  all: { label: 'Everything', hint: 'Hikes and training grounds' },
+  hike: { label: 'Hikes', hint: 'Only hiking guides' },
+  training: { label: 'Training grounds', hint: 'Only training grounds and race prep' },
+}
+
+/** Keeps only chunks of the chosen type and renumbers their rank; vector/keyword ranks stay global as evidence. */
+export function filterByType(ranked, chunks, type) {
+  if (!type || type === 'all') return ranked
+  return ranked.filter((result) => chunks[result.index].type === type).map((result, i) => ({ ...result, rank: i + 1 }))
+}

@@ -17,12 +17,33 @@ export function splitSentences(paragraph) {
     .filter(Boolean)
 }
 
-/** Markdown with one `# Title` and `## Section` headings -> title + a flat list of tagged sentences. */
+export const DOC_TYPES = {
+  hike: { label: 'Hike', plural: 'Hikes' },
+  training: { label: 'Training ground', plural: 'Training grounds' },
+}
+
+/** `---\nkey: value\n---` at the top of a document -> { key: value }. */
+export function parseFrontmatter(markdown) {
+  const match = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?/.exec(markdown)
+  if (!match) return { meta: {}, body: markdown }
+  const meta = Object.fromEntries(
+    match[1]
+      .split(/\r?\n/)
+      .map((line) => /^([\w-]+):\s*(.*)$/.exec(line.trim()))
+      .filter(Boolean)
+      .map(([, key, value]) => [key, value.trim()])
+  )
+  return { meta, body: markdown.slice(match[0].length) }
+}
+
+/** Markdown with frontmatter, one `# Title` and `## Section` headings -> title, metadata and tagged sentences. */
 export function parseDocument(markdown) {
+  // Windows checkouts (core.autocrlf) turn \n into \r\n; a heading line ending in \r would not match below.
+  const { meta, body } = parseFrontmatter(markdown.replace(/\r\n?/g, '\n'))
   let title = ''
   let section = ''
   const sentences = []
-  for (const block of markdown.split(/\n\s*\n/)) {
+  for (const block of body.split(/\n\s*\n/)) {
     const text = block.trim()
     if (!text) continue
     const heading = /^(#{1,2})\s+(.*)$/.exec(text.split('\n')[0])
@@ -35,7 +56,7 @@ export function parseDocument(markdown) {
     }
     sentences.push(...splitSentences(text.replace(/\s*\n\s*/g, ' ')).map((s) => ({ section, text: s })))
   }
-  return { title, sentences }
+  return { title, meta, sentences }
 }
 
 function joinSentences(sentences) {
@@ -50,7 +71,7 @@ function joinSentences(sentences) {
  * sentences of the previous one, as long as they fit inside `overlap` words.
  */
 export function chunkDocument(docId, markdown, { words, overlap }) {
-  const { title, sentences } = parseDocument(markdown)
+  const { title, meta, sentences } = parseDocument(markdown)
   const chunks = []
   let start = 0
 
@@ -81,6 +102,9 @@ export function chunkDocument(docId, markdown, { words, overlap }) {
       id: `${docId}#${chunks.length + 1}`,
       docId,
       title,
+      type: meta.type ?? null,
+      region: meta.region ?? null,
+      difficulty: meta.difficulty ?? null,
       sections: [...new Set(members.map((s) => s.section).filter(Boolean))],
       text,
       words: countWords(text),
@@ -96,5 +120,11 @@ export function chunkDocument(docId, markdown, { words, overlap }) {
 /** `gr20#3` -> `rag-chunk-gr20-3`, safe to use as an element id and in a selector. */
 export const chunkDomId = (chunkId) => `rag-chunk-${chunkId.replace(/[^\w-]/g, '-')}`
 
-/** The text that is actually embedded: a contextual header + the chunk, so "it opens in June" still says *what* opens. */
-export const embeddingText = (chunk) => `${chunk.title} · ${chunk.sections.join(', ')}\n${chunk.text}`
+/**
+ * The text that is actually embedded: a contextual header + the chunk, so "it opens in June" still says *what*
+ * opens, and a question like "easy hike in the east" can match the metadata as well as the prose.
+ */
+export function embeddingText(chunk) {
+  const facts = [chunk.title, DOC_TYPES[chunk.type]?.label, chunk.region, chunk.difficulty].filter(Boolean)
+  return `${facts.join(' · ')} · ${chunk.sections.join(', ')}\n${chunk.text}`
+}

@@ -1,12 +1,12 @@
 // Stage 6 of RAG: generation. Runs on the server (Vercel function / Vite dev middleware), never in the browser,
-// because it holds the Anthropic API key.
-import Anthropic from '@anthropic-ai/sdk'
+// because it holds the provider API keys. Answers come from free LLM tiers with automatic failover.
 import corpus from '../data/chunks.json' with { type: 'json' }
 import { MAX_QUESTION_LENGTH, MAX_SOURCES, buildPrompt } from '../pipeline/prompt.js'
 import { formatSse } from '../pipeline/sse.js'
+import { createAnswerCache } from './answerCache.js'
+import { buildChain } from './llm/providers.js'
+import { FIRST_TOKEN_TIMEOUT_MS, streamChain } from './llm/streamChain.js'
 
-export const MODEL = 'claude-opus-5-5'
-const MAX_TOKENS = 4000
 const RATE_LIMIT = { requests: 8, windowMs: 60_000 }
 
 const chunksBySize = Object.fromEntries(
@@ -15,7 +15,7 @@ const chunksBySize = Object.fromEntries(
 
 const json = (status, body) => new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json' } })
 
-/** The browser only sends ids; the server rebuilds the context itself, so the endpoint can't be used as a free Claude proxy. */
+/** The browser only sends ids; the server rebuilds the context itself, so the endpoint can't be used as a free LLM proxy. */
 export function validateRequest(body) {
   if (!body || typeof body !== 'object') return { error: 'Expected a JSON body.' }
   const { question, size, chunkIds } = body
@@ -28,7 +28,7 @@ export function validateRequest(body) {
   }
   const sources = chunkIds.map((id) => chunks.get(id))
   if (sources.some((source) => !source)) return { error: 'Unknown chunk id.' }
-  return { question: question.trim(), sources }
+  return { question: question.trim(), sources, chunkIds }
 }
 
 function createRateLimiter({ requests, windowMs }, now) {
@@ -42,24 +42,27 @@ function createRateLimiter({ requests, windowMs }, now) {
   }
 }
 
-function describeError(error) {
-  if (error instanceof Anthropic.RateLimitError) return 'Claude is busy right now. Try again in a minute.'
-  if (error instanceof Anthropic.AuthenticationError) return 'The server’s API key was rejected.'
-  if (error instanceof Anthropic.APIError) return `Claude API error (${error.status ?? 'network'}).`
-  if (error?.name === 'AbortError') return 'Request cancelled.'
-  return 'Generation failed.'
-}
+const sseResponse = (stream) =>
+  new Response(stream, {
+    headers: { 'content-type': 'text/event-stream; charset=utf-8', 'cache-control': 'no-cache, no-transform', 'x-accel-buffering': 'no' },
+  })
+
+const publicCandidate = ({ provider, label, model }) => ({ provider, label, model })
 
 export function createAnswerHandler({
-  getApiKey = () => process.env.ANTHROPIC_API_KEY,
-  createClient = (apiKey) => new Anthropic({ apiKey }),
+  getChain = () => buildChain(process.env),
+  fetchImpl = (...args) => fetch(...args),
+  cache = createAnswerCache(),
+  firstTokenTimeoutMs = Number(process.env.LLM_FIRST_TOKEN_TIMEOUT_MS) || FIRST_TOKEN_TIMEOUT_MS,
   now = Date.now,
 } = {}) {
   const isRateLimited = createRateLimiter(RATE_LIMIT, now)
 
   return async function POST(request) {
-    const apiKey = getApiKey()
-    if (!apiKey) return json(503, { error: 'Generation is disabled: the server has no ANTHROPIC_API_KEY.' })
+    const chain = getChain()
+    if (chain.length === 0) {
+      return json(503, { error: 'Generation is off: the server has no LLM provider configured (GROQ_API_KEY or GEMINI_API_KEY).' })
+    }
 
     let body
     try {
@@ -67,63 +70,67 @@ export function createAnswerHandler({
     } catch {
       return json(400, { error: 'Expected a JSON body.' })
     }
-    const { error, question, sources } = validateRequest(body)
+    const { error, question, sources, chunkIds } = validateRequest(body)
     if (error) return json(400, { error })
+
+    const encoder = new TextEncoder()
+    const encode = (event, data) => encoder.encode(formatSse(event, data))
+
+    // A cached answer costs no quota, so it is served before the rate limit is even checked.
+    const cached = cache.get({ question, chunkIds })
+    if (cached) {
+      return sseResponse(
+        new ReadableStream({
+          start(controller) {
+            controller.enqueue(encode('meta', { ...cached.candidate, cached: true }))
+            controller.enqueue(encode('text', { text: cached.text }))
+            controller.enqueue(encode('done', { ...cached.candidate, cached: true, usage: null }))
+            controller.close()
+          },
+        })
+      )
+    }
 
     const ip = request.headers.get('x-forwarded-for')?.split(',')[0].trim() || 'local'
     if (isRateLimited(ip)) return json(429, { error: 'Too many questions. Wait a minute and try again.' })
 
-    const { system, user } = buildPrompt(question, sources)
-    const client = createClient(apiKey)
-    const encoder = new TextEncoder()
+    const prompt = buildPrompt(question, sources)
 
-    const stream = new ReadableStream({
-      async start(controller) {
-        const send = (event, data) => controller.enqueue(encoder.encode(formatSse(event, data)))
-        try {
-          const response = client.beta.messages.stream(
-            {
-              model: MODEL,
-              max_tokens: MAX_TOKENS,
-              // Opus 5.5 always thinks; low effort keeps a short, grounded answer fast and cheap.
-              output_config: { effort: 'low' },
-              // If a safety classifier declines, the API re-runs the request on a recommended fallback model.
-              betas: ['server-side-fallback-2026-07-01'],
-              fallbacks: 'default',
-              system,
-              messages: [{ role: 'user', content: user }],
-            },
-            { signal: request.signal }
-          )
-
-          for await (const event of response) {
-            if (event.type === 'message_start') send('meta', { model: event.message.model })
-            else if (event.type === 'content_block_start' && event.content_block.type === 'fallback') {
-              send('fallback', { from: event.content_block.from?.model ?? null, to: event.content_block.to?.model ?? null })
-            } else if (event.type === 'content_block_delta' && event.delta.type === 'text_delta') {
-              send('text', { text: event.delta.text })
+    return sseResponse(
+      new ReadableStream({
+        async start(controller) {
+          const send = (event, data) => controller.enqueue(encode(event, data))
+          let candidate = null
+          let text = ''
+          let usage = null
+          let firstTokenMs = null
+          try {
+            for await (const step of streamChain(chain, prompt, { fetchImpl, signal: request.signal, firstTokenTimeoutMs })) {
+              if (step.type === 'attempt-failed') send('fallback', { ...publicCandidate(step.candidate), reason: step.reason })
+              else if (step.type === 'start') {
+                candidate = publicCandidate(step.candidate)
+                firstTokenMs = step.firstTokenMs
+                send('meta', { ...candidate, firstTokenMs })
+              } else if (step.type === 'text') {
+                text += step.text
+                send('text', { text: step.text })
+              } else if (step.type === 'usage') {
+                usage = { input: step.usage.prompt_tokens ?? null, output: step.usage.completion_tokens ?? null }
+              } else if (step.type === 'unavailable') {
+                send('error', { message: 'Every free model is busy or out of quota right now. Try again in a minute.' })
+              }
             }
+            if (candidate && text.trim()) {
+              cache.set({ question, chunkIds }, { candidate, text })
+              send('done', { ...candidate, cached: false, firstTokenMs, usage })
+            }
+          } catch {
+            if (!request.signal?.aborted) send('error', { message: 'The answer was interrupted. Try again.' })
+          } finally {
+            controller.close()
           }
-
-          const message = await response.finalMessage()
-          if (message.stop_reason === 'refusal') send('error', { message: 'The model declined to answer this question.' })
-          else {
-            send('done', {
-              model: message.model,
-              stopReason: message.stop_reason,
-              usage: { input: message.usage.input_tokens, output: message.usage.output_tokens },
-            })
-          }
-        } catch (caught) {
-          send('error', { message: describeError(caught) })
-        } finally {
-          controller.close()
-        }
-      },
-    })
-
-    return new Response(stream, {
-      headers: { 'content-type': 'text/event-stream; charset=utf-8', 'cache-control': 'no-cache, no-transform', 'x-accel-buffering': 'no' },
-    })
+        },
+      })
+    )
   }
 }

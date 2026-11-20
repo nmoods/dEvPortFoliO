@@ -21,8 +21,8 @@ const PROJECTS = [
     name: 'RAG Glass Box',
     checkpoint: 'Checkpoint 3 · AI',
     description:
-      'Retrieval-augmented generation with the lid off: in-browser embeddings, hand-written vector, keyword and hybrid search, the exact prompt, and a streamed Claude answer with clickable citations.',
-    tags: ['RAG', 'Embeddings', 'Claude API', 'Web Workers'],
+      'Ask about hiking and training in Mauritius, and watch retrieval-augmented generation work: in-browser embeddings, hand-written vector, keyword and hybrid search with a metadata filter, the exact prompt, and a streamed answer from free LLMs with automatic failover and clickable citations.',
+    tags: ['RAG', 'Embeddings', 'Free LLMs', 'Web Workers'],
     href: '#/rag',
   },
 ]
@@ -33,12 +33,12 @@ function Projects() {
       <div className="projects__inner">
         <p className="section-eyebrow">Aid Stations</p>
         <h2 className="section-title">Projects</h2>
-        <p className="projects__intro">A few checkpoints along the way.</p>
+        <p className="projects__intro">Three working demos. Each opens a page that explains how it is built.</p>
 
         <div className="projects__grid">
           {PROJECTS.map((project) => (
-            <a key={project.name} href={project.href} className="project-card">
-              <span className="project-card__flag">🚩 {project.checkpoint}</span>
+            <a key={project.name} href={project.href} className="project-card surface reveal">
+              <span className="project-card__flag">{project.checkpoint}</span>
               <h3 className="project-card__name">{project.name}</h3>
               <p className="project-card__description">{project.description}</p>
               <ul className="project-card__tags">
@@ -46,6 +46,9 @@ function Projects() {
                   <li key={tag}>{tag}</li>
                 ))}
               </ul>
+              <span className="project-card__open">
+                Open project <span className="project-card__arrow" aria-hidden="true">→</span>
+              </span>
             </a>
           ))}
         </div>

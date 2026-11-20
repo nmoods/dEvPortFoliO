@@ -13,7 +13,8 @@
   --border: #d7dcd6;
 
   --sky-top: #ced7d1;
-  --sun-glow: rgba(255, 255, 255, 0.15);
+  --sun-glow: rgba(255, 255, 255, 0.55);
+  --star: transparent;
   --fog-color: rgba(205, 214, 208, 0.75);
   --mountain-far: #a8b3ac;
   --mountain-near: #7e8d84;
@@ -30,7 +31,7 @@
   --border: #e6d2b8;
 
   --sky-top: #f6c98f;
-  --sun-glow: rgba(251, 146, 60, 0.45);
+  --sun-glow: rgba(251, 146, 60, 0.4);
   --fog-color: rgba(255, 214, 170, 0.35);
   --mountain-far: #d9a06b;
   --mountain-near: #a8623a;
@@ -47,7 +48,8 @@
   --border: #232c3d;
 
   --sky-top: #1b2340;
-  --sun-glow: rgba(139, 124, 246, 0.18);
+  --sun-glow: rgba(139, 124, 246, 0.2);
+  --star: rgba(230, 235, 245, 0.9);
   --fog-color: rgba(139, 148, 246, 0.1);
   --mountain-far: #202a42;
   --mountain-near: #161d30;
@@ -60,6 +62,12 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 body {
@@ -109,4 +117,101 @@ img {
   margin: 0 0 20px;
   font-weight: 700;
   letter-spacing: -0.5px;
+}
+
+/* ---------- Accessibility & navigation ---------- */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 100;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: var(--accent);
+  color: var(--bg);
+  font-weight: 600;
+  transform: translateY(-150%);
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0);
+}
+
+/* Anchored sections land below the sticky navbar instead of under it. */
+section[id] {
+  scroll-margin-top: 72px;
+}
+
+/* ---------- Scroll progress: CSS scroll timeline, no JavaScript ---------- */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 60;
+  height: 2px;
+  background: var(--accent);
+  transform-origin: left;
+  transform: scaleX(0);
+}
+
+@supports (animation-timeline: scroll()) {
+  .scroll-progress {
+    animation: progress-grow linear both;
+    animation-timeline: scroll(root);
+  }
+}
+
+@keyframes progress-grow {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* ---------- Reveal on scroll: fades content in as it enters the viewport ---------- */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: reveal-up linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 35%;
+    }
+  }
+}
+
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shared surface for content cards: near-opaque instead of backdrop blur (no per-frame re-blurring). */
+.surface {
+  background: color-mix(in srgb, var(--bg) 90%, transparent);
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 8px 24px -12px rgba(0, 0, 0, 0.12);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
 }

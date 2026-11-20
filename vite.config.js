@@ -53,9 +53,10 @@ function ragAnswerApi() {
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
-  // Server-only secrets from .env.local (no VITE_ prefix, so they never reach the client bundle).
+  // Server-only settings from .env.local (no VITE_ prefix, so they never reach the client bundle).
   const env = loadEnv(mode, process.cwd(), '')
-  if (env.ANTHROPIC_API_KEY) process.env.ANTHROPIC_API_KEY ??= env.ANTHROPIC_API_KEY
+  const SERVER_ENV = ['LLM_PROVIDERS', 'GROQ_API_KEY', 'GROQ_MODELS', 'GEMINI_API_KEY', 'GEMINI_MODELS', 'OLLAMA_BASE_URL', 'OLLAMA_MODEL', 'LLM_FIRST_TOKEN_TIMEOUT_MS']
+  for (const name of SERVER_ENV) if (env[name]) process.env[name] ??= env[name]
 
   return {
     plugins: [react(), ragAnswerApi()],

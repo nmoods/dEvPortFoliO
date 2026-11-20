@@ -13,94 +13,182 @@
   transition: background 0.6s ease;
 }
 
-.trail-bg__sun {
+/* ---------- Light: a soft gradient that slowly "breathes" (opacity + scale only) ---------- */
+.trail-bg__glow {
   position: absolute;
-  top: 8%;
-  right: 12%;
-  width: 220px;
-  height: 220px;
+  top: -6vh;
+  right: 4vw;
+  width: min(520px, 70vw);
+  aspect-ratio: 1;
   border-radius: 50%;
-  background: radial-gradient(circle, var(--sun-glow), transparent 70%);
-  filter: blur(2px);
-  transition: background 0.6s ease;
+  background: radial-gradient(circle, var(--sun-glow) 0%, transparent 65%);
+  animation: glow-breathe 14s ease-in-out infinite alternate;
 }
 
-.trail-bg__cloud {
+@keyframes glow-breathe {
+  from {
+    opacity: 0.75;
+    transform: scale(1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+}
+
+/* ---------- Mist: wide gradient bands drifting sideways, no blur filter ---------- */
+.trail-bg__mist {
   position: absolute;
-  height: 60px;
-  width: 260px;
-  background: var(--fog-color);
-  border-radius: 999px;
-  filter: blur(18px);
-  animation: drift-cloud linear infinite;
-  transition: background 0.6s ease;
+  left: -20vw;
+  width: 140vw;
+  background: radial-gradient(ellipse at center, var(--fog-color) 0%, transparent 70%);
+  animation: mist-drift 70s ease-in-out infinite alternate;
 }
 
-.trail-bg__cloud--1 {
-  top: 14%;
-  left: -30%;
-  width: 320px;
-  animation-duration: 70s;
-}
-
-.trail-bg__cloud--2 {
-  top: 26%;
-  left: -35%;
-  width: 220px;
-  height: 44px;
-  animation-duration: 55s;
-  animation-delay: -20s;
+.trail-bg__mist--high {
+  top: 12vh;
+  height: 18vh;
   opacity: 0.7;
 }
 
-.trail-bg__cloud--3 {
-  top: 8%;
-  left: -30%;
-  width: 400px;
-  height: 80px;
-  animation-duration: 90s;
-  animation-delay: -40s;
-  opacity: 0.5;
+.trail-bg__mist--low {
+  bottom: 6vh;
+  height: 16vh;
+  opacity: 0.55;
+  animation-duration: 95s;
+  animation-direction: alternate-reverse;
 }
 
-@keyframes drift-cloud {
+@keyframes mist-drift {
   from {
-    transform: translateX(0);
+    transform: translateX(-8vw);
   }
   to {
-    transform: translateX(140vw);
+    transform: translateX(8vw);
   }
 }
 
-.trail-bg__layer {
+/* ---------- Stars: only at dusk. Two layers twinkle out of phase ---------- */
+.trail-bg__stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow:
+    8vw 9vh var(--star),
+    17vw 22vh var(--star),
+    29vw 6vh var(--star),
+    38vw 17vh var(--star),
+    47vw 4vh var(--star),
+    56vw 27vh var(--star),
+    63vw 11vh var(--star),
+    71vw 31vh var(--star),
+    79vw 7vh var(--star),
+    88vw 19vh var(--star),
+    94vw 35vh var(--star),
+    12vw 38vh var(--star);
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.trail-bg__stars--late {
+  box-shadow:
+    4vw 26vh var(--star),
+    22vw 13vh var(--star),
+    33vw 33vh var(--star),
+    43vw 24vh var(--star),
+    52vw 14vh var(--star),
+    67vw 21vh var(--star),
+    75vw 3vh var(--star),
+    84vw 27vh var(--star),
+    91vw 9vh var(--star),
+    25vw 41vh var(--star);
+}
+
+:root[data-mood='dusk'] .trail-bg__stars {
+  animation: twinkle 7s ease-in-out infinite alternate;
+}
+
+:root[data-mood='dusk'] .trail-bg__stars--late {
+  animation-duration: 9s;
+  animation-delay: -4s;
+}
+
+@keyframes twinkle {
+  from {
+    opacity: 0.25;
+  }
+  to {
+    opacity: 0.85;
+  }
+}
+
+/* ---------- Ridges: static shapes; parallax is a scroll-driven animation ---------- */
+.trail-bg__ridge {
   position: absolute;
   bottom: 0;
   left: -5%;
   width: 110%;
-  will-change: transform;
   transition: background 0.6s ease;
 }
 
-.trail-bg__layer--far {
-  height: 32vh;
+.trail-bg__ridge--far {
+  height: 30vh;
   background: var(--mountain-far);
+  opacity: 0.5;
+}
+
+.trail-bg__ridge--near {
+  height: 22vh;
+  background: var(--mountain-near);
   opacity: 0.55;
 }
 
-.trail-bg__layer--near {
-  height: 24vh;
-  background: var(--mountain-near);
-  opacity: 0.65;
+.trail-bg__ridge--trees {
+  height: 13vh;
+  background: var(--tree-color);
+  opacity: 0.7;
 }
 
-.trail-bg__layer--trees {
-  height: 14vh;
-  background: var(--tree-color);
-  opacity: 0.8;
+/* As you scroll into the content, the ridges sink a little so text sits on a calmer background. */
+@supports (animation-timeline: scroll()) {
+  .trail-bg__ridge {
+    animation: ridge-sink linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 100vh;
+  }
+
+  .trail-bg__ridge--far {
+    --sink: 4vh;
+  }
+
+  .trail-bg__ridge--near {
+    --sink: 7vh;
+  }
+
+  .trail-bg__ridge--trees {
+    --sink: 10vh;
+  }
+}
+
+@keyframes ridge-sink {
+  to {
+    transform: translateY(var(--sink));
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .trail-bg__cloud {
+  .trail-bg__glow,
+  .trail-bg__mist,
+  .trail-bg__ridge,
+  :root[data-mood='dusk'] .trail-bg__stars {
     animation: none;
+  }
+
+  :root[data-mood='dusk'] .trail-bg__stars {
+    opacity: 0.6;
   }
 }

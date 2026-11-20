@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: color-mix(in srgb, var(--bg) 85%, transparent);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
 }
@@ -10,7 +10,7 @@
 .navbar__inner {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 18px 24px;
+  padding: 14px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,8 +20,8 @@
 .navbar__logo {
   font-family: var(--font-mono);
   font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .navbar__logo-dot {
@@ -30,44 +30,85 @@
 
 .navbar__nav ul {
   display: flex;
-  gap: 28px;
+  gap: 8px;
 }
 
 .navbar__nav a {
+  position: relative;
+  display: block;
+  padding: 6px 10px;
   font-size: 15px;
   color: var(--text-muted);
   transition: color 0.2s ease;
 }
 
-.navbar__nav a:hover {
-  color: var(--accent);
+.navbar__nav a::after {
+  content: '';
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transition: transform 0.25s ease;
+}
+
+.navbar__nav a:hover,
+.navbar__nav a[aria-current] {
+  color: var(--text);
+}
+
+.navbar__nav a[aria-current]::after {
+  transform: scaleX(1);
 }
 
 .navbar__actions {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
 }
 
 .navbar__cta {
   border: 1px solid var(--accent);
   color: var(--accent);
-  padding: 8px 16px;
-  border-radius: 6px;
+  padding: 7px 16px;
+  border-radius: 8px;
   font-size: 14px;
-  font-weight: 500;
-  transition:
-    background 0.2s ease,
-    color 0.2s ease;
+  font-weight: 600;
   white-space: nowrap;
+  transition: background 0.2s ease;
 }
 
 .navbar__cta:hover {
   background: var(--accent-soft);
 }
 
+/* Mobile: keep navigation (the most useful control) and drop the duplicate "Say Hello". */
 @media (max-width: 640px) {
-  .navbar__nav {
+  .navbar__inner {
+    padding: 10px 16px;
+    gap: 8px;
+  }
+
+  .navbar__nav a {
+    padding: 6px 6px;
+    font-size: 14px;
+  }
+
+  .navbar__nav a::after {
+    left: 6px;
+    right: 6px;
+  }
+
+  .navbar__cta {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar__logo-dot {
     display: none;
   }
 }

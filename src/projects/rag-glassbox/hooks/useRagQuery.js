@@ -2,14 +2,15 @@ import { useEffect, useMemo, useState } from 'react'
 import { bm25Scores } from '../pipeline/bm25'
 import { loadIndex } from '../pipeline/loadIndex'
 import { project } from '../pipeline/pca'
-import { retrieve, vectorScores } from '../pipeline/search'
+import { filterByType, retrieve, vectorScores } from '../pipeline/search'
 
 /** Pure: rank every chunk of `index` for an embedded question. */
-export function computeRetrieval(index, query, { k, mode }) {
+export function computeRetrieval(index, query, { k, mode, scope }) {
   const started = performance.now()
   const vector = vectorScores(query.vector, index.matrix, index.dims)
   const keyword = bm25Scores(index.bm25, query.question)
-  const ranked = retrieve({ mode, vector, keyword })
+  // Metadata filter after ranking: the scores stay global evidence, only the candidates change.
+  const ranked = filterByType(retrieve({ mode, vector, keyword }), index.chunks, scope)
   return {
     ranked,
     top: ranked.slice(0, k),
@@ -23,7 +24,7 @@ export function computeRetrieval(index, query, { k, mode }) {
  * The question is embedded once. Chunk size, top-k and retrieval mode only change *retrieval*,
  * so tuning re-ranks instantly from the stored question vector: no new embedding, no new API call.
  */
-export function useRagQuery({ embed, size, k, mode }) {
+export function useRagQuery({ embed, size, k, mode, scope }) {
   const [loaded, setLoaded] = useState(null)
   const [query, setQuery] = useState(null)
   const [embedding, setEmbedding] = useState(false)
@@ -59,7 +60,7 @@ export function useRagQuery({ embed, size, k, mode }) {
     }
   }
 
-  const retrieval = useMemo(() => (query && index ? computeRetrieval(index, query, { k, mode }) : null), [query, index, k, mode])
+  const retrieval = useMemo(() => (query && index ? computeRetrieval(index, query, { k, mode, scope }) : null), [query, index, k, mode, scope])
 
   return { index, query, retrieval, embedding, error, ask }
 }
